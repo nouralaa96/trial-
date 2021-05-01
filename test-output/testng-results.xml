@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-18T02:45:04 EET" name="Default suite" finished-at="2021-04-18T02:46:07 EET" duration-ms="63469">
+    <groups>
+    </groups>
+    <test started-at="2021-04-18T02:45:04 EET" name="Default test" finished-at="2021-04-18T02:46:07 EET" duration-ms="63469">
+      <class name="dataprovider.TestProperty_Trial">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dataprovider.TestProperty_Trial@581d969c]" started-at="2021-04-18T02:45:07 EET" name="setup" finished-at="2021-04-18T02:45:46 EET" duration-ms="39426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="exceldatatest(java.lang.String, java.lang.String)[pri:0, instance:dataprovider.TestProperty_Trial@581d969c]" started-at="2021-04-18T02:45:46 EET" name="exceldatatest" data-provider="excel_data" finished-at="2021-04-18T02:45:47 EET" duration-ms="532" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exceldatatest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dataprovider.TestProperty_Trial@581d969c]" started-at="2021-04-18T02:45:47 EET" name="setup" finished-at="2021-04-18T02:46:07 EET" duration-ms="20066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="exceldatatest(java.lang.String, java.lang.String)[pri:0, instance:dataprovider.TestProperty_Trial@581d969c]" started-at="2021-04-18T02:46:07 EET" name="exceldatatest" data-provider="excel_data" finished-at="2021-04-18T02:46:07 EET" duration-ms="390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nouralaa1996@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.23456789E8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exceldatatest -->
+      </class> <!-- dataprovider.TestProperty_Trial -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
