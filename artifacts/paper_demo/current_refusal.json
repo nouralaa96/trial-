@@ -1,0 +1,7 @@
+{
+  "mode": "paper",
+  "status": "REFUSED",
+  "reason": "missing_or_stale_completed_bar: SPY",
+  "actionable": false,
+  "broker_connected": false
+}

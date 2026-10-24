@@ -1,0 +1,255 @@
+{
+  "metrics": {
+    "ridge20": {
+      "end": 7449.47342788136,
+      "profit": 2449.4734278813603,
+      "cagr": 0.15330180374485147,
+      "max_drawdown": 0.13658508761206412,
+      "calendar_returns": {
+        "2024": 0.25092922476716306,
+        "2025": 0.2359877659060341,
+        "2026": -0.03637366534904285
+      },
+      "sha256": "19a1305b87a62cec20c466bb52f7ef3f0b1c4af4d2f3ccf1b7d398e33d85284b"
+    },
+    "simple20": {
+      "end": 8667.936782400726,
+      "profit": 3667.936782400726,
+      "cagr": 0.2175255846680626,
+      "max_drawdown": 0.132648197485429,
+      "calendar_returns": {
+        "2024": 0.2442439425408447,
+        "2025": 0.3281647989319527,
+        "2026": 0.04903077733912431
+      },
+      "sha256": "dee8796f5e45a6deb4408211260bee0e980af52497ea61b5cfca46abffe4e909"
+    },
+    "SPY": {
+      "end": 8134.196568149345,
+      "profit": 3134.196568149345,
+      "cagr": 0.19015728697304346,
+      "max_drawdown": 0.1772287148634597,
+      "calendar_returns": {
+        "2024": 0.241281866852338,
+        "2025": 0.16615237614240796,
+        "2026": 0.12387742109960209
+      },
+      "sha256": "51eeb0d47e490b7698aafa7ce28ea25960968878eebe16e5493f3d4ce20dc010"
+    },
+    "QQQ": {
+      "end": 8836.58266827786,
+      "profit": 3836.5826682778606,
+      "cagr": 0.22594729626066412,
+      "max_drawdown": 0.2220004269538336,
+      "calendar_returns": {
+        "2024": 0.2590638271595944,
+        "2025": 0.20181658967078797,
+        "2026": 0.16796115501278552
+      },
+      "sha256": "dad2fbb244cf3fe48a4987f1adf11233c8e6fee898ef8262b2ec83e53c5e3fe2"
+    },
+    "GLD": {
+      "end": 9884.895309936535,
+      "profit": 4884.895309936535,
+      "cagr": 0.2761122265402758,
+      "max_drawdown": 0.2636570318229521,
+      "calendar_returns": {
+        "2024": 0.2628722686920535,
+        "2025": 0.6348511894600011,
+        "2026": -0.04244348507424711
+      },
+      "sha256": "fce8b373d2fcb4052d549d84a656168bedc3d3b99f68c181726ee11438af7f60"
+    },
+    "equal_initial_basket": {
+      "end": 8717.676006517895,
+      "profit": 3717.676006517895,
+      "cagr": 0.22002028507880667,
+      "max_drawdown": 0.12485741474903311,
+      "calendar_returns": {
+        "2024": 0.23917408768081327,
+        "2025": 0.3173569887730707,
+        "2026": 0.06805819574498861
+      },
+      "sha256": "e4dc9b317f7a03ab5836abbcbb0fc5409b542d749655c9640d5d1ffaaa44e599"
+    }
+  },
+  "frozen_hash_checks": {
+    "data/processed/SPY.csv": {
+      "expected": "594c61b4627ae2c8a7a1f0647a9671837a9ac9e82e74155461c20cdc51a03614",
+      "actual": "594c61b4627ae2c8a7a1f0647a9671837a9ac9e82e74155461c20cdc51a03614",
+      "pass": true
+    },
+    "data/processed/QQQ.csv": {
+      "expected": "930aabd81660250381787b1dc8fe5b66454e48b155e1ab57318c9d26835d0ad0",
+      "actual": "930aabd81660250381787b1dc8fe5b66454e48b155e1ab57318c9d26835d0ad0",
+      "pass": true
+    },
+    "data/processed/GLD.csv": {
+      "expected": "b03b6f0dda5fcbc3cd7ea6dcd24d5224b0982d81249eb203e07a6420731d54f4",
+      "actual": "b03b6f0dda5fcbc3cd7ea6dcd24d5224b0982d81249eb203e07a6420731d54f4",
+      "pass": true
+    },
+    "data/raw/20261020T180119866454Z/SPY.json": {
+      "expected": "9ddaef526e3a1aad7be28c198fe54ede97a37611f44f503d2f2a56327d32714f",
+      "actual": "9ddaef526e3a1aad7be28c198fe54ede97a37611f44f503d2f2a56327d32714f",
+      "pass": true
+    },
+    "data/raw/20261020T180119866454Z/QQQ.json": {
+      "expected": "2862a623b4150bec2c16aec694b623415843af8dacd1cd23a545e8cf443fa3df",
+      "actual": "2862a623b4150bec2c16aec694b623415843af8dacd1cd23a545e8cf443fa3df",
+      "pass": true
+    },
+    "data/raw/20261020T180119866454Z/GLD.json": {
+      "expected": "0dec7790119ac81966cb127c64afd77daf89e2a851487016dff10bdeecb731ed",
+      "actual": "0dec7790119ac81966cb127c64afd77daf89e2a851487016dff10bdeecb731ed",
+      "pass": true
+    },
+    "EXPERIMENT_V2.md": {
+      "expected": "0a895dac28f914aa719578564125698ae23a15576919f394b62900f24b939722",
+      "actual": "0a895dac28f914aa719578564125698ae23a15576919f394b62900f24b939722",
+      "pass": true
+    },
+    "USER_SPEC.md": {
+      "expected": "7522f2bc42e040eff3abb621f86f22e67a1a357ef4f7199a5f5f51bcbd14dc44",
+      "actual": "7522f2bc42e040eff3abb621f86f22e67a1a357ef4f7199a5f5f51bcbd14dc44",
+      "pass": true
+    },
+    "frozen_config.json": {
+      "expected": "ba9afaa05dcb0f50c02818ac48d5301f8080a70304816219315c2a60dc790b91",
+      "actual": "ba9afaa05dcb0f50c02818ac48d5301f8080a70304816219315c2a60dc790b91",
+      "pass": true
+    },
+    "pyproject.toml": {
+      "expected": "de0c3eb49eaa89c3d248bcfb3d8b21db1bb66364c3f2d2f08e9a83d87ddb4c32",
+      "actual": "de0c3eb49eaa89c3d248bcfb3d8b21db1bb66364c3f2d2f08e9a83d87ddb4c32",
+      "pass": true
+    },
+    "requirements.lock": {
+      "expected": "4c0e1cd15b97f43ba35ef61fdfd50c5c9f6387ccf1a470a54f836b9de019cc42",
+      "actual": "4c0e1cd15b97f43ba35ef61fdfd50c5c9f6387ccf1a470a54f836b9de019cc42",
+      "pass": true
+    },
+    "research/__init__.py": {
+      "expected": "6c0b731529d5977b4090e09faf2a6771ae00783a098051f0a20b046342b24c73",
+      "actual": "6c0b731529d5977b4090e09faf2a6771ae00783a098051f0a20b046342b24c73",
+      "pass": true
+    },
+    "research/acceptance.py": {
+      "expected": "ef23bd98c3283c8af56087fadc5109a72342b1e25802e28cd542d68637a0b145",
+      "actual": "ef23bd98c3283c8af56087fadc5109a72342b1e25802e28cd542d68637a0b145",
+      "pass": true
+    },
+    "research/backtest.py": {
+      "expected": "ad067f66f8995924697704f6d8a0f452f814fa3d5c7561c8b40b9f460b7fb789",
+      "actual": "ad067f66f8995924697704f6d8a0f452f814fa3d5c7561c8b40b9f460b7fb789",
+      "pass": true
+    },
+    "research/data.py": {
+      "expected": "a7051b43718129c60e13cede8ea9a5e0999cd3cfa542072c849994c9bb4888d5",
+      "actual": "a7051b43718129c60e13cede8ea9a5e0999cd3cfa542072c849994c9bb4888d5",
+      "pass": true
+    },
+    "research/execution.py": {
+      "expected": "88ef30daee91aac5e8ebf8e69e23e760301941d4e83fd8dfc609e0ca0fb36e97",
+      "actual": "88ef30daee91aac5e8ebf8e69e23e760301941d4e83fd8dfc609e0ca0fb36e97",
+      "pass": true
+    },
+    "research/features.py": {
+      "expected": "9e8aff736f0d938ff1c8292dac5055edfc38525c0395d4ae1133ed8abd567311",
+      "actual": "9e8aff736f0d938ff1c8292dac5055edfc38525c0395d4ae1133ed8abd567311",
+      "pass": true
+    },
+    "research/metrics.py": {
+      "expected": "a1baae17f14d9f0b8942db3506aeb8fc514397d2eda24120a3348196f7a0b457",
+      "actual": "a1baae17f14d9f0b8942db3506aeb8fc514397d2eda24120a3348196f7a0b457",
+      "pass": true
+    },
+    "research/modeling.py": {
+      "expected": "db641e375f44d4330d96f40843f254cdbd71f72acd4deb44abf10be3c675bea6",
+      "actual": "db641e375f44d4330d96f40843f254cdbd71f72acd4deb44abf10be3c675bea6",
+      "pass": true
+    },
+    "research/report.py": {
+      "expected": "328ec7208b375c674d37fb364a7674718e40f2381ec970c24e77e7b9d2a48995",
+      "actual": "328ec7208b375c674d37fb364a7674718e40f2381ec970c24e77e7b9d2a48995",
+      "pass": true
+    },
+    "research/risk.py": {
+      "expected": "280be2df48f944e0080e572800136a205ac8b9fe19f557a05ee48b925fd8b01c",
+      "actual": "280be2df48f944e0080e572800136a205ac8b9fe19f557a05ee48b925fd8b01c",
+      "pass": true
+    },
+    "research/run.py": {
+      "expected": "56f26eb6017819d88e03b387db10873a36090856983ecf20a36073dc31b0b2a1",
+      "actual": "56f26eb6017819d88e03b387db10873a36090856983ecf20a36073dc31b0b2a1",
+      "pass": true
+    },
+    "research/v2.py": {
+      "expected": "0057b2dca1082ac1aee61f02ff521647c59461c2d52d98765790eda624e4790b",
+      "actual": "0057b2dca1082ac1aee61f02ff521647c59461c2d52d98765790eda624e4790b",
+      "pass": true
+    },
+    "scripts/setup.sh": {
+      "expected": "775d6bff7f2ca8c7b3997d357695be7a2982cd25b93c7014df7f1ff04a0f4c75",
+      "actual": "775d6bff7f2ca8c7b3997d357695be7a2982cd25b93c7014df7f1ff04a0f4c75",
+      "pass": true
+    },
+    "tests/test_acceptance.py": {
+      "expected": "d4f1f2843509acf4cd07273399122529c39b0f542878549d640cc4bb757a4050",
+      "actual": "d4f1f2843509acf4cd07273399122529c39b0f542878549d640cc4bb757a4050",
+      "pass": true
+    },
+    "tests/test_data.py": {
+      "expected": "ce790ad5aa90bfc54ee699303fdad4307eda7df332de355149eaa6238548ff5c",
+      "actual": "ce790ad5aa90bfc54ee699303fdad4307eda7df332de355149eaa6238548ff5c",
+      "pass": true
+    },
+    "tests/test_execution.py": {
+      "expected": "e44dc6272cadd69b19d4127e4c0685979c5defd113a07e431a7798032af53577",
+      "actual": "e44dc6272cadd69b19d4127e4c0685979c5defd113a07e431a7798032af53577",
+      "pass": true
+    },
+    "tests/test_features.py": {
+      "expected": "fbbc03d19390b90c222aa4336ca8aabf6528935e61a8ded8de9c3bd9254b7181",
+      "actual": "fbbc03d19390b90c222aa4336ca8aabf6528935e61a8ded8de9c3bd9254b7181",
+      "pass": true
+    },
+    "tests/test_independent_review.py": {
+      "expected": "dc04f16d1883a653ec56c36663b410ba216846059130d661f44e6456d5080b26",
+      "actual": "dc04f16d1883a653ec56c36663b410ba216846059130d661f44e6456d5080b26",
+      "pass": true
+    },
+    "tests/test_metrics.py": {
+      "expected": "2f6e829566018e85e188c5125b72ca35ef85f1941df5aa9f975ee5002d62c6a9",
+      "actual": "2f6e829566018e85e188c5125b72ca35ef85f1941df5aa9f975ee5002d62c6a9",
+      "pass": true
+    },
+    "tests/test_modeling.py": {
+      "expected": "df8062bb508ccbb0aa9447e3194b7529a1dfbb426238ba8f12623abface4b7a4",
+      "actual": "df8062bb508ccbb0aa9447e3194b7529a1dfbb426238ba8f12623abface4b7a4",
+      "pass": true
+    },
+    "tests/test_risk.py": {
+      "expected": "3c1fc9e11b307551b00f939c08be7c7c22314e858eda25f6f74fab3d197caa1b",
+      "actual": "3c1fc9e11b307551b00f939c08be7c7c22314e858eda25f6f74fab3d197caa1b",
+      "pass": true
+    },
+    "tests/test_v2_independent.py": {
+      "expected": "63545ecdc1bd49ee5ff628fd3e85ef6f09e6d311be400ce0374c273b117a246c",
+      "actual": "63545ecdc1bd49ee5ff628fd3e85ef6f09e6d311be400ce0374c273b117a246c",
+      "pass": true
+    },
+    "tests/test_v2_reporting.py": {
+      "expected": "b965cdcccc8dbecbc9d2f5426a3aef538dae739c3bd6642944c514751c6b88d4",
+      "actual": "b965cdcccc8dbecbc9d2f5426a3aef538dae739c3bd6642944c514751c6b88d4",
+      "pass": true
+    },
+    "tests/test_v2_risk.py": {
+      "expected": "65d0763faadab7b46b98ffe848da558b55e5fddbd3276483baafdbf04cd5b9ce",
+      "actual": "65d0763faadab7b46b98ffe848da558b55e5fddbd3276483baafdbf04cd5b9ce",
+      "pass": true
+    }
+  },
+  "all_hashes_pass": true,
+  "method": "Initial capital included in drawdown; elapsed calendar days/365.2425; full first year starts at $5000; later years carry previous year-end equity; 2026 is YTD."
+}

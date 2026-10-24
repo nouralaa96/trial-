@@ -1,0 +1,18 @@
+{
+  "candidate": "C03",
+  "status": "REJECTED_RESEARCH",
+  "counts": {
+    "fits": 196,
+    "portfolios": 168
+  },
+  "checks": {
+    "base_profitable": true,
+    "stress_profitable": true,
+    "base_drawdown_at_most_10pct": false,
+    "stress_drawdown_at_most_10pct": false,
+    "minimum_100_completed_trades": false,
+    "positive_increment_over_both_baselines_each_base_scenario": false,
+    "exploratory_paired_CI_lower_positive_all_block_lengths": false,
+    "five_times_positive_SPY_full_calendar_years": false
+  }
+}

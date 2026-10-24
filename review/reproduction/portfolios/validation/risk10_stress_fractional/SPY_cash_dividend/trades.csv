@@ -1,0 +1,2 @@
+symbol,entry_date,exit_date,net_pnl,pnl,fees,friction,dividends,reason,holding_sessions
+SPY,2022-01-03,2023-12-29,111.06728449703678,111.06728449703678,4.36,9.97527641331174,135.78015927799999,passive_terminal_liquidation,501

@@ -1,0 +1,21 @@
+{
+  "paper.py": "c741281c31b0cffc07dc0fa48043fe49cd46307ef34353a33fece7494982ed1d",
+  "execution_adapter.py": "eec99994da45dfc10e577c7cda9de54fef0c6de5f226c17fd3653492f61694bf",
+  "tests/test_v4_paper.py": "48072cc9027ec5169ad111ce3a7cf505e0ca99db0827092fe3f91f52090e5b45",
+  "analysis/EXECUTION_REPORT.md": "084e9deb3eb701fe1236cfea75e99acd7a72a04635cc9ed561f14630f01442bf",
+  "artifacts/paper_bundle.json": "f9ea45280708959df6b2164b3f94dcda56e9bf89064856cafede92dd4f47db3e",
+  "artifacts/paper_demo/commands.json": "9bcab692d727ede13191d7aef4499c3602936393da1d7ae3bfce328daafc4be1",
+  "artifacts/paper_demo/current_refusal.json": "54a6437b82768d7f4f74a39b7b9c81a37a9188c25cfe0b3089f296ad9edc9c27",
+  "artifacts/paper_demo/help.txt": "f228fce6d56e86a8752f63016b692682582e366d87ffffc96463a0b1063da2e5",
+  "artifacts/paper_demo/historical_exit.json": "d20df3c614d10ad834d4d843e6174f6bc68f2becf175de2812c2481e5dddf9d7",
+  "artifacts/paper_demo/historical_replay.json": "81874ecfb0a2c1b94815954b8ccab4b1a4ab9665f8aac44b7d73f7213de6e4d6",
+  "artifacts/paper_demo/live_refusal.json": "0612845596803552c3bc1c6d66ee84a4068330d543a39408ca20d3e1e98d0c9b",
+  "artifacts/paper_demo/order_refusal.json": "8cbf9070c03147872e77e932ebdfb96f4750eeb9b5377555f2c0010ca5a1ee67",
+  "artifacts/paper_demo/parity.json": "4498f61b5f2d2fd9adab9b492e9ca70b45343be63af278a1aebc57b8df59ab4b",
+  "artifacts/paper_demo/reproduce.py": "25e08096f353245f147e04ee85c0b48be92319c54bb94664277a7fbd8272b62d",
+  "artifacts/paper_demo/snapshot.json": "802a6eea7d5f878bb378d6af2e8e312f7f2893301b72b22dc18e49c601f73b5e",
+  "artifacts/paper_demo/snapshot_check.json": "81874ecfb0a2c1b94815954b8ccab4b1a4ab9665f8aac44b7d73f7213de6e4d6",
+  "artifacts/paper_demo/stale_refusal.json": "1cb3b66130b0b9618a2b763e93693e986e19018c6ca349bdc085d1f76db3623b",
+  "artifacts/paper_demo/status.json": "e994f4ef51f9ffe76e8ca22c20639de8380897617749d5ed3088bbee9fce35e8",
+  "artifacts/paper_demo/tests.txt": "489332beed0926bd34dd806d7ca98e9f451871311498bd4832dc9345d2a5f844"
+}

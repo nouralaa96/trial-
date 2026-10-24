@@ -1,0 +1,161 @@
+{
+  "schema_version": 4,
+  "cutoff": "2026-10-19",
+  "context_series_count": 1,
+  "context_features": [
+    "vix_close_pct"
+  ],
+  "context_revision": "3dbea23c70cc2afbeeec8ac232c9ec72ac26ac21",
+  "price_audit_valid": true,
+  "context_audit": {
+    "raw_rows": 9278,
+    "raw_first_observation": "1990-01-02",
+    "raw_last_observation": "2026-09-22",
+    "grid_rows": 4476,
+    "nonmissing_rows": 4457,
+    "missing_rows": 19,
+    "first_nonmissing_observation": "2009-01-02",
+    "last_nonmissing_observation": "2026-09-22",
+    "last_available_date": "2026-09-23",
+    "min_vix_close_pct": 9.14,
+    "max_vix_close_pct": 82.69,
+    "non_XNYS_source_dates_in_research_range": [
+      "2022-05-30",
+      "2022-06-20",
+      "2022-07-04",
+      "2022-09-05",
+      "2022-11-24",
+      "2023-01-16",
+      "2023-02-20",
+      "2023-05-29",
+      "2023-06-19",
+      "2023-07-04",
+      "2023-09-04",
+      "2023-11-23",
+      "2024-01-15",
+      "2024-02-19",
+      "2024-05-27",
+      "2024-06-19",
+      "2024-07-04",
+      "2024-09-02",
+      "2024-11-28",
+      "2025-01-09",
+      "2025-01-20",
+      "2025-02-17",
+      "2025-05-26",
+      "2025-06-19",
+      "2025-07-04",
+      "2025-09-01",
+      "2025-11-27",
+      "2026-01-19",
+      "2026-02-16",
+      "2026-05-25",
+      "2026-06-19",
+      "2026-07-03",
+      "2026-09-07"
+    ],
+    "missing_observation_dates": [
+      "2026-09-23",
+      "2026-09-24",
+      "2026-09-25",
+      "2026-09-28",
+      "2026-09-29",
+      "2026-09-30",
+      "2026-10-01",
+      "2026-10-02",
+      "2026-10-05",
+      "2026-10-06",
+      "2026-10-07",
+      "2026-10-08",
+      "2026-10-09",
+      "2026-10-12",
+      "2026-10-13",
+      "2026-10-14",
+      "2026-10-15",
+      "2026-10-16",
+      "2026-10-19"
+    ]
+  },
+  "files": {
+    "data/CONTEXT_CONTRACT.md": {
+      "sha256": "85c8aff888ecaf00c37081d3cb6f37d9ef5d739c82ffe5e45c3a50663fb77f94",
+      "bytes": 3408
+    },
+    "data/acquire_context.py": {
+      "sha256": "1dd2080d16e46f068ee64a44cad006193154bf507d96448695de51e54016d4d2",
+      "bytes": 2598
+    },
+    "data/context.csv": {
+      "sha256": "9b5d44c1a02a436cc46b9cb1cad38d412185dec4c3b333bd5f8678b70cb3d93b",
+      "bytes": 143036
+    },
+    "data/context_audit.json": {
+      "sha256": "b10a0daabcd767bb5cf006110b9c918767a65f0a3df9fd424754a1ae76122624",
+      "bytes": 1391
+    },
+    "data/original_manifest.json": {
+      "sha256": "d0220e662e8651488540fb2281397558913d66d85a954111d676b04a9f2bba75",
+      "bytes": 5254
+    },
+    "data/original_validation.json": {
+      "sha256": "feb0bb630217c7cadb3b97dfe252dd2294e9f6c867745d9812d603fd4660c5b0",
+      "bytes": 1052
+    },
+    "data/price_audit.json": {
+      "sha256": "c68c473b03e35a2edceb8c2b7a53d33da5cbf9b664b081784f3e7dc17782fe4e",
+      "bytes": 2014
+    },
+    "data/processed/GLD.csv": {
+      "sha256": "b03b6f0dda5fcbc3cd7ea6dcd24d5224b0982d81249eb203e07a6420731d54f4",
+      "bytes": 347477
+    },
+    "data/processed/QQQ.csv": {
+      "sha256": "930aabd81660250381787b1dc8fe5b66454e48b155e1ab57318c9d26835d0ad0",
+      "bytes": 351524
+    },
+    "data/processed/SPY.csv": {
+      "sha256": "594c61b4627ae2c8a7a1f0647a9671837a9ac9e82e74155461c20cdc51a03614",
+      "bytes": 352895
+    },
+    "data/raw/20261020T180119866454Z/GLD.json": {
+      "sha256": "0dec7790119ac81966cb127c64afd77daf89e2a851487016dff10bdeecb731ed",
+      "bytes": 493019
+    },
+    "data/raw/20261020T180119866454Z/QQQ.json": {
+      "sha256": "2862a623b4150bec2c16aec694b623415843af8dacd1cd23a545e8cf443fa3df",
+      "bytes": 493662
+    },
+    "data/raw/20261020T180119866454Z/SPY.json": {
+      "sha256": "9ddaef526e3a1aad7be28c198fe54ede97a37611f44f503d2f2a56327d32714f",
+      "bytes": 496135
+    },
+    "data/raw/20261020T180119866454Z/XNYS_sessions.csv": {
+      "sha256": "4e7e1c863911ffea1e1dd975501fa5f2274a24fa93956b905b69f27a6ce4b697",
+      "bytes": 49241
+    },
+    "data/raw/20261020T180119866454Z/retrieval_evidence.json": {
+      "sha256": "8e7732e135d77f6154ee69259a7c24f0181a0362f2a04749ad51102a835b5b6b",
+      "bytes": 2206
+    },
+    "data/raw/context/20261021T041611Z/README.md": {
+      "sha256": "a6803998768a1b636474c6ed1b4041e1d4193e4e019b84741638e23113a07bfd",
+      "bytes": 2834
+    },
+    "data/raw/context/20261021T041611Z/datapackage.json": {
+      "sha256": "d2c56b6586d19762da81fe332650ec949f2a42c4d2a2228c59ad5b397bac1e64",
+      "bytes": 4560
+    },
+    "data/raw/context/20261021T041611Z/retrieval_evidence.json": {
+      "sha256": "76eb66e0bf9772a9a7d910adc325e33864a37be683a90308705680e7f420514b",
+      "bytes": 2406
+    },
+    "data/raw/context/20261021T041611Z/vix-daily.csv": {
+      "sha256": "570e05630c9a5e7350d0c3dbe3acc58e793cb5248181ab0e949c121cc082fb83",
+      "bytes": 482200
+    },
+    "data/source_selection.json": {
+      "sha256": "6487d3fe12cae55b0b395ab7b9a530ff4d9bb352f0f69013947ac6e3833c388a",
+      "bytes": 2865
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "date": "2024-03-08",
+  "scenario": "risk05_base_whole",
+  "candidate": "C03",
+  "replay_equity": 5435.040346804608,
+  "frozen_evaluation_equity": 5435.040346804608,
+  "absolute_difference": 0.0
+}

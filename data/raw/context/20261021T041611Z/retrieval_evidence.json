@@ -1,0 +1,46 @@
+{
+  "repository": "https://github.com/datasets/finance-vix",
+  "revision": "3dbea23c70cc2afbeeec8ac232c9ec72ac26ac21",
+  "revision_resolution": "git ls-remote HEAD refs/heads/main on2026-10-21 UTC",
+  "records": [
+    {
+      "url": "https://raw.githubusercontent.com/datasets/finance-vix/3dbea23c70cc2afbeeec8ac232c9ec72ac26ac21/data/vix-daily.csv",
+      "retrieved_at_utc": "2026-10-21T04:16:11.881669+00:00",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/datasets/finance-vix/3dbea23c70cc2afbeeec8ac232c9ec72ac26ac21/data/vix-daily.csv",
+      "content_type": "text/plain; charset=utf-8",
+      "last_modified": null,
+      "etag": "\"cdcb1643c559edc0e99cdfe613ed94f64c5d9819f9602540cde36adedafa3a2b\"",
+      "tls_verification": true,
+      "bytes": 482200,
+      "sha256": "570e05630c9a5e7350d0c3dbe3acc58e793cb5248181ab0e949c121cc082fb83",
+      "path": "data/raw/context/20261021T041611Z/vix-daily.csv"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/datasets/finance-vix/3dbea23c70cc2afbeeec8ac232c9ec72ac26ac21/datapackage.json",
+      "retrieved_at_utc": "2026-10-21T04:16:12.381238+00:00",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/datasets/finance-vix/3dbea23c70cc2afbeeec8ac232c9ec72ac26ac21/datapackage.json",
+      "content_type": "text/plain; charset=utf-8",
+      "last_modified": null,
+      "etag": "\"98e74cce1aae3b01069f369e7fb462f6677de8da4ab1bea59644f8a85bbe46ac\"",
+      "tls_verification": true,
+      "bytes": 4560,
+      "sha256": "d2c56b6586d19762da81fe332650ec949f2a42c4d2a2228c59ad5b397bac1e64",
+      "path": "data/raw/context/20261021T041611Z/datapackage.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/datasets/finance-vix/3dbea23c70cc2afbeeec8ac232c9ec72ac26ac21/README.md",
+      "retrieved_at_utc": "2026-10-21T04:16:12.733246+00:00",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/datasets/finance-vix/3dbea23c70cc2afbeeec8ac232c9ec72ac26ac21/README.md",
+      "content_type": "text/plain; charset=utf-8",
+      "last_modified": null,
+      "etag": "\"43436a23f0be2f37da1a9bba474dbc57edd1abd13ff0913ec61af818252983fb\"",
+      "tls_verification": true,
+      "bytes": 2834,
+      "sha256": "a6803998768a1b636474c6ed1b4041e1d4193e4e019b84741638e23113a07bfd",
+      "path": "data/raw/context/20261021T041611Z/README.md"
+    }
+  ]
+}

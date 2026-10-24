@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "selection_date_utc": "2026-10-21",
+  "selection_basis": "Bounded source availability/quality check before candidate performance; no model results consulted",
+  "max_new_series": 4,
+  "admitted_series": ["vix_close_pct"],
+  "official_sources_restricted_without_request": [
+    {"url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv", "reason": "Host absent from /etc/codex/network-policy.json allowlist; existing public GitHub mirror used with explicit provenance"},
+    {"url": "https://fred.stlouisfed.org/", "reason": "Host absent from allowlist; no direct FRED request or proxy bypass"},
+    {"url": "https://home.treasury.gov/", "reason": "Host absent from allowlist; no direct Treasury request"},
+    {"url": "https://query1.finance.yahoo.com/", "reason": "Host absent from current allowlist; original previously acquired price snapshots audited locally instead"}
+  ],
+  "observed_mirror_probes": [
+    {"url": "https://raw.githubusercontent.com/datasets/finance-vix/master/data/vix-daily.csv", "status": 200, "retrieved_at_utc": "2026-10-21T04:15:06.382349+00:00", "decision": "Accepted after pinned revision reacquisition and audit"},
+    {"url": "https://raw.githubusercontent.com/datasets/bond-yields-us-10y/master/data/data.csv", "status": 404, "observed_date_utc": "2026-10-21", "decision": "Not available at guessed daily path"},
+    {"url": "https://raw.githubusercontent.com/datasets/bond-yields-us-10y/master/datapackage.json", "status": 200, "retrieved_at_utc": "2026-10-21T04:15:07.390987+00:00", "decision": "Excluded: metadata explicitly monthly granularity, not daily; no forward fill"},
+    {"url": "https://raw.githubusercontent.com/datasets/yield-curve/master/datapackage.json", "status": 404, "observed_date_utc": "2026-10-21", "decision": "Unavailable"},
+    {"url": "https://raw.githubusercontent.com/datasets/us-treasury-yield-curve/master/datapackage.json", "status": 404, "observed_date_utc": "2026-10-21", "decision": "Unavailable"},
+    {"url": "https://raw.githubusercontent.com/datasets/federal-funds-rate/master/datapackage.json", "status": 404, "observed_date_utc": "2026-10-21", "decision": "Unavailable"}
+  ],
+  "credit_decision": "Not acquired: no established suitable daily public credit mirror identified in the bounded check; no synthetic credit proxy substituted",
+  "macro_decision": "No revision-prone macro series acquired; no vintage-safe macro source established",
+  "network": {"policy_version": 1, "mode": "restricted", "vpn_configured": false, "mirror_host": "raw.githubusercontent.com", "revision_lookup_host": "github.com", "policy_bypass": false, "paid_or_signup": false},
+  "probe_timestamp_note": "Exact timestamps retained where returned by acquisition probe; other unsuccessful source probes record only the known UTC date, without invented precision"
+}

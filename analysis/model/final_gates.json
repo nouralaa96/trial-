@@ -1,0 +1,860 @@
+{
+  "partition": "final",
+  "candidate": "C03",
+  "checks": {
+    "base_profitable": true,
+    "stress_profitable": true,
+    "base_drawdown_at_most_10pct": false,
+    "stress_drawdown_at_most_10pct": false,
+    "minimum_100_completed_trades": false,
+    "positive_increment_over_both_baselines_each_base_scenario": false,
+    "exploratory_paired_CI_lower_positive_all_block_lengths": false,
+    "five_times_positive_SPY_full_calendar_years": false
+  },
+  "all_gates_pass": false,
+  "annual_market_targets": [
+    {
+      "scenario": "risk05_base_whole",
+      "year": 2024,
+      "partial": false,
+      "strategy_return": 0.1893290997971419,
+      "spy_total_return": 0.241281866852338,
+      "excess_percentage_points": -5.195276705519608,
+      "positive_market_multiple": 0.7846801844956272,
+      "five_times_gate": false
+    },
+    {
+      "scenario": "risk05_base_whole",
+      "year": 2025,
+      "partial": false,
+      "strategy_return": 0.1924246210642335,
+      "spy_total_return": 0.1661523761424079,
+      "excess_percentage_points": 2.6272244921825587,
+      "positive_market_multiple": 1.1581213915310355,
+      "five_times_gate": false
+    },
+    {
+      "scenario": "risk05_base_whole",
+      "year": 2026,
+      "partial": true,
+      "strategy_return": -0.0842449148002462,
+      "spy_total_return": 0.1238774210996023,
+      "excess_percentage_points": -20.812233589984853,
+      "positive_market_multiple": -0.6800667470507801,
+      "five_times_gate": null
+    },
+    {
+      "scenario": "risk05_base_fractional",
+      "year": 2024,
+      "partial": false,
+      "strategy_return": 0.1946113547770871,
+      "spy_total_return": 0.2554059278454224,
+      "excess_percentage_points": -6.079457306833527,
+      "positive_market_multiple": 0.7619688251514288,
+      "five_times_gate": false
+    },
+    {
+      "scenario": "risk05_base_fractional",
+      "year": 2025,
+      "partial": false,
+      "strategy_return": 0.2033012416191251,
+      "spy_total_return": 0.1763270175865536,
+      "excess_percentage_points": 2.697422403257149,
+      "positive_market_multiple": 1.1529783943593934,
+      "five_times_gate": false
+    },
+    {
+      "scenario": "risk05_base_fractional",
+      "year": 2026,
+      "partial": true,
+      "strategy_return": -0.0900555857549315,
+      "spy_total_return": 0.1311619048481638,
+      "excess_percentage_points": -22.121749060309533,
+      "positive_market_multiple": -0.6865986420308703,
+      "five_times_gate": null
+    },
+    {
+      "scenario": "risk10_base_whole",
+      "year": 2024,
+      "partial": false,
+      "strategy_return": 0.1893290997971419,
+      "spy_total_return": 0.241281866852338,
+      "excess_percentage_points": -5.195276705519608,
+      "positive_market_multiple": 0.7846801844956272,
+      "five_times_gate": false
+    },
+    {
+      "scenario": "risk10_base_whole",
+      "year": 2025,
+      "partial": false,
+      "strategy_return": 0.1924246210642335,
+      "spy_total_return": 0.1661523761424079,
+      "excess_percentage_points": 2.6272244921825587,
+      "positive_market_multiple": 1.1581213915310355,
+      "five_times_gate": false
+    },
+    {
+      "scenario": "risk10_base_whole",
+      "year": 2026,
+      "partial": true,
+      "strategy_return": -0.0900764261853608,
+      "spy_total_return": 0.1238774210996023,
+      "excess_percentage_points": -21.395384728496307,
+      "positive_market_multiple": -0.7271416000252041,
+      "five_times_gate": null
+    },
+    {
+      "scenario": "risk10_base_fractional",
+      "year": 2024,
+      "partial": false,
+      "strategy_return": 0.1946113547770871,
+      "spy_total_return": 0.2554059278454224,
+      "excess_percentage_points": -6.079457306833527,
+      "positive_market_multiple": 0.7619688251514288,
+      "five_times_gate": false
+    },
+    {
+      "scenario": "risk10_base_fractional",
+      "year": 2025,
+      "partial": false,
+      "strategy_return": 0.2033012416191251,
+      "spy_total_return": 0.1763270175865536,
+      "excess_percentage_points": 2.697422403257149,
+      "positive_market_multiple": 1.1529783943593934,
+      "five_times_gate": false
+    },
+    {
+      "scenario": "risk10_base_fractional",
+      "year": 2026,
+      "partial": true,
+      "strategy_return": -0.0953403060989306,
+      "spy_total_return": 0.1311619048481638,
+      "excess_percentage_points": -22.65022109470944,
+      "positive_market_multiple": -0.7268902217400611,
+      "five_times_gate": null
+    }
+  ],
+  "comparisons": [
+    {
+      "scenario": "risk05_base_whole",
+      "reference": "SPY_cash_dividend",
+      "cagr_increment": -0.09214820640333432,
+      "net_pnl_increment": -1640.6445617481277,
+      "bootstrap": {
+        "weeks": 147,
+        "resamples": 2000,
+        "seed": 20261021,
+        "method": "paired_circular_calendar_week_moving_block",
+        "estimand": "annualized_incremental_dollars_arithmetic_52_weeks",
+        "initial_capital_basis": 5000.0,
+        "block_sensitivity": {
+          "2": {
+            "status": "computed",
+            "ci95": [
+              -1396.036659137805,
+              285.8877968363867
+            ]
+          },
+          "4": {
+            "status": "computed",
+            "ci95": [
+              -1467.8821492857699,
+              303.32080145978637
+            ]
+          },
+          "8": {
+            "status": "computed",
+            "ci95": [
+              -1358.8256825314922,
+              325.6180683045446
+            ]
+          }
+        },
+        "incremental_net_pnl": -1640.6445617481277,
+        "annualized_incremental_dollars": -580.3640626592016,
+        "break_even_annual_incremental_operating_cost": 0.0,
+        "ci95_annualized_incremental_dollars": [
+          -1467.8821492857699,
+          303.32080145978637
+        ],
+        "status": "computed"
+      }
+    },
+    {
+      "scenario": "risk05_base_whole",
+      "reference": "SPY_reinvested_total_return",
+      "cagr_increment": -0.09214820640333432,
+      "net_pnl_increment": -1640.6445617481277,
+      "bootstrap": {
+        "weeks": 147,
+        "resamples": 2000,
+        "seed": 20261021,
+        "method": "paired_circular_calendar_week_moving_block",
+        "estimand": "annualized_incremental_dollars_arithmetic_52_weeks",
+        "initial_capital_basis": 5000.0,
+        "block_sensitivity": {
+          "2": {
+            "status": "computed",
+            "ci95": [
+              -1396.036659137805,
+              285.8877968363867
+            ]
+          },
+          "4": {
+            "status": "computed",
+            "ci95": [
+              -1467.8821492857699,
+              303.32080145978637
+            ]
+          },
+          "8": {
+            "status": "computed",
+            "ci95": [
+              -1358.8256825314922,
+              325.6180683045446
+            ]
+          }
+        },
+        "incremental_net_pnl": -1640.6445617481277,
+        "annualized_incremental_dollars": -580.3640626592016,
+        "break_even_annual_incremental_operating_cost": 0.0,
+        "ci95_annualized_incremental_dollars": [
+          -1467.8821492857699,
+          303.32080145978637
+        ],
+        "status": "computed"
+      }
+    },
+    {
+      "scenario": "risk05_base_whole",
+      "reference": "T05",
+      "cagr_increment": -0.1195171703363509,
+      "net_pnl_increment": -2174.384775999508,
+      "bootstrap": {
+        "weeks": 147,
+        "resamples": 2000,
+        "seed": 20261021,
+        "method": "paired_circular_calendar_week_moving_block",
+        "estimand": "annualized_incremental_dollars_arithmetic_52_weeks",
+        "initial_capital_basis": 5000.0,
+        "block_sensitivity": {
+          "2": {
+            "status": "computed",
+            "ci95": [
+              -1947.3141433332312,
+              350.4029643737784
+            ]
+          },
+          "4": {
+            "status": "computed",
+            "ci95": [
+              -2033.3392621526368,
+              291.86711082419555
+            ]
+          },
+          "8": {
+            "status": "computed",
+            "ci95": [
+              -2160.156507792009,
+              421.33766828460443
+            ]
+          }
+        },
+        "incremental_net_pnl": -2174.384775999508,
+        "annualized_incremental_dollars": -769.1701248433633,
+        "break_even_annual_incremental_operating_cost": 0.0,
+        "ci95_annualized_incremental_dollars": [
+          -2033.3392621526368,
+          291.86711082419555
+        ],
+        "status": "computed"
+      }
+    },
+    {
+      "scenario": "risk05_base_whole",
+      "reference": "T05_fullhistory",
+      "cagr_increment": -0.1195171703363509,
+      "net_pnl_increment": -2174.384775999508,
+      "bootstrap": {
+        "weeks": 147,
+        "resamples": 2000,
+        "seed": 20261021,
+        "method": "paired_circular_calendar_week_moving_block",
+        "estimand": "annualized_incremental_dollars_arithmetic_52_weeks",
+        "initial_capital_basis": 5000.0,
+        "block_sensitivity": {
+          "2": {
+            "status": "computed",
+            "ci95": [
+              -1947.3141433332312,
+              350.4029643737784
+            ]
+          },
+          "4": {
+            "status": "computed",
+            "ci95": [
+              -2033.3392621526368,
+              291.86711082419555
+            ]
+          },
+          "8": {
+            "status": "computed",
+            "ci95": [
+              -2160.156507792009,
+              421.33766828460443
+            ]
+          }
+        },
+        "incremental_net_pnl": -2174.384775999508,
+        "annualized_incremental_dollars": -769.1701248433633,
+        "break_even_annual_incremental_operating_cost": 0.0,
+        "ci95_annualized_incremental_dollars": [
+          -2033.3392621526368,
+          291.86711082419555
+        ],
+        "status": "computed"
+      }
+    },
+    {
+      "scenario": "risk05_base_fractional",
+      "reference": "SPY_cash_dividend",
+      "cagr_increment": -0.09882453313015915,
+      "net_pnl_increment": -1776.6207744844187,
+      "bootstrap": {
+        "weeks": 147,
+        "resamples": 2000,
+        "seed": 20261021,
+        "method": "paired_circular_calendar_week_moving_block",
+        "estimand": "annualized_incremental_dollars_arithmetic_52_weeks",
+        "initial_capital_basis": 5000.0,
+        "block_sensitivity": {
+          "2": {
+            "status": "computed",
+            "ci95": [
+              -1493.5338295273202,
+              290.5636762063049
+            ]
+          },
+          "4": {
+            "status": "computed",
+            "ci95": [
+              -1561.2475302590083,
+              309.90447931598834
+            ]
+          },
+          "8": {
+            "status": "computed",
+            "ci95": [
+              -1451.7702367804575,
+              328.84463973428734
+            ]
+          }
+        },
+        "incremental_net_pnl": -1776.6207744844187,
+        "annualized_incremental_dollars": -628.4644916543522,
+        "break_even_annual_incremental_operating_cost": 0.0,
+        "ci95_annualized_incremental_dollars": [
+          -1561.2475302590083,
+          309.90447931598834
+        ],
+        "status": "computed"
+      }
+    },
+    {
+      "scenario": "risk05_base_fractional",
+      "reference": "SPY_reinvested_total_return",
+      "cagr_increment": -0.10065774891041857,
+      "net_pnl_increment": -1812.1956968561854,
+      "bootstrap": {
+        "weeks": 147,
+        "resamples": 2000,
+        "seed": 20261021,
+        "method": "paired_circular_calendar_week_moving_block",
+        "estimand": "annualized_incremental_dollars_arithmetic_52_weeks",
+        "initial_capital_basis": 5000.0,
+        "block_sensitivity": {
+          "2": {
+            "status": "computed",
+            "ci95": [
+              -1512.7648803682835,
+              276.99089651392046
+            ]
+          },
+          "4": {
+            "status": "computed",
+            "ci95": [
+              -1590.1110757137933,
+              312.22789238842716
+            ]
+          },
+          "8": {
+            "status": "computed",
+            "ci95": [
+              -1474.8368823513056,
+              330.90648116799036
+            ]
+          }
+        },
+        "incremental_net_pnl": -1812.1956968561854,
+        "annualized_incremental_dollars": -641.0488179355214,
+        "break_even_annual_incremental_operating_cost": 0.0,
+        "ci95_annualized_incremental_dollars": [
+          -1590.1110757137933,
+          312.22789238842716
+        ],
+        "status": "computed"
+      }
+    },
+    {
+      "scenario": "risk05_base_fractional",
+      "reference": "T05",
+      "cagr_increment": -0.14678118108121097,
+      "net_pnl_increment": -2739.6827815190763,
+      "bootstrap": {
+        "weeks": 147,
+        "resamples": 2000,
+        "seed": 20261021,
+        "method": "paired_circular_calendar_week_moving_block",
+        "estimand": "annualized_incremental_dollars_arithmetic_52_weeks",
+        "initial_capital_basis": 5000.0,
+        "block_sensitivity": {
+          "2": {
+            "status": "computed",
+            "ci95": [
+              -2182.087505732843,
+              126.20772998827535
+            ]
+          },
+          "4": {
+            "status": "computed",
+            "ci95": [
+              -2323.417061334679,
+              185.6272587173575
+            ]
+          },
+          "8": {
+            "status": "computed",
+            "ci95": [
+              -2405.528682173501,
+              289.2851225666678
+            ]
+          }
+        },
+        "incremental_net_pnl": -2739.682781519078,
+        "annualized_incremental_dollars": -969.139487340082,
+        "break_even_annual_incremental_operating_cost": 0.0,
+        "ci95_annualized_incremental_dollars": [
+          -2323.417061334679,
+          185.6272587173575
+        ],
+        "status": "computed"
+      }
+    },
+    {
+      "scenario": "risk05_base_fractional",
+      "reference": "T05_fullhistory",
+      "cagr_increment": -0.14678118108121097,
+      "net_pnl_increment": -2739.6827815190763,
+      "bootstrap": {
+        "weeks": 147,
+        "resamples": 2000,
+        "seed": 20261021,
+        "method": "paired_circular_calendar_week_moving_block",
+        "estimand": "annualized_incremental_dollars_arithmetic_52_weeks",
+        "initial_capital_basis": 5000.0,
+        "block_sensitivity": {
+          "2": {
+            "status": "computed",
+            "ci95": [
+              -2182.087505732843,
+              126.20772998827535
+            ]
+          },
+          "4": {
+            "status": "computed",
+            "ci95": [
+              -2323.417061334679,
+              185.6272587173575
+            ]
+          },
+          "8": {
+            "status": "computed",
+            "ci95": [
+              -2405.528682173501,
+              289.2851225666678
+            ]
+          }
+        },
+        "incremental_net_pnl": -2739.682781519078,
+        "annualized_incremental_dollars": -969.139487340082,
+        "break_even_annual_incremental_operating_cost": 0.0,
+        "ci95_annualized_incremental_dollars": [
+          -2323.417061334679,
+          185.6272587173575
+        ],
+        "status": "computed"
+      }
+    },
+    {
+      "scenario": "risk10_base_whole",
+      "reference": "SPY_cash_dividend",
+      "cagr_increment": -0.09465468612652406,
+      "net_pnl_increment": -1681.9953803973112,
+      "bootstrap": {
+        "weeks": 147,
+        "resamples": 2000,
+        "seed": 20261021,
+        "method": "paired_circular_calendar_week_moving_block",
+        "estimand": "annualized_incremental_dollars_arithmetic_52_weeks",
+        "initial_capital_basis": 5000.0,
+        "block_sensitivity": {
+          "2": {
+            "status": "computed",
+            "ci95": [
+              -1406.7166599079828,
+              285.8877968363867
+            ]
+          },
+          "4": {
+            "status": "computed",
+            "ci95": [
+              -1486.1935581275898,
+              303.3110539554535
+            ]
+          },
+          "8": {
+            "status": "computed",
+            "ci95": [
+              -1383.4199444659098,
+              316.81519670986825
+            ]
+          }
+        },
+        "incremental_net_pnl": -1681.9953803973112,
+        "annualized_incremental_dollars": -594.9915631337428,
+        "break_even_annual_incremental_operating_cost": 0.0,
+        "ci95_annualized_incremental_dollars": [
+          -1486.1935581275898,
+          303.3110539554535
+        ],
+        "status": "computed"
+      }
+    },
+    {
+      "scenario": "risk10_base_whole",
+      "reference": "SPY_reinvested_total_return",
+      "cagr_increment": -0.09465468612652406,
+      "net_pnl_increment": -1681.9953803973112,
+      "bootstrap": {
+        "weeks": 147,
+        "resamples": 2000,
+        "seed": 20261021,
+        "method": "paired_circular_calendar_week_moving_block",
+        "estimand": "annualized_incremental_dollars_arithmetic_52_weeks",
+        "initial_capital_basis": 5000.0,
+        "block_sensitivity": {
+          "2": {
+            "status": "computed",
+            "ci95": [
+              -1406.7166599079828,
+              285.8877968363867
+            ]
+          },
+          "4": {
+            "status": "computed",
+            "ci95": [
+              -1486.1935581275898,
+              303.3110539554535
+            ]
+          },
+          "8": {
+            "status": "computed",
+            "ci95": [
+              -1383.4199444659098,
+              316.81519670986825
+            ]
+          }
+        },
+        "incremental_net_pnl": -1681.9953803973112,
+        "annualized_incremental_dollars": -594.9915631337428,
+        "break_even_annual_incremental_operating_cost": 0.0,
+        "ci95_annualized_incremental_dollars": [
+          -1486.1935581275898,
+          303.3110539554535
+        ],
+        "status": "computed"
+      }
+    },
+    {
+      "scenario": "risk10_base_whole",
+      "reference": "T05",
+      "cagr_increment": -0.12411718116359616,
+      "net_pnl_increment": -2257.4629593714726,
+      "bootstrap": {
+        "weeks": 147,
+        "resamples": 2000,
+        "seed": 20261021,
+        "method": "paired_circular_calendar_week_moving_block",
+        "estimand": "annualized_incremental_dollars_arithmetic_52_weeks",
+        "initial_capital_basis": 5000.0,
+        "block_sensitivity": {
+          "2": {
+            "status": "computed",
+            "ci95": [
+              -1984.0643418855834,
+              328.7993590476413
+            ]
+          },
+          "4": {
+            "status": "computed",
+            "ci95": [
+              -2075.056370150492,
+              278.53747844713604
+            ]
+          },
+          "8": {
+            "status": "computed",
+            "ci95": [
+              -2209.069531186557,
+              401.2123770273719
+            ]
+          }
+        },
+        "incremental_net_pnl": -2257.4629593714726,
+        "annualized_incremental_dollars": -798.5583257640583,
+        "break_even_annual_incremental_operating_cost": 0.0,
+        "ci95_annualized_incremental_dollars": [
+          -2075.056370150492,
+          278.53747844713604
+        ],
+        "status": "computed"
+      }
+    },
+    {
+      "scenario": "risk10_base_whole",
+      "reference": "T05_fullhistory",
+      "cagr_increment": -0.12411718116359616,
+      "net_pnl_increment": -2257.4629593714726,
+      "bootstrap": {
+        "weeks": 147,
+        "resamples": 2000,
+        "seed": 20261021,
+        "method": "paired_circular_calendar_week_moving_block",
+        "estimand": "annualized_incremental_dollars_arithmetic_52_weeks",
+        "initial_capital_basis": 5000.0,
+        "block_sensitivity": {
+          "2": {
+            "status": "computed",
+            "ci95": [
+              -1984.0643418855834,
+              328.7993590476413
+            ]
+          },
+          "4": {
+            "status": "computed",
+            "ci95": [
+              -2075.056370150492,
+              278.53747844713604
+            ]
+          },
+          "8": {
+            "status": "computed",
+            "ci95": [
+              -2209.069531186557,
+              401.2123770273719
+            ]
+          }
+        },
+        "incremental_net_pnl": -2257.4629593714726,
+        "annualized_incremental_dollars": -798.5583257640583,
+        "break_even_annual_incremental_operating_cost": 0.0,
+        "ci95_annualized_incremental_dollars": [
+          -2075.056370150492,
+          278.53747844713604
+        ],
+        "status": "computed"
+      }
+    },
+    {
+      "scenario": "risk10_base_fractional",
+      "reference": "SPY_cash_dividend",
+      "cagr_increment": -0.10111593521980256,
+      "net_pnl_increment": -1814.6041028402042,
+      "bootstrap": {
+        "weeks": 147,
+        "resamples": 2000,
+        "seed": 20261021,
+        "method": "paired_circular_calendar_week_moving_block",
+        "estimand": "annualized_incremental_dollars_arithmetic_52_weeks",
+        "initial_capital_basis": 5000.0,
+        "block_sensitivity": {
+          "2": {
+            "status": "computed",
+            "ci95": [
+              -1513.5257762097747,
+              280.06994044406844
+            ]
+          },
+          "4": {
+            "status": "computed",
+            "ci95": [
+              -1578.9062800455088,
+              297.1845783584418
+            ]
+          },
+          "8": {
+            "status": "computed",
+            "ci95": [
+              -1470.7726405128424,
+              328.8999431141009
+            ]
+          }
+        },
+        "incremental_net_pnl": -1814.6041028402042,
+        "annualized_incremental_dollars": -641.9007710727253,
+        "break_even_annual_incremental_operating_cost": 0.0,
+        "ci95_annualized_incremental_dollars": [
+          -1578.9062800455088,
+          297.1845783584418
+        ],
+        "status": "computed"
+      }
+    },
+    {
+      "scenario": "risk10_base_fractional",
+      "reference": "SPY_reinvested_total_return",
+      "cagr_increment": -0.10294915100006197,
+      "net_pnl_increment": -1850.1790252119708,
+      "bootstrap": {
+        "weeks": 147,
+        "resamples": 2000,
+        "seed": 20261021,
+        "method": "paired_circular_calendar_week_moving_block",
+        "estimand": "annualized_incremental_dollars_arithmetic_52_weeks",
+        "initial_capital_basis": 5000.0,
+        "block_sensitivity": {
+          "2": {
+            "status": "computed",
+            "ci95": [
+              -1531.9921442711484,
+              267.41341220354957
+            ]
+          },
+          "4": {
+            "status": "computed",
+            "ci95": [
+              -1604.591001504781,
+              297.38703942303374
+            ]
+          },
+          "8": {
+            "status": "computed",
+            "ci95": [
+              -1491.136203980037,
+              327.23664918468825
+            ]
+          }
+        },
+        "incremental_net_pnl": -1850.1790252119708,
+        "annualized_incremental_dollars": -654.4850973538945,
+        "break_even_annual_incremental_operating_cost": 0.0,
+        "ci95_annualized_incremental_dollars": [
+          -1604.591001504781,
+          297.38703942303374
+        ],
+        "status": "computed"
+      }
+    },
+    {
+      "scenario": "risk10_base_fractional",
+      "reference": "T05",
+      "cagr_increment": -0.14967454058574892,
+      "net_pnl_increment": -2790.187457496376,
+      "bootstrap": {
+        "weeks": 147,
+        "resamples": 2000,
+        "seed": 20261021,
+        "method": "paired_circular_calendar_week_moving_block",
+        "estimand": "annualized_incremental_dollars_arithmetic_52_weeks",
+        "initial_capital_basis": 5000.0,
+        "block_sensitivity": {
+          "2": {
+            "status": "computed",
+            "ci95": [
+              -2214.0779472170325,
+              111.56038900531848
+            ]
+          },
+          "4": {
+            "status": "computed",
+            "ci95": [
+              -2360.404563005191,
+              180.8218915684007
+            ]
+          },
+          "8": {
+            "status": "computed",
+            "ci95": [
+              -2451.349927809843,
+              285.494110556136
+            ]
+          }
+        },
+        "incremental_net_pnl": -2790.187457496376,
+        "annualized_incremental_dollars": -987.0050870055206,
+        "break_even_annual_incremental_operating_cost": 0.0,
+        "ci95_annualized_incremental_dollars": [
+          -2360.404563005191,
+          180.8218915684007
+        ],
+        "status": "computed"
+      }
+    },
+    {
+      "scenario": "risk10_base_fractional",
+      "reference": "T05_fullhistory",
+      "cagr_increment": -0.14967454058574892,
+      "net_pnl_increment": -2790.187457496376,
+      "bootstrap": {
+        "weeks": 147,
+        "resamples": 2000,
+        "seed": 20261021,
+        "method": "paired_circular_calendar_week_moving_block",
+        "estimand": "annualized_incremental_dollars_arithmetic_52_weeks",
+        "initial_capital_basis": 5000.0,
+        "block_sensitivity": {
+          "2": {
+            "status": "computed",
+            "ci95": [
+              -2214.0779472170325,
+              111.56038900531848
+            ]
+          },
+          "4": {
+            "status": "computed",
+            "ci95": [
+              -2360.404563005191,
+              180.8218915684007
+            ]
+          },
+          "8": {
+            "status": "computed",
+            "ci95": [
+              -2451.349927809843,
+              285.494110556136
+            ]
+          }
+        },
+        "incremental_net_pnl": -2790.187457496376,
+        "annualized_incremental_dollars": -987.0050870055206,
+        "break_even_annual_incremental_operating_cost": 0.0,
+        "ci95_annualized_incremental_dollars": [
+          -2360.404563005191,
+          180.8218915684007
+        ],
+        "status": "computed"
+      }
+    }
+  ],
+  "history_status": "EXPLORATORY_REUSED_HISTORY_NO_PROSPECTIVE_EVIDENCE"
+}

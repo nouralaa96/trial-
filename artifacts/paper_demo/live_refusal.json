@@ -1,0 +1,7 @@
+{
+  "mode": "live",
+  "status": "REFUSED",
+  "reason": "live_and_order_actions_unsupported",
+  "actionable": false,
+  "broker_connected": false
+}

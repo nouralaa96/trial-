@@ -1,0 +1,1009 @@
+{
+  "status": "PASS",
+  "independently_verified_logged_fits": 172,
+  "additional_P01_fullhistory_fits_reported": 24,
+  "total_reported_fits": 196,
+  "logged_model_records": 110,
+  "verified_forecasts": 10218,
+  "max_prediction_abs_error": 1.46150452851046e-16,
+  "independent_bracket_label_counts": {
+    "SPY": 4207,
+    "QQQ": 4147,
+    "GLD": 3971
+  },
+  "calibration_and_production_embargo_sessions": 10,
+  "context_last_available_nonmissing": "2026-09-23",
+  "checks": [
+    {
+      "candidate": "C03",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2019Q1",
+      "training_rows": 4296,
+      "prediction_rows": 102,
+      "max_prediction_error": 1.1020915083315153e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2019Q2",
+      "training_rows": 4372,
+      "prediction_rows": 126,
+      "max_prediction_error": 1.1080546202801855e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2019Q3",
+      "training_rows": 4491,
+      "prediction_rows": 128,
+      "max_prediction_error": 1.0451708942760263e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2019Q4",
+      "training_rows": 4597,
+      "prediction_rows": 128,
+      "max_prediction_error": 9.84455572616838e-17
+    },
+    {
+      "candidate": "C03",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2020Q1",
+      "training_rows": 4726,
+      "prediction_rows": 124,
+      "max_prediction_error": 1.0148132334464322e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2020Q2",
+      "training_rows": 4857,
+      "prediction_rows": 126,
+      "max_prediction_error": 1.1796119636642288e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2020Q3",
+      "training_rows": 4937,
+      "prediction_rows": 128,
+      "max_prediction_error": 9.71445146547012e-17
+    },
+    {
+      "candidate": "C03",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2020Q4",
+      "training_rows": 5074,
+      "prediction_rows": 128,
+      "max_prediction_error": 9.71445146547012e-17
+    },
+    {
+      "candidate": "C03",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2021Q1",
+      "training_rows": 5162,
+      "prediction_rows": 122,
+      "max_prediction_error": 1.0842021724855044e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2021Q2",
+      "training_rows": 5291,
+      "prediction_rows": 126,
+      "max_prediction_error": 1.0234868508263162e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2021Q3",
+      "training_rows": 5390,
+      "prediction_rows": 128,
+      "max_prediction_error": 1.0018028073766061e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2021Q4",
+      "training_rows": 5532,
+      "prediction_rows": 128,
+      "max_prediction_error": 1.1145598333150986e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2019Q1",
+      "training_rows": 2033,
+      "prediction_rows": 51,
+      "max_prediction_error": 9.606031248221569e-17
+    },
+    {
+      "candidate": "C03",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2019Q2",
+      "training_rows": 2072,
+      "prediction_rows": 63,
+      "max_prediction_error": 9.974659986866641e-17
+    },
+    {
+      "candidate": "C03",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2019Q3",
+      "training_rows": 2131,
+      "prediction_rows": 64,
+      "max_prediction_error": 9.996344030316351e-17
+    },
+    {
+      "candidate": "C03",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2019Q4",
+      "training_rows": 2189,
+      "prediction_rows": 64,
+      "max_prediction_error": 9.497611030973019e-17
+    },
+    {
+      "candidate": "C03",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2020Q1",
+      "training_rows": 2248,
+      "prediction_rows": 62,
+      "max_prediction_error": 1.0581813203458523e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2020Q2",
+      "training_rows": 2316,
+      "prediction_rows": 63,
+      "max_prediction_error": 9.627715291671279e-17
+    },
+    {
+      "candidate": "C03",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2020Q3",
+      "training_rows": 2364,
+      "prediction_rows": 64,
+      "max_prediction_error": 9.974659986866641e-17
+    },
+    {
+      "candidate": "C03",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2020Q4",
+      "training_rows": 2409,
+      "prediction_rows": 64,
+      "max_prediction_error": 9.280770596475918e-17
+    },
+    {
+      "candidate": "C03",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2021Q1",
+      "training_rows": 2469,
+      "prediction_rows": 61,
+      "max_prediction_error": 9.540979117872439e-17
+    },
+    {
+      "candidate": "C03",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2021Q2",
+      "training_rows": 2525,
+      "prediction_rows": 63,
+      "max_prediction_error": 1.0061396160665481e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2021Q3",
+      "training_rows": 2590,
+      "prediction_rows": 64,
+      "max_prediction_error": 9.540979117872439e-17
+    },
+    {
+      "candidate": "C03",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2021Q4",
+      "training_rows": 2647,
+      "prediction_rows": 64,
+      "max_prediction_error": 9.71445146547012e-17
+    },
+    {
+      "candidate": "P01",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2019Q1",
+      "training_rows": 4488,
+      "prediction_rows": 102,
+      "max_prediction_error": 9.8879238130678e-17
+    },
+    {
+      "candidate": "P01",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2019Q2",
+      "training_rows": 4550,
+      "prediction_rows": 126,
+      "max_prediction_error": 1.0581813203458523e-16
+    },
+    {
+      "candidate": "P01",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2019Q3",
+      "training_rows": 4676,
+      "prediction_rows": 128,
+      "max_prediction_error": 1.0234868508263162e-16
+    },
+    {
+      "candidate": "P01",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2019Q4",
+      "training_rows": 4804,
+      "prediction_rows": 128,
+      "max_prediction_error": 1.1275702593849246e-16
+    },
+    {
+      "candidate": "P01",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2020Q1",
+      "training_rows": 4932,
+      "prediction_rows": 124,
+      "max_prediction_error": 1.0018028073766061e-16
+    },
+    {
+      "candidate": "P01",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2020Q2",
+      "training_rows": 5056,
+      "prediction_rows": 126,
+      "max_prediction_error": 1.46150452851046e-16
+    },
+    {
+      "candidate": "P01",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2020Q3",
+      "training_rows": 5182,
+      "prediction_rows": 128,
+      "max_prediction_error": 1.0581813203458523e-16
+    },
+    {
+      "candidate": "P01",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2020Q4",
+      "training_rows": 5310,
+      "prediction_rows": 128,
+      "max_prediction_error": 1.1102230246251565e-16
+    },
+    {
+      "candidate": "P01",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2021Q1",
+      "training_rows": 5438,
+      "prediction_rows": 122,
+      "max_prediction_error": 1.0755285551056204e-16
+    },
+    {
+      "candidate": "P01",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2021Q2",
+      "training_rows": 5560,
+      "prediction_rows": 126,
+      "max_prediction_error": 1.0755285551056204e-16
+    },
+    {
+      "candidate": "P01",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2021Q3",
+      "training_rows": 5686,
+      "prediction_rows": 128,
+      "max_prediction_error": 1.2663481374630692e-16
+    },
+    {
+      "candidate": "P01",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2021Q4",
+      "training_rows": 5814,
+      "prediction_rows": 128,
+      "max_prediction_error": 1.0842021724855044e-16
+    },
+    {
+      "candidate": "P01",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2019Q1",
+      "training_rows": 2244,
+      "prediction_rows": 51,
+      "max_prediction_error": 8.370040771588094e-17
+    },
+    {
+      "candidate": "P01",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2019Q2",
+      "training_rows": 2275,
+      "prediction_rows": 63,
+      "max_prediction_error": 9.760530057800754e-17
+    },
+    {
+      "candidate": "P01",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2019Q3",
+      "training_rows": 2338,
+      "prediction_rows": 64,
+      "max_prediction_error": 1.0234868508263162e-16
+    },
+    {
+      "candidate": "P01",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2019Q4",
+      "training_rows": 2402,
+      "prediction_rows": 64,
+      "max_prediction_error": 9.454242944073599e-17
+    },
+    {
+      "candidate": "P01",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2020Q1",
+      "training_rows": 2466,
+      "prediction_rows": 62,
+      "max_prediction_error": 1.0104764247564901e-16
+    },
+    {
+      "candidate": "P01",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2020Q2",
+      "training_rows": 2528,
+      "prediction_rows": 63,
+      "max_prediction_error": 1.0668549377257364e-16
+    },
+    {
+      "candidate": "P01",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2020Q3",
+      "training_rows": 2591,
+      "prediction_rows": 64,
+      "max_prediction_error": 1.0451708942760263e-16
+    },
+    {
+      "candidate": "P01",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2020Q4",
+      "training_rows": 2655,
+      "prediction_rows": 64,
+      "max_prediction_error": 9.80118763926896e-17
+    },
+    {
+      "candidate": "P01",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2021Q1",
+      "training_rows": 2719,
+      "prediction_rows": 61,
+      "max_prediction_error": 1.0321604682062002e-16
+    },
+    {
+      "candidate": "P01",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2021Q2",
+      "training_rows": 2780,
+      "prediction_rows": 63,
+      "max_prediction_error": 1.0495077029659683e-16
+    },
+    {
+      "candidate": "P01",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2021Q3",
+      "training_rows": 2843,
+      "prediction_rows": 64,
+      "max_prediction_error": 1.0234868508263162e-16
+    },
+    {
+      "candidate": "P01",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2021Q4",
+      "training_rows": 2907,
+      "prediction_rows": 64,
+      "max_prediction_error": 9.71445146547012e-17
+    },
+    {
+      "candidate": "P02",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2019Q1",
+      "training_rows": 4296,
+      "prediction_rows": 102,
+      "max_prediction_error": 1.0061396160665481e-16
+    },
+    {
+      "candidate": "P02",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2019Q2",
+      "training_rows": 4372,
+      "prediction_rows": 126,
+      "max_prediction_error": 1.0842021724855044e-16
+    },
+    {
+      "candidate": "P02",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2019Q3",
+      "training_rows": 4491,
+      "prediction_rows": 128,
+      "max_prediction_error": 1.0148132334464322e-16
+    },
+    {
+      "candidate": "P02",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2019Q4",
+      "training_rows": 4597,
+      "prediction_rows": 128,
+      "max_prediction_error": 1.0408340855860843e-16
+    },
+    {
+      "candidate": "P02",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2020Q1",
+      "training_rows": 4726,
+      "prediction_rows": 124,
+      "max_prediction_error": 1.457167719820518e-16
+    },
+    {
+      "candidate": "P02",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2020Q2",
+      "training_rows": 4857,
+      "prediction_rows": 126,
+      "max_prediction_error": 1.0213184464813452e-16
+    },
+    {
+      "candidate": "P02",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2020Q3",
+      "training_rows": 4937,
+      "prediction_rows": 128,
+      "max_prediction_error": 9.8879238130678e-17
+    },
+    {
+      "candidate": "P02",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2020Q4",
+      "training_rows": 5074,
+      "prediction_rows": 128,
+      "max_prediction_error": 9.80118763926896e-17
+    },
+    {
+      "candidate": "P02",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2021Q1",
+      "training_rows": 5162,
+      "prediction_rows": 122,
+      "max_prediction_error": 9.80118763926896e-17
+    },
+    {
+      "candidate": "P02",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2021Q2",
+      "training_rows": 5291,
+      "prediction_rows": 126,
+      "max_prediction_error": 9.71445146547012e-17
+    },
+    {
+      "candidate": "P02",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2021Q3",
+      "training_rows": 5390,
+      "prediction_rows": 128,
+      "max_prediction_error": 9.882502802205373e-17
+    },
+    {
+      "candidate": "P02",
+      "partition": "development",
+      "group": "equity",
+      "quarter": "2021Q4",
+      "training_rows": 5532,
+      "prediction_rows": 128,
+      "max_prediction_error": 9.80118763926896e-17
+    },
+    {
+      "candidate": "P02",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2019Q1",
+      "training_rows": 2033,
+      "prediction_rows": 51,
+      "max_prediction_error": 1.0440866921035408e-16
+    },
+    {
+      "candidate": "P02",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2019Q2",
+      "training_rows": 2072,
+      "prediction_rows": 63,
+      "max_prediction_error": 9.584347204771859e-17
+    },
+    {
+      "candidate": "P02",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2019Q3",
+      "training_rows": 2131,
+      "prediction_rows": 64,
+      "max_prediction_error": 9.84455572616838e-17
+    },
+    {
+      "candidate": "P02",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2019Q4",
+      "training_rows": 2189,
+      "prediction_rows": 64,
+      "max_prediction_error": 9.150666335777657e-17
+    },
+    {
+      "candidate": "P02",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2020Q1",
+      "training_rows": 2248,
+      "prediction_rows": 62,
+      "max_prediction_error": 9.974659986866641e-17
+    },
+    {
+      "candidate": "P02",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2020Q2",
+      "training_rows": 2316,
+      "prediction_rows": 63,
+      "max_prediction_error": 9.6710833785707e-17
+    },
+    {
+      "candidate": "P02",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2020Q3",
+      "training_rows": 2364,
+      "prediction_rows": 64,
+      "max_prediction_error": 1.0495077029659683e-16
+    },
+    {
+      "candidate": "P02",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2020Q4",
+      "training_rows": 2409,
+      "prediction_rows": 64,
+      "max_prediction_error": 9.84455572616838e-17
+    },
+    {
+      "candidate": "P02",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2021Q1",
+      "training_rows": 2469,
+      "prediction_rows": 61,
+      "max_prediction_error": 9.627715291671279e-17
+    },
+    {
+      "candidate": "P02",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2021Q2",
+      "training_rows": 2525,
+      "prediction_rows": 63,
+      "max_prediction_error": 1.0104764247564901e-16
+    },
+    {
+      "candidate": "P02",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2021Q3",
+      "training_rows": 2590,
+      "prediction_rows": 64,
+      "max_prediction_error": 9.893344823930228e-17
+    },
+    {
+      "candidate": "P02",
+      "partition": "development",
+      "group": "gold",
+      "quarter": "2021Q4",
+      "training_rows": 2647,
+      "prediction_rows": 64,
+      "max_prediction_error": 9.974659986866641e-17
+    },
+    {
+      "candidate": "C03",
+      "partition": "final",
+      "group": "equity",
+      "quarter": "2024Q1",
+      "training_rows": 6578,
+      "prediction_rows": 102,
+      "max_prediction_error": 9.84455572616838e-17
+    },
+    {
+      "candidate": "C03",
+      "partition": "final",
+      "group": "equity",
+      "quarter": "2024Q2",
+      "training_rows": 6648,
+      "prediction_rows": 126,
+      "max_prediction_error": 1.0408340855860843e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "final",
+      "group": "equity",
+      "quarter": "2024Q3",
+      "training_rows": 6778,
+      "prediction_rows": 128,
+      "max_prediction_error": 1.1362438767648086e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "final",
+      "group": "equity",
+      "quarter": "2024Q4",
+      "training_rows": 6895,
+      "prediction_rows": 128,
+      "max_prediction_error": 1.0061396160665481e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "final",
+      "group": "equity",
+      "quarter": "2025Q1",
+      "training_rows": 6998,
+      "prediction_rows": 120,
+      "max_prediction_error": 1.0408340855860843e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "final",
+      "group": "equity",
+      "quarter": "2025Q2",
+      "training_rows": 7138,
+      "prediction_rows": 124,
+      "max_prediction_error": 1.0928757898653885e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "final",
+      "group": "equity",
+      "quarter": "2025Q3",
+      "training_rows": 7224,
+      "prediction_rows": 128,
+      "max_prediction_error": 9.80118763926896e-17
+    },
+    {
+      "candidate": "C03",
+      "partition": "final",
+      "group": "equity",
+      "quarter": "2025Q4",
+      "training_rows": 7352,
+      "prediction_rows": 128,
+      "max_prediction_error": 1.0321604682062002e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "final",
+      "group": "equity",
+      "quarter": "2026Q1",
+      "training_rows": 7466,
+      "prediction_rows": 122,
+      "max_prediction_error": 1.196959198423997e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "final",
+      "group": "equity",
+      "quarter": "2026Q2",
+      "training_rows": 7594,
+      "prediction_rows": 124,
+      "max_prediction_error": 9.80118763926896e-17
+    },
+    {
+      "candidate": "C03",
+      "partition": "final",
+      "group": "equity",
+      "quarter": "2026Q3",
+      "training_rows": 7707,
+      "prediction_rows": 118,
+      "max_prediction_error": 1.1102230246251565e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "final",
+      "group": "gold",
+      "quarter": "2024Q1",
+      "training_rows": 3158,
+      "prediction_rows": 51,
+      "max_prediction_error": 9.75781955236954e-17
+    },
+    {
+      "candidate": "C03",
+      "partition": "final",
+      "group": "gold",
+      "quarter": "2024Q2",
+      "training_rows": 3198,
+      "prediction_rows": 63,
+      "max_prediction_error": 1.0321604682062002e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "final",
+      "group": "gold",
+      "quarter": "2024Q3",
+      "training_rows": 3257,
+      "prediction_rows": 64,
+      "max_prediction_error": 9.974659986866641e-17
+    },
+    {
+      "candidate": "C03",
+      "partition": "final",
+      "group": "gold",
+      "quarter": "2024Q4",
+      "training_rows": 3299,
+      "prediction_rows": 64,
+      "max_prediction_error": 9.877081791342945e-17
+    },
+    {
+      "candidate": "C03",
+      "partition": "final",
+      "group": "gold",
+      "quarter": "2025Q1",
+      "training_rows": 3353,
+      "prediction_rows": 60,
+      "max_prediction_error": 1.0148132334464322e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "final",
+      "group": "gold",
+      "quarter": "2025Q2",
+      "training_rows": 3403,
+      "prediction_rows": 62,
+      "max_prediction_error": 1.0495077029659683e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "final",
+      "group": "gold",
+      "quarter": "2025Q3",
+      "training_rows": 3447,
+      "prediction_rows": 64,
+      "max_prediction_error": 1.0408340855860843e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "final",
+      "group": "gold",
+      "quarter": "2025Q4",
+      "training_rows": 3510,
+      "prediction_rows": 64,
+      "max_prediction_error": 9.71445146547012e-17
+    },
+    {
+      "candidate": "C03",
+      "partition": "final",
+      "group": "gold",
+      "quarter": "2026Q1",
+      "training_rows": 3551,
+      "prediction_rows": 61,
+      "max_prediction_error": 9.8879238130678e-17
+    },
+    {
+      "candidate": "C03",
+      "partition": "final",
+      "group": "gold",
+      "quarter": "2026Q2",
+      "training_rows": 3605,
+      "prediction_rows": 62,
+      "max_prediction_error": 9.627715291671279e-17
+    },
+    {
+      "candidate": "C03",
+      "partition": "final",
+      "group": "gold",
+      "quarter": "2026Q3",
+      "training_rows": 3666,
+      "prediction_rows": 59,
+      "max_prediction_error": 1.0343288725511712e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "validation",
+      "group": "equity",
+      "quarter": "2022Q1",
+      "training_rows": 5669,
+      "prediction_rows": 104,
+      "max_prediction_error": 1.0061396160665481e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "validation",
+      "group": "equity",
+      "quarter": "2022Q2",
+      "training_rows": 5747,
+      "prediction_rows": 124,
+      "max_prediction_error": 1.1102230246251565e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "validation",
+      "group": "equity",
+      "quarter": "2022Q3",
+      "training_rows": 5871,
+      "prediction_rows": 128,
+      "max_prediction_error": 1.0581813203458523e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "validation",
+      "group": "equity",
+      "quarter": "2022Q4",
+      "training_rows": 5988,
+      "prediction_rows": 126,
+      "max_prediction_error": 1.1796119636642288e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "validation",
+      "group": "equity",
+      "quarter": "2023Q1",
+      "training_rows": 6094,
+      "prediction_rows": 124,
+      "max_prediction_error": 1.0148132334464322e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "validation",
+      "group": "equity",
+      "quarter": "2023Q2",
+      "training_rows": 6220,
+      "prediction_rows": 124,
+      "max_prediction_error": 9.627715291671279e-17
+    },
+    {
+      "candidate": "C03",
+      "partition": "validation",
+      "group": "equity",
+      "quarter": "2023Q3",
+      "training_rows": 6328,
+      "prediction_rows": 126,
+      "max_prediction_error": 1.0061396160665481e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "validation",
+      "group": "equity",
+      "quarter": "2023Q4",
+      "training_rows": 6441,
+      "prediction_rows": 126,
+      "max_prediction_error": 1.0018028073766061e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "validation",
+      "group": "gold",
+      "quarter": "2022Q1",
+      "training_rows": 2704,
+      "prediction_rows": 52,
+      "max_prediction_error": 1.1015494072452725e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "validation",
+      "group": "gold",
+      "quarter": "2022Q2",
+      "training_rows": 2750,
+      "prediction_rows": 62,
+      "max_prediction_error": 9.8879238130678e-17
+    },
+    {
+      "candidate": "C03",
+      "partition": "validation",
+      "group": "gold",
+      "quarter": "2022Q3",
+      "training_rows": 2810,
+      "prediction_rows": 64,
+      "max_prediction_error": 1.0755285551056204e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "validation",
+      "group": "gold",
+      "quarter": "2022Q4",
+      "training_rows": 2873,
+      "prediction_rows": 63,
+      "max_prediction_error": 1.0023449084628488e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "validation",
+      "group": "gold",
+      "quarter": "2023Q1",
+      "training_rows": 2915,
+      "prediction_rows": 62,
+      "max_prediction_error": 1.0408340855860843e-16
+    },
+    {
+      "candidate": "C03",
+      "partition": "validation",
+      "group": "gold",
+      "quarter": "2023Q2",
+      "training_rows": 2983,
+      "prediction_rows": 62,
+      "max_prediction_error": 9.584347204771859e-17
+    },
+    {
+      "candidate": "C03",
+      "partition": "validation",
+      "group": "gold",
+      "quarter": "2023Q3",
+      "training_rows": 3031,
+      "prediction_rows": 63,
+      "max_prediction_error": 9.974659986866641e-17
+    },
+    {
+      "candidate": "C03",
+      "partition": "validation",
+      "group": "gold",
+      "quarter": "2023Q4",
+      "training_rows": 3096,
+      "prediction_rows": 63,
+      "max_prediction_error": 1.0408340855860843e-16
+    }
+  ],
+  "scope_limitation": "172 logged production/calibration fits checked by independent closed-form solution.24 final P01_fullhistory fits are additionally covered by full deterministic run reproduction; individual sensitivity fit logs are not saved."
+}

@@ -1,0 +1,81 @@
+{
+  "created_utc": "2026-10-21T04:15:53.883311+00:00",
+  "manager": "Astra",
+  "delegates": [
+    {
+      "agent": "Sol data",
+      "owner": [
+        "data/**",
+        "data_pipeline.py",
+        "tests/test_v4_data.py",
+        "analysis/DATA_REPORT.md"
+      ],
+      "deliver": [
+        "actual bounded context acquisition max4 series",
+        "source/raw hashes timestamps units availability",
+        "old data raw/processed audit",
+        "missing/stale/duplicate tests"
+      ],
+      "interface": "data/context.csv date,available_date,numeric declared features; no forward fill; availability and coverage contract before performance"
+    },
+    {
+      "agent": "Sol model",
+      "owner": [
+        "model_pipeline.py",
+        "evaluate.py",
+        "tests/test_v4_model.py",
+        "analysis/model/**",
+        "artifacts/models/**"
+      ],
+      "deliver": [
+        "six frozen candidates before performance",
+        "quarterly temporal fits",
+        "development-only selection lock",
+        "all candidate/scenario/fold results",
+        "cash-dividend and reinvested SPY references",
+        "dependence-aware exploratory uncertainty",
+        "every acceptance gate and saved research pipeline"
+      ],
+      "interface": "execution_adapter.py run engine; data/context.csv time-aware join; selection registry and predictions usable by paper CLI"
+    },
+    {
+      "agent": "Sol execution",
+      "owner": [
+        "paper.py",
+        "execution_adapter.py",
+        "tests/test_v4_paper.py",
+        "analysis/EXECUTION_REPORT.md"
+      ],
+      "deliver": [
+        "risk/cash audit and tested adapter",
+        "usable replay and paper decision snapshot",
+        "fail closed stale/missing/live/provenance",
+        "historical demonstration and refusal examples"
+      ],
+      "interface": "model forecast frames + feature map => inherited tested engine; paper consumes frozen model/decision artifacts"
+    }
+  ],
+  "manager_owns": [
+    "CHARTER.md",
+    "contracts/**",
+    "README.md",
+    "REPORT.md",
+    "reproduce.py",
+    "manifest.py",
+    "artifacts/full_manifest.json"
+  ],
+  "reviewer_owns": [
+    "review/**"
+  ],
+  "root_owns": [
+    "oversight/**"
+  ],
+  "shared_rules": [
+    "Original projects unchanged",
+    "No live orders or broker",
+    "No risk increase",
+    "Interface changes communicated before edits",
+    "No retrospective candidate additions after performance",
+    "Correct genuine defects and rerun affected outputs"
+  ]
+}

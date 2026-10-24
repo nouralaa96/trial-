@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "csv_files_compared_byte_for_byte": 526,
+  "failures": [],
+  "independent_verification_rerun_fits": 196,
+  "independent_verification_rerun_portfolios": 168,
+  "source": "review/reproduction",
+  "model_export_coefficients_exact": true
+}

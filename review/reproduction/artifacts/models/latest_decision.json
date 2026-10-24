@@ -1,0 +1,48 @@
+{
+  "status": "REJECTED_RESEARCH",
+  "date": "2026-09-23 00:00:00",
+  "decisions": [
+    {
+      "date": "2026-09-23 00:00:00",
+      "symbol": "QQQ",
+      "prediction": 0.006170408496859623,
+      "prediction_low": -0.016740445213055503,
+      "confidence": 0.06724511930585683,
+      "training_cutoff": "2026-06-15",
+      "first_decision": "2026-07-01",
+      "group": "equity",
+      "quarter": "2026Q3",
+      "label": null,
+      "label_matured": "NaT",
+      "admitted": true
+    },
+    {
+      "date": "2026-09-23 00:00:00",
+      "symbol": "SPY",
+      "prediction": 0.0028845547183870106,
+      "prediction_low": -0.020026298991528114,
+      "confidence": 0.03470715835140998,
+      "training_cutoff": "2026-06-15",
+      "first_decision": "2026-07-01",
+      "group": "equity",
+      "quarter": "2026Q3",
+      "label": null,
+      "label_matured": "NaT",
+      "admitted": true
+    },
+    {
+      "date": "2026-09-23 00:00:00",
+      "symbol": "GLD",
+      "prediction": -0.0020378987485087704,
+      "prediction_low": -0.04127477333864462,
+      "confidence": 0.0,
+      "training_cutoff": "2026-06-15",
+      "first_decision": "2026-07-01",
+      "group": "gold",
+      "quarter": "2026Q3",
+      "label": null,
+      "label_matured": "NaT",
+      "admitted": true
+    }
+  ]
+}

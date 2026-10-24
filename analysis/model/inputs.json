@@ -1,0 +1,10 @@
+{
+  "model_pipeline.py": "e7ef9a2788bedcc07dc36a482f7dd04bd3aca8d7f5c8c452da4698ef98d64de1",
+  "evaluate.py": "2e0244dff606d12a1a8dc12c8823a39087786132ba24bd1e9974846bd99229f0",
+  "execution_adapter.py": "eec99994da45dfc10e577c7cda9de54fef0c6de5f226c17fd3653492f61694bf",
+  "analysis/model/registry.json": "b8320d3ec42512d2cfeded25159ec140fb97d7df5d41caedd1a8a1c87d2daebd",
+  "data/context.csv": "9b5d44c1a02a436cc46b9cb1cad38d412185dec4c3b333bd5f8678b70cb3d93b",
+  "data/processed/GLD.csv": "b03b6f0dda5fcbc3cd7ea6dcd24d5224b0982d81249eb203e07a6420731d54f4",
+  "data/processed/QQQ.csv": "930aabd81660250381787b1dc8fe5b66454e48b155e1ab57318c9d26835d0ad0",
+  "data/processed/SPY.csv": "594c61b4627ae2c8a7a1f0647a9671837a9ac9e82e74155461c20cdc51a03614"
+}

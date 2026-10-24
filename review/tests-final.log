@@ -1,0 +1,13 @@
+........................................                                 [100%]
+=============================== warnings summary ===============================
+tests/test_v4_paper.py: 222 warnings
+  /workspace/trading-research-v4/.venv/lib/python3.12/site-packages/backtrader/cerebro.py:1543: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    qstart = datetime.datetime.utcnow()
+
+tests/test_v4_paper.py: 222 warnings
+  /workspace/trading-research-v4/.venv/lib/python3.12/site-packages/backtrader/cerebro.py:1545: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    qlapse = datetime.datetime.utcnow() - qstart
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+- generated xml file: /workspace/trading-research-v4/review/test-results-final.xml -
+40 passed, 444 warnings in 13.30s

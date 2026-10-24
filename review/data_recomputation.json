@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "manifest_files_checked": 20,
+  "mismatches": [],
+  "vix_exact_raw_join_match": true,
+  "vix_present_observations": 4457,
+  "vix_missing_observations": 19
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "bundle_sha256": "f9ea45280708959df6b2164b3f94dcda56e9bf89064856cafede92dd4f47db3e",
+  "as_of": "2024-03-08",
+  "initial_cash": 5000.0,
+  "settled_cash": 5435.040346804608,
+  "unsettled_cash": [],
+  "positions": {},
+  "pending": {
+    "QQQ": {
+      "symbol": "QQQ",
+      "submitted": "2024-03-08T00:00:00",
+      "execute": "2024-03-11T00:00:00",
+      "qty": 12.0,
+      "cap": 441.21508895906993,
+      "stop": 429.04201418243576,
+      "target": 477.7343132889724,
+      "planned_risk": 150.8311494047045,
+      "cash": 5295.67106750884,
+      "entry_cost": 3.7359675499791045,
+      "prediction": 0.0030522685427633
+    }
+  },
+  "marks": {
+    "SPY": 498.839996338,
+    "QQQ": 428.549987793,
+    "GLD": 198.080001831
+  },
+  "risk": {
+    "weekly_limit": 791.1762326972607,
+    "floor": 160.0,
+    "max_trade_fraction": 0.05,
+    "max_positions": 3,
+    "max_candidates": 2,
+    "session_limit": 271.7520173402304,
+    "max_admissions": 1,
+    "week": "2024-03-04",
+    "week_start": 5274.508217981738,
+    "weekly_locked": false,
+    "floor_locked": false,
+    "session": "2024-03-08",
+    "considered": 2,
+    "admitted": 1,
+    "session_risk": 150.8311494047045,
+    "session_risk_fraction": 0.05,
+    "weekly_risk_fraction": 0.15,
+    "session_start": 5435.040346804608
+  },
+  "equity": 5435.040346804608,
+  "fees": 6.54,
+  "friction": 10.071923788786563
+}

@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "portfolio_count": 168,
+  "ledger_errors": [],
+  "ranking": [
+    {
+      "candidate": "C03",
+      "passing_scenarios": 0,
+      "worst_penalized_increment": -0.2644973694588686,
+      "mean_turnover": 95.42529232402325
+    },
+    {
+      "candidate": "C04",
+      "passing_scenarios": 0,
+      "worst_penalized_increment": -0.2647343122742034,
+      "mean_turnover": 0.0
+    },
+    {
+      "candidate": "P01",
+      "passing_scenarios": 0,
+      "worst_penalized_increment": -0.2670940521689909,
+      "mean_turnover": 86.86949702310295
+    },
+    {
+      "candidate": "P02",
+      "passing_scenarios": 0,
+      "worst_penalized_increment": -0.4415152699846401,
+      "mean_turnover": 88.05240883090065
+    }
+  ],
+  "inputs_unchanged": {
+    "model_pipeline.py": true,
+    "evaluate.py": true,
+    "execution_adapter.py": true,
+    "analysis/model/registry.json": true,
+    "data/context.csv": true,
+    "data/processed/GLD.csv": true,
+    "data/processed/QQQ.csv": true,
+    "data/processed/SPY.csv": true
+  },
+  "prior_attempt_same_rank_and_lock": true,
+  "retained_failed_portfolios": 104,
+  "original_file_count": 1579,
+  "original_hash_failures": []
+}

@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "mode": "replay",
+      "date": "2024-03-06",
+      "equity": 5435.040346804608,
+      "exact_frozen_equity_match": true,
+      "future_outcomes_omitted": true
+    },
+    {
+      "mode": "replay",
+      "date": "2024-03-08",
+      "equity": 5435.040346804608,
+      "exact_frozen_equity_match": true,
+      "future_outcomes_omitted": true
+    },
+    {
+      "mode": "replay",
+      "date": "2026-09-21",
+      "equity": 6605.313772025217,
+      "exact_frozen_equity_match": true,
+      "future_outcomes_omitted": true
+    },
+    {
+      "command": [
+        "paper.py",
+        "live"
+      ],
+      "exit_code": 2,
+      "reason": "live_and_order_actions_unsupported"
+    },
+    {
+      "command": [
+        "paper.py",
+        "order"
+      ],
+      "exit_code": 2,
+      "reason": "live_and_order_actions_unsupported"
+    },
+    {
+      "command": [
+        "paper.py",
+        "paper",
+        "--as-of",
+        "2026-10-24T05:00:00Z"
+      ],
+      "exit_code": 2,
+      "reason": "missing_or_stale_completed_bar: SPY"
+    },
+    {
+      "command": [
+        "paper.py",
+        "paper",
+        "--as-of",
+        "2026-10-19T22:00:00Z"
+      ],
+      "exit_code": 2,
+      "reason": "stale_paper_as_of_use_historical_replay"
+    }
+  ],
+  "reviewed_sha256": {
+    "paper.py": "c741281c31b0cffc07dc0fa48043fe49cd46307ef34353a33fece7494982ed1d",
+    "execution_adapter.py": "eec99994da45dfc10e577c7cda9de54fef0c6de5f226c17fd3653492f61694bf",
+    "tests/test_v4_paper.py": "48072cc9027ec5169ad111ce3a7cf505e0ca99db0827092fe3f91f52090e5b45",
+    "artifacts/paper_bundle.json": "f9ea45280708959df6b2164b3f94dcda56e9bf89064856cafede92dd4f47db3e"
+  }
+}

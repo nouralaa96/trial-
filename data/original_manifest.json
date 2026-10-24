@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-20T18:01:20.087621+00:00",
+  "start": "2009-01-01",
+  "cutoff": "2026-10-19",
+  "symbols": [
+    "SPY",
+    "QQQ",
+    "GLD"
+  ],
+  "status": "complete",
+  "source": "Yahoo Finance public chart endpoint",
+  "calendar": {
+    "name": "XNYS",
+    "source_url": "https://github.com/gerrymanoim/exchange_calendars",
+    "package_version": "4.11.2",
+    "path": "data/raw/20261020T180119866454Z/XNYS_sessions.csv",
+    "sha256": "4e7e1c863911ffea1e1dd975501fa5f2274a24fa93956b905b69f27a6ce4b697"
+  },
+  "methodology": "No dividend adjustment. Reverse vendor split-adjusted quotes and volume using returned split events; book splits and dividends explicitly. No forward fill. Exclude incomplete and post-cutoff sessions.",
+  "limitations": [
+    "Unofficial public endpoint; data and actions can be revised.",
+    "No exchange-certified point-in-time action history or dividend payment dates.",
+    "Yahoo redistribution/license rights not established; retain for local research and review vendor terms before sharing snapshots.",
+    "Dividend cash settlement must remain conservative without verified payment dates."
+  ],
+  "license_reference": "https://legal.yahoo.com/us/en/yahoo/terms/otos/index.html",
+  "retrievals": {
+    "SPY": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=1230768000&period2=1792540800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "retrieved_at_utc": "2026-10-20T18:01:20.088337+00:00",
+      "tls_verification": true,
+      "http_status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "final_url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=1230768000&period2=1792540800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "status": "retrieved",
+      "path": "data/raw/20261020T180119866454Z/SPY.json",
+      "sha256": "9ddaef526e3a1aad7be28c198fe54ede97a37611f44f503d2f2a56327d32714f",
+      "bytes": 496135
+    },
+    "QQQ": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?period1=1230768000&period2=1792540800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "retrieved_at_utc": "2026-10-20T18:01:20.941491+00:00",
+      "tls_verification": true,
+      "http_status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "final_url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?period1=1230768000&period2=1792540800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "status": "retrieved",
+      "path": "data/raw/20261020T180119866454Z/QQQ.json",
+      "sha256": "2862a623b4150bec2c16aec694b623415843af8dacd1cd23a545e8cf443fa3df",
+      "bytes": 493662
+    },
+    "GLD": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?period1=1230768000&period2=1792540800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "retrieved_at_utc": "2026-10-20T18:01:21.912003+00:00",
+      "tls_verification": true,
+      "http_status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "final_url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?period1=1230768000&period2=1792540800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "status": "retrieved",
+      "path": "data/raw/20261020T180119866454Z/GLD.json",
+      "sha256": "0dec7790119ac81966cb127c64afd77daf89e2a851487016dff10bdeecb731ed",
+      "bytes": 493019
+    }
+  },
+  "validation": {
+    "SPY": {
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "rows": 4476,
+      "expected_rows": 4476,
+      "first_session": "2009-01-02",
+      "last_session": "2026-10-19",
+      "missing_sessions": [],
+      "unexpected_sessions": [],
+      "warmup_sessions": 252,
+      "dividend_events": 71,
+      "split_events": 0,
+      "discontinuities": []
+    },
+    "QQQ": {
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "rows": 4476,
+      "expected_rows": 4476,
+      "first_session": "2009-01-02",
+      "last_session": "2026-10-19",
+      "missing_sessions": [],
+      "unexpected_sessions": [],
+      "warmup_sessions": 252,
+      "dividend_events": 74,
+      "split_events": 0,
+      "discontinuities": []
+    },
+    "GLD": {
+      "valid": true,
+      "errors": [],
+      "warnings": [],
+      "rows": 4476,
+      "expected_rows": 4476,
+      "first_session": "2009-01-02",
+      "last_session": "2026-10-19",
+      "missing_sessions": [],
+      "unexpected_sessions": [],
+      "warmup_sessions": 252,
+      "dividend_events": 0,
+      "split_events": 0,
+      "discontinuities": []
+    }
+  },
+  "processed": {
+    "SPY": {
+      "path": "data/processed/SPY.csv",
+      "sha256": "594c61b4627ae2c8a7a1f0647a9671837a9ac9e82e74155461c20cdc51a03614"
+    },
+    "QQQ": {
+      "path": "data/processed/QQQ.csv",
+      "sha256": "930aabd81660250381787b1dc8fe5b66454e48b155e1ab57318c9d26835d0ad0"
+    },
+    "GLD": {
+      "path": "data/processed/GLD.csv",
+      "sha256": "b03b6f0dda5fcbc3cd7ea6dcd24d5224b0982d81249eb203e07a6420731d54f4"
+    }
+  },
+  "retrieval_evidence": {
+    "path": "data/raw/20261020T180119866454Z/retrieval_evidence.json",
+    "sha256": "8e7732e135d77f6154ee69259a7c24f0181a0362f2a04749ad51102a835b5b6b"
+  }
+}

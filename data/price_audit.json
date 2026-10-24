@@ -1,0 +1,67 @@
+{
+  "valid": true,
+  "errors": [],
+  "symbols": {
+    "SPY": {
+      "rows": 4476,
+      "first_session": "2009-01-02",
+      "last_session": "2026-10-19",
+      "duplicate_dates": 0,
+      "missing_sessions": [],
+      "unexpected_sessions": [],
+      "nonfinite_values": 0,
+      "invalid_ohlc_rows": 0,
+      "raw_processed_match_atol": 1e-07,
+      "raw_processed_match": true,
+      "dividend_events": 71,
+      "split_events": 0,
+      "max_split_aware_abs_daily_return": 0.10942373540242312,
+      "units": {
+        "prices_and_dividends": "USD per share",
+        "volume": "shares",
+        "splits": "new/old shares;1=no event"
+      }
+    },
+    "QQQ": {
+      "rows": 4476,
+      "first_session": "2009-01-02",
+      "last_session": "2026-10-19",
+      "duplicate_dates": 0,
+      "missing_sessions": [],
+      "unexpected_sessions": [],
+      "nonfinite_values": 0,
+      "invalid_ohlc_rows": 0,
+      "raw_processed_match_atol": 1e-07,
+      "raw_processed_match": true,
+      "dividend_events": 74,
+      "split_events": 0,
+      "max_split_aware_abs_daily_return": 0.12003077136469531,
+      "units": {
+        "prices_and_dividends": "USD per share",
+        "volume": "shares",
+        "splits": "new/old shares;1=no event"
+      }
+    },
+    "GLD": {
+      "rows": 4476,
+      "first_session": "2009-01-02",
+      "last_session": "2026-10-19",
+      "duplicate_dates": 0,
+      "missing_sessions": [],
+      "unexpected_sessions": [],
+      "nonfinite_values": 0,
+      "invalid_ohlc_rows": 0,
+      "raw_processed_match_atol": 1e-07,
+      "raw_processed_match": true,
+      "dividend_events": 0,
+      "split_events": 0,
+      "max_split_aware_abs_daily_return": 0.10274245274478722,
+      "units": {
+        "prices_and_dividends": "USD per share",
+        "volume": "shares",
+        "splits": "new/old shares;1=no event"
+      }
+    }
+  },
+  "limitation": "Recomputing the vendor snapshot establishes internal consistency, not independent truth or a vintage-safe corporate action feed."
+}

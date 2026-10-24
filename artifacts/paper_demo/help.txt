@@ -1,0 +1,23 @@
+usage: paper.py [-h] [--bundle BUNDLE] [--date DATE] [--as-of AS_OF]
+                [--scenario SCENARIO] [--snapshot SNAPSHOT]
+                [--snapshot-out SNAPSHOT_OUT] [--output OUTPUT]
+                {replay,paper,live,order,status}
+
+Local research replay and guarded paper inspection. No order or broker API. A
+bundle binds forecasts, model, gates, config and input files by SHA256.
+Historical replay reconstructs the selected portfolio from its frozen period
+start; it does not fabricate an empty account or use a final model to back-
+predict past dates.
+
+positional arguments:
+  {replay,paper,live,order,status}
+
+options:
+  -h, --help            show this help message and exit
+  --bundle BUNDLE
+  --date DATE
+  --as-of AS_OF
+  --scenario SCENARIO
+  --snapshot SNAPSHOT
+  --snapshot-out SNAPSHOT_OUT
+  --output OUTPUT

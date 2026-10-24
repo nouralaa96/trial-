@@ -1,0 +1,10 @@
+{
+  "recorded_utc": "2026-10-24T05:12:48.251953+00:00",
+  "command": ".venv/bin/python -m pytest tests -q",
+  "status": "PASS",
+  "passed": 40,
+  "failed": 0,
+  "duration_seconds": 13.4,
+  "warnings": 444,
+  "warning_description": "Inherited Backtrader datetime.utcnow deprecation warnings in parity test, not failed assertions"
+}

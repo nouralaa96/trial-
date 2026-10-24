@@ -1,0 +1,544 @@
+{
+  "status": "PASS",
+  "gates_independently_match": true,
+  "bootstrap_comparison_count": 28,
+  "estimand": "Annual arithmetic incremental dollars; not CAGR confidence interval or selection-adjusted evidence",
+  "stages": [
+    {
+      "partition": "validation",
+      "all_gates_pass": false,
+      "checks": {
+        "base_profitable": true,
+        "stress_profitable": true,
+        "base_drawdown_at_most_10pct": false,
+        "stress_drawdown_at_most_10pct": false,
+        "minimum_100_completed_trades": false,
+        "positive_increment_over_both_baselines_each_base_scenario": true,
+        "exploratory_paired_CI_lower_positive_all_block_lengths": false,
+        "five_times_positive_SPY_full_calendar_years": false
+      },
+      "comparisons": [
+        {
+          "scenario": "risk05_base_whole",
+          "reference": "SPY_cash_dividend",
+          "ci95_annual_incremental_dollars": {
+            "2": [
+              -410.6308555637996,
+              1994.7043400090838
+            ],
+            "4": [
+              -288.3304127536297,
+              1856.8183965558937
+            ],
+            "8": [
+              -98.02496289983053,
+              1792.5227735512096
+            ]
+          }
+        },
+        {
+          "scenario": "risk05_base_whole",
+          "reference": "SPY_reinvested_total_return",
+          "ci95_annual_incremental_dollars": {
+            "2": [
+              -410.6308555637996,
+              1994.7043400090838
+            ],
+            "4": [
+              -288.3304127536297,
+              1856.8183965558937
+            ],
+            "8": [
+              -98.02496289983053,
+              1792.5227735512096
+            ]
+          }
+        },
+        {
+          "scenario": "risk05_base_whole",
+          "reference": "T05",
+          "ci95_annual_incremental_dollars": {
+            "2": [
+              -275.7790879100586,
+              1038.1389409556093
+            ],
+            "4": [
+              -383.62547109410656,
+              1147.4346561087636
+            ],
+            "8": [
+              -336.00580147233967,
+              1142.1200509249054
+            ]
+          }
+        },
+        {
+          "scenario": "risk05_base_fractional",
+          "reference": "SPY_cash_dividend",
+          "ci95_annual_incremental_dollars": {
+            "2": [
+              -405.3306637444182,
+              2095.805370177188
+            ],
+            "4": [
+              -260.09924031111325,
+              1952.1108829370417
+            ],
+            "8": [
+              -71.63407901117746,
+              1876.758467223941
+            ]
+          }
+        },
+        {
+          "scenario": "risk05_base_fractional",
+          "reference": "SPY_reinvested_total_return",
+          "ci95_annual_incremental_dollars": {
+            "2": [
+              -411.13677199628665,
+              2100.161505195541
+            ],
+            "4": [
+              -270.2558171261984,
+              1957.454084768243
+            ],
+            "8": [
+              -82.79930675508973,
+              1881.8178707912916
+            ]
+          }
+        },
+        {
+          "scenario": "risk05_base_fractional",
+          "reference": "T05",
+          "ci95_annual_incremental_dollars": {
+            "2": [
+              -396.06774964122485,
+              837.1400210826926
+            ],
+            "4": [
+              -463.91355261665046,
+              903.6924495517603
+            ],
+            "8": [
+              -405.01686794822336,
+              961.5837094896267
+            ]
+          }
+        },
+        {
+          "scenario": "risk10_base_whole",
+          "reference": "SPY_cash_dividend",
+          "ci95_annual_incremental_dollars": {
+            "2": [
+              -410.6308555637996,
+              1994.7043400090838
+            ],
+            "4": [
+              -288.3304127536297,
+              1856.8183965558937
+            ],
+            "8": [
+              -98.02496289983053,
+              1792.5227735512096
+            ]
+          }
+        },
+        {
+          "scenario": "risk10_base_whole",
+          "reference": "SPY_reinvested_total_return",
+          "ci95_annual_incremental_dollars": {
+            "2": [
+              -410.6308555637996,
+              1994.7043400090838
+            ],
+            "4": [
+              -288.3304127536297,
+              1856.8183965558937
+            ],
+            "8": [
+              -98.02496289983053,
+              1792.5227735512096
+            ]
+          }
+        },
+        {
+          "scenario": "risk10_base_whole",
+          "reference": "T05",
+          "ci95_annual_incremental_dollars": {
+            "2": [
+              -275.7790879100586,
+              1038.1389409556093
+            ],
+            "4": [
+              -383.62547109410656,
+              1147.4346561087636
+            ],
+            "8": [
+              -336.00580147233967,
+              1142.1200509249054
+            ]
+          }
+        },
+        {
+          "scenario": "risk10_base_fractional",
+          "reference": "SPY_cash_dividend",
+          "ci95_annual_incremental_dollars": {
+            "2": [
+              -405.3306637444182,
+              2095.805370177188
+            ],
+            "4": [
+              -260.09924031111325,
+              1952.1108829370417
+            ],
+            "8": [
+              -71.63407901117746,
+              1876.758467223941
+            ]
+          }
+        },
+        {
+          "scenario": "risk10_base_fractional",
+          "reference": "SPY_reinvested_total_return",
+          "ci95_annual_incremental_dollars": {
+            "2": [
+              -411.13677199628665,
+              2100.161505195541
+            ],
+            "4": [
+              -270.2558171261984,
+              1957.454084768243
+            ],
+            "8": [
+              -82.79930675508973,
+              1881.8178707912916
+            ]
+          }
+        },
+        {
+          "scenario": "risk10_base_fractional",
+          "reference": "T05",
+          "ci95_annual_incremental_dollars": {
+            "2": [
+              -396.06774964122485,
+              837.1400210826926
+            ],
+            "4": [
+              -463.91355261665046,
+              903.6924495517603
+            ],
+            "8": [
+              -405.01686794822336,
+              961.5837094896267
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "partition": "final",
+      "all_gates_pass": false,
+      "checks": {
+        "base_profitable": true,
+        "stress_profitable": true,
+        "base_drawdown_at_most_10pct": false,
+        "stress_drawdown_at_most_10pct": false,
+        "minimum_100_completed_trades": false,
+        "positive_increment_over_both_baselines_each_base_scenario": false,
+        "exploratory_paired_CI_lower_positive_all_block_lengths": false,
+        "five_times_positive_SPY_full_calendar_years": false
+      },
+      "comparisons": [
+        {
+          "scenario": "risk05_base_whole",
+          "reference": "SPY_cash_dividend",
+          "ci95_annual_incremental_dollars": {
+            "2": [
+              -1396.036659137805,
+              285.8877968363867
+            ],
+            "4": [
+              -1467.8821492857699,
+              303.32080145978637
+            ],
+            "8": [
+              -1358.8256825314922,
+              325.6180683045446
+            ]
+          }
+        },
+        {
+          "scenario": "risk05_base_whole",
+          "reference": "SPY_reinvested_total_return",
+          "ci95_annual_incremental_dollars": {
+            "2": [
+              -1396.036659137805,
+              285.8877968363867
+            ],
+            "4": [
+              -1467.8821492857699,
+              303.32080145978637
+            ],
+            "8": [
+              -1358.8256825314922,
+              325.6180683045446
+            ]
+          }
+        },
+        {
+          "scenario": "risk05_base_whole",
+          "reference": "T05",
+          "ci95_annual_incremental_dollars": {
+            "2": [
+              -1947.3141433332312,
+              350.4029643737784
+            ],
+            "4": [
+              -2033.3392621526368,
+              291.86711082419555
+            ],
+            "8": [
+              -2160.156507792009,
+              421.33766828460443
+            ]
+          }
+        },
+        {
+          "scenario": "risk05_base_whole",
+          "reference": "T05_fullhistory",
+          "ci95_annual_incremental_dollars": {
+            "2": [
+              -1947.3141433332312,
+              350.4029643737784
+            ],
+            "4": [
+              -2033.3392621526368,
+              291.86711082419555
+            ],
+            "8": [
+              -2160.156507792009,
+              421.33766828460443
+            ]
+          }
+        },
+        {
+          "scenario": "risk05_base_fractional",
+          "reference": "SPY_cash_dividend",
+          "ci95_annual_incremental_dollars": {
+            "2": [
+              -1493.5338295273202,
+              290.5636762063049
+            ],
+            "4": [
+              -1561.2475302590083,
+              309.90447931598834
+            ],
+            "8": [
+              -1451.7702367804575,
+              328.84463973428734
+            ]
+          }
+        },
+        {
+          "scenario": "risk05_base_fractional",
+          "reference": "SPY_reinvested_total_return",
+          "ci95_annual_incremental_dollars": {
+            "2": [
+              -1512.7648803682835,
+              276.99089651392046
+            ],
+            "4": [
+              -1590.1110757137933,
+              312.22789238842716
+            ],
+            "8": [
+              -1474.8368823513056,
+              330.90648116799036
+            ]
+          }
+        },
+        {
+          "scenario": "risk05_base_fractional",
+          "reference": "T05",
+          "ci95_annual_incremental_dollars": {
+            "2": [
+              -2182.087505732843,
+              126.20772998827535
+            ],
+            "4": [
+              -2323.417061334679,
+              185.6272587173575
+            ],
+            "8": [
+              -2405.528682173501,
+              289.2851225666678
+            ]
+          }
+        },
+        {
+          "scenario": "risk05_base_fractional",
+          "reference": "T05_fullhistory",
+          "ci95_annual_incremental_dollars": {
+            "2": [
+              -2182.087505732843,
+              126.20772998827535
+            ],
+            "4": [
+              -2323.417061334679,
+              185.6272587173575
+            ],
+            "8": [
+              -2405.528682173501,
+              289.2851225666678
+            ]
+          }
+        },
+        {
+          "scenario": "risk10_base_whole",
+          "reference": "SPY_cash_dividend",
+          "ci95_annual_incremental_dollars": {
+            "2": [
+              -1406.7166599079828,
+              285.8877968363867
+            ],
+            "4": [
+              -1486.1935581275898,
+              303.3110539554535
+            ],
+            "8": [
+              -1383.4199444659098,
+              316.81519670986825
+            ]
+          }
+        },
+        {
+          "scenario": "risk10_base_whole",
+          "reference": "SPY_reinvested_total_return",
+          "ci95_annual_incremental_dollars": {
+            "2": [
+              -1406.7166599079828,
+              285.8877968363867
+            ],
+            "4": [
+              -1486.1935581275898,
+              303.3110539554535
+            ],
+            "8": [
+              -1383.4199444659098,
+              316.81519670986825
+            ]
+          }
+        },
+        {
+          "scenario": "risk10_base_whole",
+          "reference": "T05",
+          "ci95_annual_incremental_dollars": {
+            "2": [
+              -1984.0643418855834,
+              328.7993590476413
+            ],
+            "4": [
+              -2075.056370150492,
+              278.53747844713604
+            ],
+            "8": [
+              -2209.069531186557,
+              401.2123770273719
+            ]
+          }
+        },
+        {
+          "scenario": "risk10_base_whole",
+          "reference": "T05_fullhistory",
+          "ci95_annual_incremental_dollars": {
+            "2": [
+              -1984.0643418855834,
+              328.7993590476413
+            ],
+            "4": [
+              -2075.056370150492,
+              278.53747844713604
+            ],
+            "8": [
+              -2209.069531186557,
+              401.2123770273719
+            ]
+          }
+        },
+        {
+          "scenario": "risk10_base_fractional",
+          "reference": "SPY_cash_dividend",
+          "ci95_annual_incremental_dollars": {
+            "2": [
+              -1513.5257762097747,
+              280.06994044406844
+            ],
+            "4": [
+              -1578.9062800455088,
+              297.1845783584418
+            ],
+            "8": [
+              -1470.7726405128424,
+              328.8999431141009
+            ]
+          }
+        },
+        {
+          "scenario": "risk10_base_fractional",
+          "reference": "SPY_reinvested_total_return",
+          "ci95_annual_incremental_dollars": {
+            "2": [
+              -1531.9921442711484,
+              267.41341220354957
+            ],
+            "4": [
+              -1604.591001504781,
+              297.38703942303374
+            ],
+            "8": [
+              -1491.136203980037,
+              327.23664918468825
+            ]
+          }
+        },
+        {
+          "scenario": "risk10_base_fractional",
+          "reference": "T05",
+          "ci95_annual_incremental_dollars": {
+            "2": [
+              -2214.0779472170325,
+              111.56038900531848
+            ],
+            "4": [
+              -2360.404563005191,
+              180.8218915684007
+            ],
+            "8": [
+              -2451.349927809843,
+              285.494110556136
+            ]
+          }
+        },
+        {
+          "scenario": "risk10_base_fractional",
+          "reference": "T05_fullhistory",
+          "ci95_annual_incremental_dollars": {
+            "2": [
+              -2214.0779472170325,
+              111.56038900531848
+            ],
+            "4": [
+              -2360.404563005191,
+              180.8218915684007
+            ],
+            "8": [
+              -2451.349927809843,
+              285.494110556136
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

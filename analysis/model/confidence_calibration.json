@@ -1,0 +1,56 @@
+[
+  {
+    "partition": "development",
+    "group": "equity",
+    "n": 1341,
+    "median_absolute_error": 0.028083965654270602,
+    "lower_bound_coverage": 0.8568232662192393,
+    "positive_lower_count": 2,
+    "mse": 0.002094949751386215
+  },
+  {
+    "partition": "development",
+    "group": "gold",
+    "n": 656,
+    "median_absolute_error": 0.022510548603356703,
+    "lower_bound_coverage": 0.7484756097560976,
+    "positive_lower_count": 1,
+    "mse": 0.0010960418273108568
+  },
+  {
+    "partition": "validation",
+    "group": "equity",
+    "n": 887,
+    "median_absolute_error": 0.0408198460347362,
+    "lower_bound_coverage": 0.6764374295377678,
+    "positive_lower_count": 41,
+    "mse": 0.0025940164050760684
+  },
+  {
+    "partition": "validation",
+    "group": "gold",
+    "n": 439,
+    "median_absolute_error": 0.0222787893102247,
+    "lower_bound_coverage": 0.7767653758542141,
+    "positive_lower_count": 0,
+    "mse": 0.00101855807029014
+  },
+  {
+    "partition": "final",
+    "group": "equity",
+    "n": 1239,
+    "median_absolute_error": 0.0246765456089159,
+    "lower_bound_coverage": 0.7635189669087974,
+    "positive_lower_count": 3,
+    "mse": 0.0012692947258140538
+  },
+  {
+    "partition": "final",
+    "group": "gold",
+    "n": 554,
+    "median_absolute_error": 0.030544900585696803,
+    "lower_bound_coverage": 0.7653429602888087,
+    "positive_lower_count": 0,
+    "mse": 0.002241112790994494
+  }
+]

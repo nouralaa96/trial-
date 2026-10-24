@@ -1,0 +1,101 @@
+{
+  "frozen_utc": "2026-10-21T04:18:42.394375+00:00",
+  "status": "FROZEN_BEFORE_PERFORMANCE",
+  "alpha": 100,
+  "horizon": 20,
+  "training_start": "2010-01-01",
+  "refit": "quarterly expanding, separate equity and gold groups",
+  "embargo": "10 full sessions after maximum eligible label maturity before first decision",
+  "periods": {
+    "development": [
+      "2019-01-01",
+      "2021-12-31"
+    ],
+    "validation": [
+      "2022-01-01",
+      "2023-12-31"
+    ],
+    "final": [
+      "2024-01-01",
+      "2026-10-19"
+    ]
+  },
+  "context": {
+    "admitted": [
+      "vix_close_pct",
+      "vix_change20"
+    ],
+    "availability": "observation close available next XNYS session, exact available_date join; no future fill",
+    "unavailable": [
+      "credit: no established source within bounded acquisition",
+      "rate: candidate established source monthly, rejected for daily context"
+    ],
+    "common_overlap_rule": "All six candidates use only sessions with both context features observed for entry; all phase valuation clocks remain complete through phase end. Missing context means no new entry in any candidate. Price control also final full-history sensitivity. Exact coverage written before performance."
+  },
+  "candidates": [
+    {
+      "id": "P01",
+      "strategy": "ridge",
+      "label": "fixed",
+      "context": false,
+      "confidence_filter": false
+    },
+    {
+      "id": "P02",
+      "strategy": "ridge",
+      "label": "bracket",
+      "context": false,
+      "confidence_filter": false
+    },
+    {
+      "id": "C03",
+      "strategy": "ridge",
+      "label": "bracket",
+      "context": true,
+      "confidence_filter": false
+    },
+    {
+      "id": "C04",
+      "strategy": "ridge",
+      "label": "bracket",
+      "context": true,
+      "confidence_filter": true
+    },
+    {
+      "id": "T05",
+      "strategy": "trend",
+      "label": "none",
+      "context": false,
+      "confidence_filter": false
+    },
+    {
+      "id": "T06",
+      "strategy": "trend",
+      "label": "none",
+      "context": true,
+      "confidence_filter": false,
+      "context_filter": "vix_close_pct <= 30"
+    }
+  ],
+  "confidence": "C04 reuses C03 production forecasts. Each quarterly group model has an independent trailing 252-session chronological calibration tail, with fit labels matured 10 full sessions before calibration first decision. Median absolute out-of-sample calibration residual (q=.50), no tuning. C04 enters only prediction minus q > 0. Confidence is fraction of calibration residual magnitudes below predicted return, a diagnostic not a probability guarantee.",
+  "selection": "development only across all eight risk/cost/share scenarios: count CAGR above both maximum of matching SPY cash-dividend investable and reinvested after-cost total-return and T05 CAGR and DD<=.10; worst CAGR minus max(both baseline CAGR) minus twice excess DD over.10; lower turnover; lexical ID. Lock one of P01,P02,C03,C04; trends are baseline/ablation only. Validation may reject, never replace.",
+  "sensitivity": "Final P01 without common-context entry mask (all eight scenarios); finalist no trend-filter in four whole-share scenarios; one finalist half-risk-ceilings (not guaranteed half shares) four whole-share scenarios. Never select sensitivities. Final T05 all eight scenarios full entry-history; full-history T05 must also be beaten as separate final gate.",
+  "budgets": {
+    "candidate_definitions": 6,
+    "portfolios": 200,
+    "fits": 1000
+  },
+  "uncertainty": "paired weekly moving-block bootstrap, 2/4/8 week blocks, 2000 resamples each, seed20261021; exploratory reused-history evidence",
+  "history_status": "all 2019 onward history previously inspected; final descriptive only; no prospective evidence",
+  "expected_budget": {
+    "development_candidates": 48,
+    "validation_finalist_and_two_trends": 24,
+    "final_finalist_and_two_trends": 24,
+    "three_stage_two_SPY_benchmarks": 48,
+    "final_fullhistory_P01_T05": 16,
+    "final_no_trend_whole": 4,
+    "total_portfolios": 168,
+    "fits_upper_bound": 400,
+    "final_half_risk_ceilings_whole": 4
+  }
+}

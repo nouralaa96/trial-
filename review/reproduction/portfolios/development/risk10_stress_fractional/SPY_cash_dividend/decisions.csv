@@ -1,0 +1,3 @@
+date,symbol,status,reason,qty,fill
+2019-01-02,SPY,filled,passive_entry,20.297695,246.22597572372797
+2021-12-31,SPY,exited,passive_terminal_liquidation,20.297695,474.485031463545

@@ -1,0 +1,26 @@
+{"utc": "2026-10-24T05:03:49.105211+00:00", "event": "run_started", "registry_sha256": "b8320d3ec42512d2cfeded25159ec140fb97d7df5d41caedd1a8a1c87d2daebd"}
+{"utc": "2026-10-24T05:03:52.136730+00:00", "event": "predictions_complete", "partition": "development", "candidate": "P01", "fits": 24}
+{"utc": "2026-10-24T05:03:53.448763+00:00", "event": "predictions_complete", "partition": "development", "candidate": "P02", "fits": 24}
+{"utc": "2026-10-24T05:03:54.882555+00:00", "event": "predictions_complete", "partition": "development", "candidate": "C03", "fits": 48}
+{"utc": "2026-10-24T05:03:54.886032+00:00", "event": "predictions_complete", "partition": "development", "candidate": "T05", "fits": 0}
+{"utc": "2026-10-24T05:03:54.889258+00:00", "event": "predictions_complete", "partition": "development", "candidate": "T06", "fits": 0}
+{"utc": "2026-10-24T05:03:57.361820+00:00", "event": "scenario_complete", "partition": "development", "scenario": "risk05_base_whole", "portfolios": 8}
+{"utc": "2026-10-24T05:03:59.494942+00:00", "event": "scenario_complete", "partition": "development", "scenario": "risk05_base_fractional", "portfolios": 16}
+{"utc": "2026-10-24T05:04:01.637940+00:00", "event": "scenario_complete", "partition": "development", "scenario": "risk05_stress_whole", "portfolios": 24}
+{"utc": "2026-10-24T05:04:03.777735+00:00", "event": "scenario_complete", "partition": "development", "scenario": "risk05_stress_fractional", "portfolios": 32}
+{"utc": "2026-10-24T05:04:05.937757+00:00", "event": "scenario_complete", "partition": "development", "scenario": "risk10_base_whole", "portfolios": 40}
+{"utc": "2026-10-24T05:04:08.130725+00:00", "event": "scenario_complete", "partition": "development", "scenario": "risk10_base_fractional", "portfolios": 48}
+{"utc": "2026-10-24T05:04:10.238264+00:00", "event": "scenario_complete", "partition": "development", "scenario": "risk10_stress_whole", "portfolios": 56}
+{"utc": "2026-10-24T05:04:12.357414+00:00", "event": "scenario_complete", "partition": "development", "scenario": "risk10_stress_fractional", "portfolios": 64}
+{"utc": "2026-10-24T05:04:12.706517+00:00", "event": "finalist_locked", "candidate": "C03", "locked_utc": "2026-10-24T05:04:12.705812+00:00", "basis": "development_only", "registry_sha256": "b8320d3ec42512d2cfeded25159ec140fb97d7df5d41caedd1a8a1c87d2daebd", "ranking": [{"candidate": "C03", "passing_scenarios": 0, "worst_penalized_increment": -0.26449736945886854, "mean_turnover": 95.42529232402325}, {"candidate": "C04", "passing_scenarios": 0, "worst_penalized_increment": -0.2647343122742034, "mean_turnover": 0.0}, {"candidate": "P01", "passing_scenarios": 0, "worst_penalized_increment": -0.267094052168991, "mean_turnover": 86.86949702310295}, {"candidate": "P02", "passing_scenarios": 0, "worst_penalized_increment": -0.44151526998464025, "mean_turnover": 88.05240883090065}], "replacement_after_validation": false}
+{"utc": "2026-10-24T05:04:15.826490+00:00", "event": "predictions_complete", "partition": "validation", "candidate": "C03", "fits": 32}
+{"utc": "2026-10-24T05:04:15.830028+00:00", "event": "predictions_complete", "partition": "validation", "candidate": "T05", "fits": 0}
+{"utc": "2026-10-24T05:04:15.833669+00:00", "event": "predictions_complete", "partition": "validation", "candidate": "T06", "fits": 0}
+{"utc": "2026-10-24T05:04:16.540893+00:00", "event": "scenario_complete", "partition": "validation", "scenario": "risk05_base_whole", "portfolios": 69}
+{"utc": "2026-10-24T05:04:17.254722+00:00", "event": "scenario_complete", "partition": "validation", "scenario": "risk05_base_fractional", "portfolios": 74}
+{"utc": "2026-10-24T05:04:17.956127+00:00", "event": "scenario_complete", "partition": "validation", "scenario": "risk05_stress_whole", "portfolios": 79}
+{"utc": "2026-10-24T05:04:18.708505+00:00", "event": "scenario_complete", "partition": "validation", "scenario": "risk05_stress_fractional", "portfolios": 84}
+{"utc": "2026-10-24T05:04:19.406840+00:00", "event": "scenario_complete", "partition": "validation", "scenario": "risk10_base_whole", "portfolios": 89}
+{"utc": "2026-10-24T05:04:20.100500+00:00", "event": "scenario_complete", "partition": "validation", "scenario": "risk10_base_fractional", "portfolios": 94}
+{"utc": "2026-10-24T05:04:20.808534+00:00", "event": "scenario_complete", "partition": "validation", "scenario": "risk10_stress_whole", "portfolios": 99}
+{"utc": "2026-10-24T05:04:21.487192+00:00", "event": "scenario_complete", "partition": "validation", "scenario": "risk10_stress_fractional", "portfolios": 104}

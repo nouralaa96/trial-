@@ -1,0 +1,10 @@
+date,symbol,status,reason,qty,fill
+2022-01-03,SPY,filled,passive_entry,10.482526,476.776287780793
+2022-04-18,SPY,filled,passive_reinvestment,0.027763,437.24680755655896
+2022-07-18,SPY,filled,passive_reinvestment,0.037026,388.768384887883
+2022-10-17,SPY,filled,passive_reinvestment,0.040216,364.37401977576593
+2023-01-17,SPY,filled,passive_reinvestment,0.041808,398.878490996986
+2023-04-17,SPY,filled,passive_reinvestment,0.033499,412.7823651121169
+2023-07-17,SPY,filled,passive_reinvestment,0.034,449.57913488788296
+2023-10-16,SPY,filled,passive_reinvestment,0.033973,434.253827331324
+2023-12-29,SPY,exited,passive_terminal_liquidation,10.730811000000001,474.834687561441

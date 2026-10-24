@@ -1,0 +1,97 @@
+[
+  {
+    "id": "R01",
+    "severity": "HIGH",
+    "status": "RESOLVED_VERIFIED",
+    "title": "Trend execution bypasses forecast masks",
+    "evidence": "Initial execution_adapter.submit_candidates strategy='trend' reads bar.return_20 and ignores supplied predictions; model_pipeline encodes T06 VIX<=30 and common-overlap restrictions as NaN forecasts.",
+    "required": "Honor supplied forecast/mask for trend candidates and test positive trend with NaN prediction admits no entry. Rerun any affected artifacts without reselection from final outcomes.",
+    "resolution": "Corrected adapter honors supplied trend forecast/mask; runner routes frozen predictions explicitly. Regression passes and all168 ledgers reproduce."
+  },
+  {
+    "id": "R02",
+    "severity": "MEDIUM",
+    "status": "RESOLVED_VERIFIED",
+    "title": "Hardcoded future registry timestamp",
+    "evidence": "Registry initially frozen_utc 2026-10-21T04:20:00Z, observed actual UTC04:17:12.",
+    "required": "Use actual runtime timestamp and hash registry before results in event log; retain corrected provenance.",
+    "resolution": "Corrected runtime registry timestamp precedes performance; registry hash b8320d3ec42512d2cfeded25159ec140fb97d7df5d41caedd1a8a1c87d2daebd matches all clean-run source/event/lock artifacts."
+  },
+  {
+    "id": "R03",
+    "severity": "MEDIUM",
+    "status": "RESOLVED_VERIFIED",
+    "title": "Cash-dividend benchmark and reinvested total-return distinction",
+    "evidence": "Inherited SPY reference does not reinvest dividends.",
+    "required": "Precise benchmark naming; disclose reinvested reference mechanics and avoid confusing either with frictionless official total-return index.",
+    "resolution": "Both costed cash-dividend and payout-lag reinvestment references are precisely described; independently rebuilt48 curves. Neither claimed official index."
+  },
+  {
+    "id": "R04",
+    "severity": "HIGH_IF_UNDISCLOSED",
+    "status": "RESOLVED_VERIFIED",
+    "title": "VIX source staleness and restricted entry horizon",
+    "evidence": "Retrieved VIX snapshot ends2026-09-22; next-session availability ends2026-09-23, whereas price histories end2026-10-19.",
+    "required": "Report missing context coverage, common-entry restriction, predeclared full-history controls and fail-closed paper staleness handling.",
+    "resolution": "Stale VIX disclosed; all672 eligible final decision dates have context because end-of-period holding restriction stops entriesSep21. Current paper refuses stale inputs."
+  },
+  {
+    "id": "R05",
+    "severity": "HIGH",
+    "status": "RESOLVED_VERIFIED",
+    "title": "Context freshness accepts padded missing observations",
+    "evidence": "paper.decide computes newest context date from all padded grid rows, without finite values or availability filtering.",
+    "required": "Validate finite required context and availability<=decision date before computing freshness; test padded missing tail.",
+    "resolution": "Exact availability date plus finite level/change required; padded missing-tail regression passes after fixture correction."
+  },
+  {
+    "id": "R06",
+    "severity": "MEDIUM",
+    "status": "RESOLVED_VERIFIED",
+    "title": "Uncalibrated finalist cannot replay",
+    "evidence": "P01/P02 forecast confidence=None; paper.decide rejects any nonfinite confidence.",
+    "required": "Allow explicitly unavailable confidence for candidates without calibration, while retaining validation for required calibrated diagnostics.",
+    "resolution": "Absent confidence allowed for uncalibrated P01/P02; explicit optional-confidence replay regression passes."
+  },
+  {
+    "id": "R07",
+    "severity": "HIGH",
+    "status": "RESOLVED_VERIFIED",
+    "title": "Replay exposes future outcome fields",
+    "evidence": "Forecast CSV contains label and label_matured; paper output emits rows.to_dict without filtering.",
+    "required": "Whitelist decision-time forecast fields; do not expose future label outcomes in replay decision snapshot; test output keys.",
+    "resolution": "Forecast output whitelists decision-time fields. Independent replay on three dates excludes label/label_matured; future outcomes remain only in clearly retrospective evaluation gates."
+  },
+  {
+    "id": "R08",
+    "severity": "MEDIUM",
+    "status": "DISCLOSED_PROTOCOL_DEVIATION",
+    "title": "Correction retries exceed literal portfolio execution budget",
+    "evidence": "Clean run196fits/168portfolios; failed week-key run128fits/104portfolios; research/retry total324fits/272portfolios exceeds charter200run ceiling. First date-ambiguity failure has no completed logged fit/portfolio.",
+    "resolution": "Finite candidate/scenario set unchanged, old and corrected C03 ranks/locks identical, failed work retained and explicit report disclosure. This is not strict budget compliance. Additional independent audit rerun196fits/168portfolios is verification workload, not research selection."
+  },
+  {
+    "id": "R09",
+    "severity": "MEDIUM",
+    "status": "DISCLOSED_TRACEABILITY_LIMITATION",
+    "title": "24 full-history price-control fit logs not retained",
+    "evidence": "110production+62calibration fit records retained; P01_fullhistory24fit scaler logs discarded by sensitivity branch.",
+    "resolution": "All172logged fits independently re-solved; complete196fit/168portfolio rerun exactly reproduces526CSV files and exported models. Missing individual sensitivity logs remain a provenance limitation; no finalist fit logs missing."
+  },
+  {
+    "id": "R10",
+    "severity": "MEDIUM",
+    "status": "RESOLVED_VERIFIED",
+    "title": "Stale-context test fixture had invalid same-day availability",
+    "evidence": "First independent suite38passed/1failed after paper strengthened availability validation.",
+    "resolution": "Fixture corrected to next-session availability without weakening stale rejection. Frozen final suite40passed."
+  },
+  {
+    "id": "R11",
+    "severity": "HIGH",
+    "status": "ECONOMIC_ACCEPTANCE_FAIL_NOT_A_SOFTWARE_BLOCKER",
+    "title": "Strategy does not meet user objective, drawdown, sample or incremental-value gates",
+    "evidence": "C03 base5%whole9.8013%CAGR,13.3999%drawdown,47trades; below SPY19.0162% and T0521.7531%. All final configurations miss full acceptance.",
+    "resolution": "Correctly marked REJECTED_RESEARCH. Integrity signoff is not strategy approval or permission to trade."
+  }
+]

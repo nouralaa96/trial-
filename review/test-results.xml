@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="39" time="12.940" timestamp="2026-10-24T05:08:46.629538+00:00" hostname="f612dd8b05a8"><testcase classname="tests.test_v4_data" name="test_next_session_availability_and_percent_units" time="0.004" /><testcase classname="tests.test_v4_data" name="test_absent_interior_and_terminal_observations_remain_missing" time="0.003" /><testcase classname="tests.test_v4_data" name="test_duplicate_observations_rejected" time="0.001" /><testcase classname="tests.test_v4_data" name="test_invalid_context_values_rejected[-1.0]" time="0.001" /><testcase classname="tests.test_v4_data" name="test_invalid_context_values_rejected[0.0]" time="0.001" /><testcase classname="tests.test_v4_data" name="test_invalid_context_values_rejected[inf]" time="0.001" /><testcase classname="tests.test_v4_data" name="test_invalid_context_values_rejected[1500.0]" time="0.001" /><testcase classname="tests.test_v4_data" name="test_same_day_or_stale_availability_rejected" time="0.002" /><testcase classname="tests.test_v4_data" name="test_retained_context_missing_tail_and_exact_source_values" time="0.292" /><testcase classname="tests.test_v4_data" name="test_original_prices_match_raw_manifest_and_calendar" time="0.337" /><testcase classname="tests.test_v4_data" name="test_altered_processed_price_is_detected" time="0.299" /><testcase classname="tests.test_v4_data" name="test_offline_rebuild_is_byte_identical_and_preserves_acquisition_evidence" time="0.298" /><testcase classname="tests.test_v4_model" name="test_bracket_stop_wins_ambiguous_target" time="0.003" /><testcase classname="tests.test_v4_model" name="test_no_cap_fill_has_no_label" time="0.001" /><testcase classname="tests.test_v4_model" name="test_train_scale_cannot_see_future_extreme" time="0.003" /><testcase classname="tests.test_v4_model" name="test_maturity_and_boundary_purge" time="0.003" /><testcase classname="tests.test_v4_model" name="test_calibration_maturity_embargo" time="0.007" /><testcase classname="tests.test_v4_model" name="test_selection_rejects_validation" time="0.000" /><testcase classname="tests.test_v4_model" name="test_confidence_filter_cannot_admit_negative_lower" time="0.000" /><testcase classname="tests.test_v4_model" name="test_context_terminal_missing_not_carried_forward" time="2.087" /><testcase classname="tests.test_v4_model" name="test_features_and_labels_prefix_invariant" time="6.554" /><testcase classname="tests.test_v4_model" name="test_comparison_curve_drops_risk_week_label" time="0.001" /><testcase classname="tests.test_v4_paper" name="test_standalone_driver_matches_original_ledger" time="0.339" /><testcase classname="tests.test_v4_paper" name="test_trend_candidate_masks_honored" time="0.205" /><testcase classname="tests.test_v4_paper" name="test_replay_real_state_and_machine_fields" time="0.113" /><testcase classname="tests.test_v4_paper" name="test_hash_mismatch_and_missing_inputs_refused" time="0.008" /><testcase classname="tests.test_v4_paper" name="test_current_paper_requires_latest_completed_exchange_session" time="0.306" /><testcase classname="tests.test_v4_paper" name="test_bad_bars_incomplete_missing_held_calendar_nan_future" time="0.005" /><testcase classname="tests.test_v4_paper" name="test_future_model_and_stale_model_refused" time="0.050" /><testcase classname="tests.test_v4_paper" name="test_uncalibrated_candidate_may_declare_confidence_unavailable" time="0.109" /><testcase classname="tests.test_v4_paper" name="test_padded_missing_context_tail_does_not_pass_freshness" time="0.021"><failure message="AssertionError: Regex pattern did not match.&#10; Regex: 'missing_or_stale_context'&#10; Input: 'invalid_context_availability'">bundle = PosixPath('/workspace/trading-research-v4/review/pytest_tmp/test_padded_missing_context_ta0/bundle.json')
+tmp_path = PosixPath('/workspace/trading-research-v4/review/pytest_tmp/test_padded_missing_context_ta0')
+panel = {'GLD':               open    high     low   close     volume  dividends  splits
+date                                 ....0        0.0     1.0
+2024-06-07  108.70  109.72  107.72  108.72  1000000.0        0.0     1.0
+
+[110 rows x 7 columns]}
+
+    def test_padded_missing_context_tail_does_not_pass_freshness(bundle,tmp_path,panel):
+        dates=panel['SPY'].index
+        context=pd.DataFrame({'date':dates,'available_date':dates,
+                              'vix_close_pct':[20.]+[np.nan]*(len(dates)-1)})
+        context.to_csv(tmp_path/'context.csv',index=False)
+        b=json.loads(bundle.read_text());from paper import sha
+        b['files']['context']={'path':'context.csv','sha256':sha(tmp_path/'context.csv')}
+        bundle.write_text(json.dumps(b))
+        with pytest.raises(Refusal,match='missing_or_stale_context'):
+&gt;           decide(bundle,date=str(dates[65].date()),root=tmp_path)
+
+tests/test_v4_paper.py:161: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+bundle_path = PosixPath('/workspace/trading-research-v4/review/pytest_tmp/test_padded_missing_context_ta0/bundle.json')
+date = Timestamp('2024-04-05 00:00:00'), as_of = None, mode = 'replay'
+scenario = 'risk05_base_whole'
+root = PosixPath('/workspace/trading-research-v4/review/pytest_tmp/test_padded_missing_context_ta0')
+snapshot = None, now = None
+
+    def decide(bundle_path, date=None, as_of=None, mode='replay', scenario='risk05_base_whole',
+               root=ROOT, snapshot=None, now=None):
+        if mode not in ('replay','paper'):
+            raise Refusal('live_and_order_actions_unsupported')
+        root = Path(root).resolve()
+        b = load_bundle(bundle_path, root)
+        files = {k: local_file(root,v['path']) for k,v in b['files'].items()}
+        cal = ExchangeCalendar()
+        if mode == 'paper':
+            if not as_of:
+                raise Refusal('paper_requires_as_of_timestamp')
+            date = asof_session(as_of, now=now, calendar=cal)
+            wall = pd.Timestamp(now or datetime.now(timezone.utc))
+            if wall-pd.Timestamp(as_of) &gt; pd.Timedelta(days=3):
+                raise Refusal('stale_paper_as_of_use_historical_replay')
+        elif date:
+            date = pd.Timestamp(date)
+            if date.tzinfo is not None or date != date.normalize():
+                raise Refusal('replay_date_must_be_plain_session_date')
+            if date &gt; pd.Timestamp.now(tz='UTC').tz_localize(None).normalize():
+                raise Refusal('future_replay_date')
+        else:
+            raise Refusal('replay_requires_date')
+        if date not in cal.sessions:
+            raise Refusal('not_an_exchange_session')
+        panel = {s: pd.read_csv(files['data_'+s], index_col='date', parse_dates=True) for s in ('SPY','QQQ','GLD')}
+        validate_bars(panel, date, cal)
+        if not pd.Timestamp(b['evaluation_start']) &lt;= date &lt;= pd.Timestamp(b['evaluation_end']):
+            raise Refusal('outside_frozen_forecast_period')
+        forecasts = pd.read_csv(files['predictions'], parse_dates=['date'])
+        required = {'date','symbol','prediction','prediction_low','confidence','training_cutoff','first_decision'}
+        if not required.issubset(forecasts):
+            raise Refusal('missing_forecast_columns')
+        if forecasts.duplicated(['date','symbol']).any():
+            raise Refusal('duplicate_forecasts')
+        rows = forecasts[forecasts.date == date].copy()
+        if set(rows.symbol) != set(panel):
+            raise Refusal('missing_dated_model_forecasts')
+        confidence_required = b['candidate'] in {'C03','C04'}
+        for _, row in rows.iterrows():
+            cutoff, available = pd.Timestamp(row.training_cutoff), pd.Timestamp(row.first_decision)
+            if pd.isna(cutoff) or pd.isna(available) or cutoff &gt;= date or available &gt; date:
+                raise Refusal('future_or_missing_model_timestamp')
+            if (date-available).days &gt; b['max_model_age_days']:
+                raise Refusal('stale_model_refit')
+            # P01/P02 have no calibration layer and therefore declare confidence
+            # unavailable.  C03/C04 do use the frozen residual diagnostic and must
+            # provide a finite value.  A missing prediction remains an explicit
+            # no-entry filter in either case.
+            confidence = pd.to_numeric(pd.Series([row.confidence]),errors='coerce').iloc[0]
+            if confidence_required and (not math.isfinite(confidence) or not 0 &lt;= confidence &lt;= 1):
+                raise Refusal('missing_or_invalid_required_confidence_diagnostic')
+            if not confidence_required and math.isfinite(confidence) and not 0 &lt;= confidence &lt;= 1:
+                raise Refusal('invalid_optional_confidence_diagnostic')
+        context_snapshot = None
+        if 'context' in files:
+            ctx = pd.read_csv(files['context'])
+            if not {'date','available_date','vix_close_pct'}.issubset(ctx):
+                raise Refusal('missing_context_timestamp_or_required_values')
+            ctx['date'] = pd.to_datetime(ctx.date)
+            ctx['available_date'] = pd.to_datetime(ctx.available_date)
+            if ctx.available_date.duplicated().any() or not (ctx.available_date &gt; ctx.date).all():
+&gt;               raise Refusal('invalid_context_availability')
+E               paper.Refusal: invalid_context_availability
+
+paper.py:226: Refusal
+
+During handling of the above exception, another exception occurred:
+
+bundle = PosixPath('/workspace/trading-research-v4/review/pytest_tmp/test_padded_missing_context_ta0/bundle.json')
+tmp_path = PosixPath('/workspace/trading-research-v4/review/pytest_tmp/test_padded_missing_context_ta0')
+panel = {'GLD':               open    high     low   close     volume  dividends  splits
+date                                 ....0        0.0     1.0
+2024-06-07  108.70  109.72  107.72  108.72  1000000.0        0.0     1.0
+
+[110 rows x 7 columns]}
+
+    def test_padded_missing_context_tail_does_not_pass_freshness(bundle,tmp_path,panel):
+        dates=panel['SPY'].index
+        context=pd.DataFrame({'date':dates,'available_date':dates,
+                              'vix_close_pct':[20.]+[np.nan]*(len(dates)-1)})
+        context.to_csv(tmp_path/'context.csv',index=False)
+        b=json.loads(bundle.read_text());from paper import sha
+        b['files']['context']={'path':'context.csv','sha256':sha(tmp_path/'context.csv')}
+        bundle.write_text(json.dumps(b))
+&gt;       with pytest.raises(Refusal,match='missing_or_stale_context'):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AssertionError: Regex pattern did not match.
+E        Regex: 'missing_or_stale_context'
+E        Input: 'invalid_context_availability'
+
+tests/test_v4_paper.py:160: AssertionError</failure></testcase><testcase classname="tests.test_v4_paper" name="test_rejected_strategy_refuses_paper_even_fresh" time="0.172" /><testcase classname="tests.test_v4_paper" name="test_future_bar_mutation_cannot_change_earlier_replay" time="0.193" /><testcase classname="tests.test_v4_paper" name="test_cash_reservation_and_t1_settlement" time="0.001" /><testcase classname="tests.test_v4_paper" name="test_pending_tamper_and_partial_fill_rejected" time="0.001" /><testcase classname="tests.test_v4_paper" name="test_benchmark_dividends_costs_split_and_reinvestment" time="0.009" /><testcase classname="tests.test_v4_paper" name="test_null_optional_confidence_and_future_outcomes_not_disclosed" time="0.109" /><testcase classname="tests.test_v4_paper" name="test_context_checks_availability_finite_values_and_lagged_change" time="0.161" /><testcase classname="tests.test_v4_paper" name="test_each_risk_policy_and_position_cap" time="0.001" /></testsuite></testsuites>

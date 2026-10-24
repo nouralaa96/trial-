@@ -1,0 +1,120 @@
+[
+  {
+    "name": "historical_replay",
+    "command": [
+      "/workspace/trading-research-v4/.venv/bin/python",
+      "/workspace/trading-research-v4/paper.py",
+      "replay",
+      "--date",
+      "2024-03-08",
+      "--snapshot-out",
+      "/workspace/trading-research-v4/artifacts/paper_demo/snapshot.json",
+      "--output",
+      "/workspace/trading-research-v4/artifacts/paper_demo/historical_replay.json"
+    ],
+    "exit_code": 0,
+    "status": "REJECTED_RESEARCH_COUNTERFACTUAL",
+    "reason": null
+  },
+  {
+    "name": "historical_exit",
+    "command": [
+      "/workspace/trading-research-v4/.venv/bin/python",
+      "/workspace/trading-research-v4/paper.py",
+      "replay",
+      "--date",
+      "2024-03-06",
+      "--output",
+      "/workspace/trading-research-v4/artifacts/paper_demo/historical_exit.json"
+    ],
+    "exit_code": 0,
+    "status": "REJECTED_RESEARCH_COUNTERFACTUAL",
+    "reason": null
+  },
+  {
+    "name": "snapshot_check",
+    "command": [
+      "/workspace/trading-research-v4/.venv/bin/python",
+      "/workspace/trading-research-v4/paper.py",
+      "replay",
+      "--date",
+      "2024-03-08",
+      "--snapshot",
+      "/workspace/trading-research-v4/artifacts/paper_demo/snapshot.json",
+      "--output",
+      "/workspace/trading-research-v4/artifacts/paper_demo/snapshot_check.json"
+    ],
+    "exit_code": 0,
+    "status": "REJECTED_RESEARCH_COUNTERFACTUAL",
+    "reason": null
+  },
+  {
+    "name": "current_refusal",
+    "command": [
+      "/workspace/trading-research-v4/.venv/bin/python",
+      "/workspace/trading-research-v4/paper.py",
+      "paper",
+      "--as-of",
+      "2026-10-24T05:11:05.580061+00:00",
+      "--output",
+      "/workspace/trading-research-v4/artifacts/paper_demo/current_refusal.json"
+    ],
+    "exit_code": 2,
+    "status": "REFUSED",
+    "reason": "missing_or_stale_completed_bar: SPY"
+  },
+  {
+    "name": "stale_refusal",
+    "command": [
+      "/workspace/trading-research-v4/.venv/bin/python",
+      "/workspace/trading-research-v4/paper.py",
+      "paper",
+      "--as-of",
+      "2026-10-19T22:00:00Z",
+      "--output",
+      "/workspace/trading-research-v4/artifacts/paper_demo/stale_refusal.json"
+    ],
+    "exit_code": 2,
+    "status": "REFUSED",
+    "reason": "stale_paper_as_of_use_historical_replay"
+  },
+  {
+    "name": "live_refusal",
+    "command": [
+      "/workspace/trading-research-v4/.venv/bin/python",
+      "/workspace/trading-research-v4/paper.py",
+      "live",
+      "--output",
+      "/workspace/trading-research-v4/artifacts/paper_demo/live_refusal.json"
+    ],
+    "exit_code": 2,
+    "status": "REFUSED",
+    "reason": "live_and_order_actions_unsupported"
+  },
+  {
+    "name": "order_refusal",
+    "command": [
+      "/workspace/trading-research-v4/.venv/bin/python",
+      "/workspace/trading-research-v4/paper.py",
+      "order",
+      "--output",
+      "/workspace/trading-research-v4/artifacts/paper_demo/order_refusal.json"
+    ],
+    "exit_code": 2,
+    "status": "REFUSED",
+    "reason": "live_and_order_actions_unsupported"
+  },
+  {
+    "name": "status",
+    "command": [
+      "/workspace/trading-research-v4/.venv/bin/python",
+      "/workspace/trading-research-v4/paper.py",
+      "status",
+      "--output",
+      "/workspace/trading-research-v4/artifacts/paper_demo/status.json"
+    ],
+    "exit_code": 0,
+    "status": "REJECTED_RESEARCH",
+    "reason": null
+  }
+]

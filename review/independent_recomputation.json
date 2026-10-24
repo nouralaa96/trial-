@@ -1,0 +1,3449 @@
+{
+  "status": "PASS",
+  "portfolio_count": 168,
+  "ledger_errors": [],
+  "portfolios": [
+    {
+      "final_equity": 6728.742468736305,
+      "net_pnl": 1728.7424687363055,
+      "cagr": 0.10422285665722963,
+      "max_drawdown": 0.11242034487825026,
+      "completed_trades": 55,
+      "fees": 119.90000000000028,
+      "friction": 237.0833005900277,
+      "key": "development/risk05_base_whole/P01",
+      "calendar_returns": {
+        "2019": 0.17277604738189223,
+        "2020": 0.19438716002542233,
+        "2021": -0.039264830795875394
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6127.962560308263,
+      "net_pnl": 1127.9625603082632,
+      "cagr": 0.070276049104957,
+      "max_drawdown": 0.12681119655680684,
+      "completed_trades": 53,
+      "fees": 115.54000000000026,
+      "friction": 234.548150321393,
+      "key": "development/risk05_base_whole/P02",
+      "calendar_returns": {
+        "2019": 0.15576541517325304,
+        "2020": 0.10718676938995508,
+        "2021": -0.042242598506453954
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6290.080877735584,
+      "net_pnl": 1290.0808777355842,
+      "cagr": 0.07964728159794743,
+      "max_drawdown": 0.11594701064769886,
+      "completed_trades": 55,
+      "fees": 119.90000000000028,
+      "friction": 252.4037368168819,
+      "key": "development/risk05_base_whole/C03",
+      "calendar_returns": {
+        "2019": 0.12196423133394041,
+        "2020": 0.15440393599335334,
+        "2021": -0.028708887670201633
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5000.0,
+      "net_pnl": 0.0,
+      "cagr": 0.0,
+      "max_drawdown": 0.0,
+      "completed_trades": 0,
+      "fees": 0.0,
+      "friction": 0.0,
+      "key": "development/risk05_base_whole/C04",
+      "calendar_returns": {
+        "2019": 0.0,
+        "2020": 0.0,
+        "2021": 0.0
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5206.367043153138,
+      "net_pnl": 206.36704315313818,
+      "cagr": 0.013594608234983152,
+      "max_drawdown": 0.2791916960569556,
+      "completed_trades": 56,
+      "fees": 122.08000000000028,
+      "friction": 210.31236672320443,
+      "key": "development/risk05_base_whole/T05",
+      "calendar_returns": {
+        "2019": 0.15192081411684533,
+        "2020": -0.12462487350102314,
+        "2021": 0.03263763729703073
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5644.175207231563,
+      "net_pnl": 644.175207231563,
+      "cagr": 0.04128966343495888,
+      "max_drawdown": 0.2164287555686657,
+      "completed_trades": 49,
+      "fees": 106.82000000000023,
+      "friction": 212.2174706742084,
+      "key": "development/risk05_base_whole/T06",
+      "calendar_returns": {
+        "2019": 0.15192081411684533,
+        "2020": -0.0601035678323113,
+        "2021": 0.04262433142573663
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 9910.710514668172,
+      "net_pnl": 4910.7105146681715,
+      "cagr": 0.2566182551656824,
+      "max_drawdown": 0.3277271544605612,
+      "completed_trades": 1,
+      "fees": 2.18,
+      "friction": 7.209399871829305,
+      "key": "development/risk05_base_whole/SPY_cash_dividend",
+      "calendar_returns": {
+        "2019": 0.3252859985045442,
+        "2020": 0.17418434842327235,
+        "2021": 0.27376376352038156
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 9910.710514668172,
+      "net_pnl": 4910.7105146681715,
+      "cagr": 0.2566182551656824,
+      "max_drawdown": 0.3277271544605612,
+      "completed_trades": 1,
+      "fees": 2.18,
+      "friction": 7.209399871829305,
+      "key": "development/risk05_base_whole/SPY_reinvested_total_return",
+      "calendar_returns": {
+        "2019": 0.3252859985045442,
+        "2020": 0.17418434842327235,
+        "2021": 0.27376376352038156
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6504.442326049377,
+      "net_pnl": 1504.4423260493768,
+      "cagr": 0.09179458267639151,
+      "max_drawdown": 0.10913180154822266,
+      "completed_trades": 48,
+      "fees": 104.64000000000024,
+      "friction": 249.39995924908132,
+      "key": "development/risk05_base_fractional/P01",
+      "calendar_returns": {
+        "2019": 0.1763190809487618,
+        "2020": 0.17832000465711872,
+        "2021": -0.0614624126958534
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5748.829921244669,
+      "net_pnl": 748.8299212446691,
+      "cagr": 0.04769644342800272,
+      "max_drawdown": 0.21223870056921978,
+      "completed_trades": 49,
+      "fees": 106.82000000000023,
+      "friction": 248.42986414448305,
+      "key": "development/risk05_base_fractional/P02",
+      "calendar_returns": {
+        "2019": 0.1620100634847581,
+        "2020": 0.11975406307841219,
+        "2021": -0.11635684073118746
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6327.661343187748,
+      "net_pnl": 1327.6613431877477,
+      "cagr": 0.08179658887862007,
+      "max_drawdown": 0.12238548342542499,
+      "completed_trades": 53,
+      "fees": 115.54000000000026,
+      "friction": 258.1035609491713,
+      "key": "development/risk05_base_fractional/C03",
+      "calendar_returns": {
+        "2019": 0.12337172902753912,
+        "2020": 0.15613878810559068,
+        "2021": -0.025594422307484654
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5000.0,
+      "net_pnl": 0.0,
+      "cagr": 0.0,
+      "max_drawdown": 0.0,
+      "completed_trades": 0,
+      "fees": 0.0,
+      "friction": 0.0,
+      "key": "development/risk05_base_fractional/C04",
+      "calendar_returns": {
+        "2019": 0.0,
+        "2020": 0.0,
+        "2021": 0.0
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5228.9443379898485,
+      "net_pnl": 228.94433798984846,
+      "cagr": 0.015059980962035313,
+      "max_drawdown": 0.2857660802510884,
+      "completed_trades": 53,
+      "fees": 115.54000000000026,
+      "friction": 218.04517867507144,
+      "key": "development/risk05_base_fractional/T05",
+      "calendar_returns": {
+        "2019": 0.15390171405532982,
+        "2020": -0.12908217235949804,
+        "2021": 0.040634009902578816
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5649.089058655151,
+      "net_pnl": 649.0890586551513,
+      "cagr": 0.0415922433554512,
+      "max_drawdown": 0.22102692008267433,
+      "completed_trades": 45,
+      "fees": 98.1000000000002,
+      "friction": 216.87756247302727,
+      "key": "development/risk05_base_fractional/T06",
+      "calendar_returns": {
+        "2019": 0.15390171405532982,
+        "2020": -0.06261653080571372,
+        "2021": 0.044533343981677076
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 9987.41743942989,
+      "net_pnl": 4987.41743942989,
+      "cagr": 0.2598570978037953,
+      "max_drawdown": 0.3313883264219071,
+      "completed_trades": 1,
+      "fees": 2.18,
+      "friction": 7.321963115788124,
+      "key": "development/risk05_base_fractional/SPY_cash_dividend",
+      "calendar_returns": {
+        "2019": 0.33036822263479504,
+        "2020": 0.17622815628372135,
+        "2021": 0.2764968986083751
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 10103.67120094108,
+      "net_pnl": 5103.67120094108,
+      "cagr": 0.2647343122742034,
+      "max_drawdown": 0.3368918741660851,
+      "completed_trades": 1,
+      "fees": 14.17,
+      "friction": 7.689432887787272,
+      "key": "development/risk05_base_fractional/SPY_reinvested_total_return",
+      "calendar_returns": {
+        "2019": 0.3312511675569023,
+        "2020": 0.18089658318524648,
+        "2021": 0.2853971501681638
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 7144.866334503015,
+      "net_pnl": 2144.8663345030154,
+      "cagr": 0.12656787289487403,
+      "max_drawdown": 0.0816904726292178,
+      "completed_trades": 45,
+      "fees": 196.2000000000004,
+      "friction": 470.28667368661945,
+      "key": "development/risk05_stress_whole/P01",
+      "calendar_returns": {
+        "2019": 0.14916895521506568,
+        "2020": 0.19485218874744614,
+        "2021": 0.040701152830868725
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5871.393637301226,
+      "net_pnl": 871.3936373012257,
+      "cagr": 0.05510156523572496,
+      "max_drawdown": 0.2062200452759011,
+      "completed_trades": 44,
+      "fees": 191.8400000000004,
+      "friction": 421.6729795551601,
+      "key": "development/risk05_stress_whole/P02",
+      "calendar_returns": {
+        "2019": 0.13112649151180644,
+        "2020": 0.12731719691741294,
+        "2021": -0.07909700045053425
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6170.474601187192,
+      "net_pnl": 1170.474601187192,
+      "cagr": 0.07274927491980998,
+      "max_drawdown": 0.1363424238052321,
+      "completed_trades": 48,
+      "fees": 209.28000000000048,
+      "friction": 505.62558187232594,
+      "key": "development/risk05_stress_whole/C03",
+      "calendar_returns": {
+        "2019": 0.09428318532348579,
+        "2020": 0.18297928436420174,
+        "2021": -0.04667342599947788
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5000.0,
+      "net_pnl": 0.0,
+      "cagr": 0.0,
+      "max_drawdown": 0.0,
+      "completed_trades": 0,
+      "fees": 0.0,
+      "friction": 0.0,
+      "key": "development/risk05_stress_whole/C04",
+      "calendar_returns": {
+        "2019": 0.0,
+        "2020": 0.0,
+        "2021": 0.0
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5248.237555414775,
+      "net_pnl": 248.23755541477476,
+      "cagr": 0.016308865536303063,
+      "max_drawdown": 0.274109611697415,
+      "completed_trades": 52,
+      "fees": 226.7200000000005,
+      "friction": 402.0315861711362,
+      "key": "development/risk05_stress_whole/T05",
+      "calendar_returns": {
+        "2019": 0.12800951236465696,
+        "2020": -0.09692458171938012,
+        "2021": 0.030402010399189106
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5394.900067736711,
+      "net_pnl": 394.9000677367112,
+      "cagr": 0.025704048805554214,
+      "max_drawdown": 0.2261682963390953,
+      "completed_trades": 44,
+      "fees": 191.8400000000004,
+      "friction": 395.6786846513572,
+      "key": "development/risk05_stress_whole/T06",
+      "calendar_returns": {
+        "2019": 0.12800951236465696,
+        "2020": -0.07898637581459256,
+        "2021": 0.03856715435935887
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 9901.32111479634,
+      "net_pnl": 4901.321114796339,
+      "cagr": 0.25622065514147074,
+      "max_drawdown": 0.3278944855093259,
+      "completed_trades": 1,
+      "fees": 4.36,
+      "friction": 14.418799743659749,
+      "key": "development/risk05_stress_whole/SPY_cash_dividend",
+      "calendar_returns": {
+        "2019": 0.324576038513088,
+        "2020": 0.17427770955538024,
+        "2021": 0.27313784988246015
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 9901.32111479634,
+      "net_pnl": 4901.321114796339,
+      "cagr": 0.25622065514147074,
+      "max_drawdown": 0.3278944855093259,
+      "completed_trades": 1,
+      "fees": 4.36,
+      "friction": 14.418799743659749,
+      "key": "development/risk05_stress_whole/SPY_reinvested_total_return",
+      "calendar_returns": {
+        "2019": 0.324576038513088,
+        "2020": 0.17427770955538024,
+        "2021": 0.27313784988246015
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6639.356303772732,
+      "net_pnl": 1639.3563037727317,
+      "cagr": 0.09930362147621485,
+      "max_drawdown": 0.10119534913715145,
+      "completed_trades": 50,
+      "fees": 218.00000000000048,
+      "friction": 508.57159398683416,
+      "key": "development/risk05_stress_fractional/P01",
+      "calendar_returns": {
+        "2019": 0.15596785421227444,
+        "2020": 0.24563017462791947,
+        "2021": -0.07780854409315674
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5427.995571342464,
+      "net_pnl": 427.99557134246425,
+      "cagr": 0.027800550938922308,
+      "max_drawdown": 0.1648879809077335,
+      "completed_trades": 47,
+      "fees": 204.92000000000044,
+      "friction": 430.8915623637652,
+      "key": "development/risk05_stress_fractional/P02",
+      "calendar_returns": {
+        "2019": 0.13400649326381764,
+        "2020": 0.09574378472985279,
+        "2021": -0.12633502950091424
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6400.041782975017,
+      "net_pnl": 1400.0417829750168,
+      "cagr": 0.0859123409928948,
+      "max_drawdown": 0.13793480894024468,
+      "completed_trades": 51,
+      "fees": 222.3600000000005,
+      "friction": 524.1748437775668,
+      "key": "development/risk05_stress_fractional/C03",
+      "calendar_returns": {
+        "2019": 0.09435251912977471,
+        "2020": 0.22648244849504118,
+        "2021": -0.04633855457184699
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5000.0,
+      "net_pnl": 0.0,
+      "cagr": 0.0,
+      "max_drawdown": 0.0,
+      "completed_trades": 0,
+      "fees": 0.0,
+      "friction": 0.0,
+      "key": "development/risk05_stress_fractional/C04",
+      "calendar_returns": {
+        "2019": 0.0,
+        "2020": 0.0,
+        "2021": 0.0
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5101.116888869407,
+      "net_pnl": 101.11688886940738,
+      "cagr": 0.006706934213338345,
+      "max_drawdown": 0.2797471783325509,
+      "completed_trades": 52,
+      "fees": 226.7200000000005,
+      "friction": 422.2968374309418,
+      "key": "development/risk05_stress_fractional/T05",
+      "calendar_returns": {
+        "2019": 0.13225486390697472,
+        "2020": -0.127902709554509,
+        "2021": 0.03320414246747716
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5427.327032888385,
+      "net_pnl": 427.32703288838457,
+      "cagr": 0.027758285393923998,
+      "max_drawdown": 0.2300364113387937,
+      "completed_trades": 45,
+      "fees": 196.2000000000004,
+      "friction": 412.0699012563108,
+      "key": "development/risk05_stress_fractional/T06",
+      "calendar_returns": {
+        "2019": 0.13225486390697472,
+        "2020": -0.07578678143753226,
+        "2021": 0.0372886275479698
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 9974.340951769806,
+      "net_pnl": 4974.3409517698055,
+      "cagr": 0.2593061358873052,
+      "max_drawdown": 0.33138832426274023,
+      "completed_trades": 1,
+      "fees": 4.36,
+      "friction": 14.633419973144186,
+      "key": "development/risk05_stress_fractional/SPY_cash_dividend",
+      "calendar_returns": {
+        "2019": 0.3294137614533459,
+        "2020": 0.1762281550777205,
+        "2021": 0.27574085663198855
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 10072.955789753232,
+      "net_pnl": 5072.955789753232,
+      "cagr": 0.2634493523290957,
+      "max_drawdown": 0.3368918769154524,
+      "completed_trades": 1,
+      "fees": 28.34,
+      "friction": 15.338116561232706,
+      "key": "development/risk05_stress_fractional/SPY_reinvested_total_return",
+      "calendar_returns": {
+        "2019": 0.3295688760541391,
+        "2020": 0.1801094043947542,
+        "2021": 0.28396685288105217
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5988.104837890166,
+      "net_pnl": 988.104837890166,
+      "cagr": 0.06205797505466415,
+      "max_drawdown": 0.13181673529737614,
+      "completed_trades": 51,
+      "fees": 111.18000000000023,
+      "friction": 221.65229023898996,
+      "key": "development/risk10_base_whole/P01",
+      "calendar_returns": {
+        "2019": 0.17277604738189223,
+        "2020": 0.09044809159361122,
+        "2021": -0.06351827505726848
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5786.179894686226,
+      "net_pnl": 786.1798946862264,
+      "cagr": 0.0499641235559547,
+      "max_drawdown": 0.2023464606623575,
+      "completed_trades": 46,
+      "fees": 100.2800000000002,
+      "friction": 228.22158250045737,
+      "key": "development/risk10_base_whole/P02",
+      "calendar_returns": {
+        "2019": 0.15576541517325304,
+        "2020": 0.07609027103096233,
+        "2021": -0.06952753022902336
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6348.563853508956,
+      "net_pnl": 1348.5638535089556,
+      "cagr": 0.08298837003590931,
+      "max_drawdown": 0.1440647915558282,
+      "completed_trades": 55,
+      "fees": 119.90000000000028,
+      "friction": 269.18857838222715,
+      "key": "development/risk10_base_whole/C03",
+      "calendar_returns": {
+        "2019": 0.12196423133394041,
+        "2020": 0.20455802703366754,
+        "2021": -0.060495747916106235
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5000.0,
+      "net_pnl": 0.0,
+      "cagr": 0.0,
+      "max_drawdown": 0.0,
+      "completed_trades": 0,
+      "fees": 0.0,
+      "friction": 0.0,
+      "key": "development/risk10_base_whole/C04",
+      "calendar_returns": {
+        "2019": 0.0,
+        "2020": 0.0,
+        "2021": 0.0
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6030.910758384809,
+      "net_pnl": 1030.910758384809,
+      "cagr": 0.06458671641699087,
+      "max_drawdown": 0.20822213231938036,
+      "completed_trades": 58,
+      "fees": 126.4400000000003,
+      "friction": 224.16738070363957,
+      "key": "development/risk10_base_whole/T05",
+      "calendar_returns": {
+        "2019": 0.15192081411684533,
+        "2020": -0.0011791337269679847,
+        "2021": 0.0483412279180806
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5586.003181299265,
+      "net_pnl": 586.0031812992647,
+      "cagr": 0.037694198924651534,
+      "max_drawdown": 0.21872781311945932,
+      "completed_trades": 49,
+      "fees": 106.82000000000023,
+      "friction": 211.3427477733303,
+      "key": "development/risk10_base_whole/T06",
+      "calendar_returns": {
+        "2019": 0.15192081411684533,
+        "2020": -0.06261529361785834,
+        "2021": 0.03464338417920798
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 9910.710514668172,
+      "net_pnl": 4910.7105146681715,
+      "cagr": 0.2566182551656824,
+      "max_drawdown": 0.3277271544605612,
+      "completed_trades": 1,
+      "fees": 2.18,
+      "friction": 7.209399871829305,
+      "key": "development/risk10_base_whole/SPY_cash_dividend",
+      "calendar_returns": {
+        "2019": 0.3252859985045442,
+        "2020": 0.17418434842327235,
+        "2021": 0.27376376352038156
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 9910.710514668172,
+      "net_pnl": 4910.7105146681715,
+      "cagr": 0.2566182551656824,
+      "max_drawdown": 0.3277271544605612,
+      "completed_trades": 1,
+      "fees": 2.18,
+      "friction": 7.209399871829305,
+      "key": "development/risk10_base_whole/SPY_reinvested_total_return",
+      "calendar_returns": {
+        "2019": 0.3252859985045442,
+        "2020": 0.17418434842327235,
+        "2021": 0.27376376352038156
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6001.978136519588,
+      "net_pnl": 1001.9781365195877,
+      "cagr": 0.0628788493260295,
+      "max_drawdown": 0.13261929461040856,
+      "completed_trades": 44,
+      "fees": 95.9200000000002,
+      "friction": 225.82601301272385,
+      "key": "development/risk10_base_fractional/P01",
+      "calendar_returns": {
+        "2019": 0.1763190809487618,
+        "2020": 0.08775365346894404,
+        "2021": -0.06185771290917974
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5819.203498917461,
+      "net_pnl": 819.2034989174608,
+      "cagr": 0.05196102287370952,
+      "max_drawdown": 0.2062850096395371,
+      "completed_trades": 46,
+      "fees": 100.2800000000002,
+      "friction": 235.96501999575747,
+      "key": "development/risk10_base_fractional/P02",
+      "calendar_returns": {
+        "2019": 0.1620100634847581,
+        "2020": 0.07664658519085821,
+        "2021": -0.0697268550011978
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6610.160153977052,
+      "net_pnl": 1610.1601539770518,
+      "cagr": 0.09768730148657156,
+      "max_drawdown": 0.13374696230063754,
+      "completed_trades": 49,
+      "fees": 106.82000000000023,
+      "friction": 271.2875688065217,
+      "key": "development/risk10_base_fractional/C03",
+      "calendar_returns": {
+        "2019": 0.12337172902753912,
+        "2020": 0.2074549956792482,
+        "2021": -0.025352586207801675
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5000.0,
+      "net_pnl": 0.0,
+      "cagr": 0.0,
+      "max_drawdown": 0.0,
+      "completed_trades": 0,
+      "fees": 0.0,
+      "friction": 0.0,
+      "key": "development/risk10_base_fractional/C04",
+      "calendar_returns": {
+        "2019": 0.0,
+        "2020": 0.0,
+        "2021": 0.0
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5447.9431752020055,
+      "net_pnl": 447.9431752020055,
+      "cagr": 0.029060062561096167,
+      "max_drawdown": 0.28545884273795874,
+      "completed_trades": 48,
+      "fees": 104.64000000000024,
+      "friction": 220.0952181153712,
+      "key": "development/risk10_base_fractional/T05",
+      "calendar_returns": {
+        "2019": 0.15390171405532982,
+        "2020": -0.09286758708999288,
+        "2021": 0.040933681263880084
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5620.539396957185,
+      "net_pnl": 620.5393969571851,
+      "cagr": 0.03983178538842824,
+      "max_drawdown": 0.22381947535678903,
+      "completed_trades": 45,
+      "fees": 98.1000000000002,
+      "friction": 216.87451879204696,
+      "key": "development/risk10_base_fractional/T06",
+      "calendar_returns": {
+        "2019": 0.15390171405532982,
+        "2020": -0.06732249842323668,
+        "2021": 0.04449814461148338
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 9987.41743942989,
+      "net_pnl": 4987.41743942989,
+      "cagr": 0.2598570978037953,
+      "max_drawdown": 0.3313883264219071,
+      "completed_trades": 1,
+      "fees": 2.18,
+      "friction": 7.321963115788124,
+      "key": "development/risk10_base_fractional/SPY_cash_dividend",
+      "calendar_returns": {
+        "2019": 0.33036822263479504,
+        "2020": 0.17622815628372135,
+        "2021": 0.2764968986083751
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 10103.67120094108,
+      "net_pnl": 5103.67120094108,
+      "cagr": 0.2647343122742034,
+      "max_drawdown": 0.3368918741660851,
+      "completed_trades": 1,
+      "fees": 14.17,
+      "friction": 7.689432887787272,
+      "key": "development/risk10_base_fractional/SPY_reinvested_total_return",
+      "calendar_returns": {
+        "2019": 0.3312511675569023,
+        "2020": 0.18089658318524648,
+        "2021": 0.2853971501681638
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6431.351385402756,
+      "net_pnl": 1431.351385402756,
+      "cagr": 0.08768308638659805,
+      "max_drawdown": 0.13221543691081494,
+      "completed_trades": 44,
+      "fees": 191.8400000000004,
+      "friction": 451.5202340092485,
+      "key": "development/risk10_stress_whole/P01",
+      "calendar_returns": {
+        "2019": 0.14916895521506568,
+        "2020": 0.07512709710898546,
+        "2021": 0.041090638551196434
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5929.163358067003,
+      "net_pnl": 929.1633580670032,
+      "cagr": 0.05855625001557252,
+      "max_drawdown": 0.2070497960206794,
+      "completed_trades": 43,
+      "fees": 187.4800000000004,
+      "friction": 422.9494602755805,
+      "key": "development/risk10_stress_whole/P02",
+      "calendar_returns": {
+        "2019": 0.13112649151180644,
+        "2020": 0.13789939038700472,
+        "2021": -0.07868450985314213
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6192.396505790504,
+      "net_pnl": 1192.3965057905043,
+      "cagr": 0.07402019329601828,
+      "max_drawdown": 0.13581012585479302,
+      "completed_trades": 48,
+      "fees": 209.28000000000048,
+      "friction": 507.6257039111739,
+      "key": "development/risk10_stress_whole/C03",
+      "calendar_returns": {
+        "2019": 0.09428318532348579,
+        "2020": 0.18803942456487754,
+        "2021": -0.04736140185840698
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5000.0,
+      "net_pnl": 0.0,
+      "cagr": 0.0,
+      "max_drawdown": 0.0,
+      "completed_trades": 0,
+      "fees": 0.0,
+      "friction": 0.0,
+      "key": "development/risk10_stress_whole/C04",
+      "calendar_returns": {
+        "2019": 0.0,
+        "2020": 0.0,
+        "2021": 0.0
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5169.787582373274,
+      "net_pnl": 169.78758237327384,
+      "cagr": 0.011211417564550796,
+      "max_drawdown": 0.28898897670324597,
+      "completed_trades": 47,
+      "fees": 204.92000000000044,
+      "friction": 402.6714946830912,
+      "key": "development/risk10_stress_whole/T05",
+      "calendar_returns": {
+        "2019": 0.12800951236465696,
+        "2020": -0.10676775286780871,
+        "2021": 0.026184709621502877
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5352.717720788483,
+      "net_pnl": 352.71772078848335,
+      "cagr": 0.023019466259679433,
+      "max_drawdown": 0.22980256469981353,
+      "completed_trades": 44,
+      "fees": 191.8400000000004,
+      "friction": 394.8543907182139,
+      "key": "development/risk10_stress_whole/T06",
+      "calendar_returns": {
+        "2019": 0.12800951236465696,
+        "2020": -0.08588062482133274,
+        "2021": 0.038218254756687164
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 9901.32111479634,
+      "net_pnl": 4901.321114796339,
+      "cagr": 0.25622065514147074,
+      "max_drawdown": 0.3278944855093259,
+      "completed_trades": 1,
+      "fees": 4.36,
+      "friction": 14.418799743659749,
+      "key": "development/risk10_stress_whole/SPY_cash_dividend",
+      "calendar_returns": {
+        "2019": 0.324576038513088,
+        "2020": 0.17427770955538024,
+        "2021": 0.27313784988246015
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 9901.32111479634,
+      "net_pnl": 4901.321114796339,
+      "cagr": 0.25622065514147074,
+      "max_drawdown": 0.3278944855093259,
+      "completed_trades": 1,
+      "fees": 4.36,
+      "friction": 14.418799743659749,
+      "key": "development/risk10_stress_whole/SPY_reinvested_total_return",
+      "calendar_returns": {
+        "2019": 0.324576038513088,
+        "2020": 0.17427770955538024,
+        "2021": 0.27313784988246015
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6496.434353669535,
+      "net_pnl": 1496.434353669535,
+      "cagr": 0.09134562592419004,
+      "max_drawdown": 0.13457977831706525,
+      "completed_trades": 44,
+      "fees": 191.8400000000004,
+      "friction": 467.6510798554989,
+      "key": "development/risk10_stress_fractional/P01",
+      "calendar_returns": {
+        "2019": 0.15596785421227444,
+        "2020": 0.07768325013872057,
+        "2021": 0.04296121843666301
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5954.134606913175,
+      "net_pnl": 954.134606913175,
+      "cagr": 0.06004261505425701,
+      "max_drawdown": 0.21122650484640537,
+      "completed_trades": 43,
+      "fees": 187.4800000000004,
+      "friction": 436.0101767119376,
+      "key": "development/risk10_stress_fractional/P02",
+      "calendar_returns": {
+        "2019": 0.13400649326381764,
+        "2020": 0.14270892067339336,
+        "2021": -0.08103814389471498
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6208.630406782841,
+      "net_pnl": 1208.6304067828414,
+      "cagr": 0.07495942049675475,
+      "max_drawdown": 0.1380037188132638,
+      "completed_trades": 48,
+      "fees": 209.28000000000048,
+      "friction": 519.3282869940651,
+      "key": "development/risk10_stress_fractional/C03",
+      "calendar_returns": {
+        "2019": 0.09435251912977471,
+        "2020": 0.1902165001996825,
+        "2021": -0.04667146054040783
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5000.0,
+      "net_pnl": 0.0,
+      "cagr": 0.0,
+      "max_drawdown": 0.0,
+      "completed_trades": 0,
+      "fees": 0.0,
+      "friction": 0.0,
+      "key": "development/risk10_stress_fractional/C04",
+      "calendar_returns": {
+        "2019": 0.0,
+        "2020": 0.0,
+        "2021": 0.0
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5205.423420381637,
+      "net_pnl": 205.4234203816368,
+      "cagr": 0.013533270597630986,
+      "max_drawdown": 0.2952214039419788,
+      "completed_trades": 47,
+      "fees": 204.92000000000044,
+      "friction": 412.1522217082339,
+      "key": "development/risk10_stress_fractional/T05",
+      "calendar_returns": {
+        "2019": 0.13225486390697472,
+        "2020": -0.11031615975061237,
+        "2021": 0.033489717521003826
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5382.843759596617,
+      "net_pnl": 382.843759596617,
+      "cagr": 0.024938188704878295,
+      "max_drawdown": 0.234473494400952,
+      "completed_trades": 44,
+      "fees": 191.8400000000004,
+      "friction": 406.5019228465591,
+      "key": "development/risk10_stress_fractional/T06",
+      "calendar_returns": {
+        "2019": 0.13225486390697472,
+        "2020": -0.08326348798348027,
+        "2021": 0.03717740275951886
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 9974.340951769806,
+      "net_pnl": 4974.3409517698055,
+      "cagr": 0.2593061358873052,
+      "max_drawdown": 0.33138832426274023,
+      "completed_trades": 1,
+      "fees": 4.36,
+      "friction": 14.633419973144186,
+      "key": "development/risk10_stress_fractional/SPY_cash_dividend",
+      "calendar_returns": {
+        "2019": 0.3294137614533459,
+        "2020": 0.1762281550777205,
+        "2021": 0.27574085663198855
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 10072.955789753232,
+      "net_pnl": 5072.955789753232,
+      "cagr": 0.2634493523290957,
+      "max_drawdown": 0.3368918769154524,
+      "completed_trades": 1,
+      "fees": 28.34,
+      "friction": 15.338116561232706,
+      "key": "development/risk10_stress_fractional/SPY_reinvested_total_return",
+      "calendar_returns": {
+        "2019": 0.3295688760541391,
+        "2020": 0.1801094043947542,
+        "2021": 0.28396685288105217
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6682.746931566757,
+      "net_pnl": 1682.7469315667568,
+      "cagr": 0.1573650930501096,
+      "max_drawdown": 0.1133668676825369,
+      "completed_trades": 29,
+      "fees": 63.2200000000001,
+      "friction": 136.82037307898472,
+      "key": "validation/risk05_base_whole/C03",
+      "calendar_returns": {
+        "2022": 0.08538751576382175,
+        "2023": 0.23140294770460756
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5997.438105777339,
+      "net_pnl": 997.4381057773389,
+      "cagr": 0.09596711795720325,
+      "max_drawdown": 0.09941831800036083,
+      "completed_trades": 35,
+      "fees": 76.30000000000014,
+      "friction": 133.8602397948464,
+      "key": "validation/risk05_base_whole/T05",
+      "calendar_returns": {
+        "2022": 0.1726403132135952,
+        "2023": 0.022894750964426613
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6814.9390895149,
+      "net_pnl": 1814.9390895149,
+      "cagr": 0.16884286223248823,
+      "max_drawdown": 0.12864377969396645,
+      "completed_trades": 28,
+      "fees": 61.04000000000009,
+      "friction": 133.37543937781606,
+      "key": "validation/risk05_base_whole/T06",
+      "calendar_returns": {
+        "2022": 0.24438213975610257,
+        "2023": 0.09531290618661892
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5112.692047733241,
+      "net_pnl": 112.69204773324145,
+      "cagr": 0.011291905291211934,
+      "max_drawdown": 0.23272727771043544,
+      "completed_trades": 1,
+      "fees": 2.18,
+      "friction": 4.758049926759327,
+      "key": "validation/risk05_base_whole/SPY_cash_dividend",
+      "calendar_returns": {
+        "2022": -0.17579429022179305,
+        "2023": 0.24063495000758062
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5112.692047733241,
+      "net_pnl": 112.69204773324145,
+      "cagr": 0.011291905291211934,
+      "max_drawdown": 0.23272727771043544,
+      "completed_trades": 1,
+      "fees": 2.18,
+      "friction": 4.758049926759327,
+      "key": "validation/risk05_base_whole/SPY_reinvested_total_return",
+      "calendar_returns": {
+        "2022": -0.17579429022179305,
+        "2023": 0.24063495000758062
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6806.10166881419,
+      "net_pnl": 1806.10166881419,
+      "cagr": 0.1680790058822319,
+      "max_drawdown": 0.10806031717533104,
+      "completed_trades": 27,
+      "fees": 58.860000000000085,
+      "friction": 144.55890098077592,
+      "key": "validation/risk05_base_fractional/C03",
+      "calendar_returns": {
+        "2022": 0.09696654461106302,
+        "2023": 0.24089503043638216
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6444.811636912062,
+      "net_pnl": 1444.8116369120617,
+      "cagr": 0.1364184206655623,
+      "max_drawdown": 0.1305515767290628,
+      "completed_trades": 28,
+      "fees": 61.04000000000009,
+      "friction": 143.1803918476113,
+      "key": "validation/risk05_base_fractional/T05",
+      "calendar_returns": {
+        "2022": 0.17402287145971185,
+        "2023": 0.09790222892318234
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6860.416290938086,
+      "net_pnl": 1860.4162909380857,
+      "cagr": 0.172765903330919,
+      "max_drawdown": 0.13047041349719812,
+      "completed_trades": 26,
+      "fees": 56.68000000000008,
+      "friction": 136.45420906906347,
+      "key": "validation/risk05_base_fractional/T06",
+      "calendar_returns": {
+        "2022": 0.24927034348132504,
+        "2023": 0.09830771645795333
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5118.321375406817,
+      "net_pnl": 118.32137540681742,
+      "cagr": 0.011852716976471278,
+      "max_drawdown": 0.2441041476702751,
+      "completed_trades": 1,
+      "fees": 2.18,
+      "friction": 4.9912191150301535,
+      "key": "validation/risk05_base_fractional/SPY_cash_dividend",
+      "calendar_returns": {
+        "2022": -0.1843984414393698,
+        "2023": 0.2551033826957385
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5130.001830174549,
+      "net_pnl": 130.00183017454856,
+      "cagr": 0.013015385823433645,
+      "max_drawdown": 0.2452485833538227,
+      "completed_trades": 1,
+      "fees": 9.81,
+      "friction": 5.109519335125398,
+      "key": "validation/risk05_base_fractional/SPY_reinvested_total_return",
+      "calendar_returns": {
+        "2022": -0.1852019999909046,
+        "2023": 0.2592082528718245
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6270.414086839431,
+      "net_pnl": 1270.4140868394306,
+      "cagr": 0.12082051181065445,
+      "max_drawdown": 0.11179522962051458,
+      "completed_trades": 24,
+      "fees": 104.64000000000011,
+      "friction": 239.8782499805872,
+      "key": "validation/risk05_stress_whole/C03",
+      "calendar_returns": {
+        "2022": 0.11027610202022986,
+        "2023": 0.12952338169396715
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6202.256826916487,
+      "net_pnl": 1202.2568269164867,
+      "cagr": 0.11466619012306856,
+      "max_drawdown": 0.13331280576898796,
+      "completed_trades": 28,
+      "fees": 122.08000000000018,
+      "friction": 277.9748445370812,
+      "key": "validation/risk05_stress_whole/T05",
+      "calendar_returns": {
+        "2022": 0.15123595855904926,
+        "2023": 0.07749532679287996
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6612.138157227001,
+      "net_pnl": 1612.138157227001,
+      "cagr": 0.15118821173357633,
+      "max_drawdown": 0.13184234974867381,
+      "completed_trades": 26,
+      "fees": 113.36000000000016,
+      "friction": 260.9242993298827,
+      "key": "validation/risk05_stress_whole/T06",
+      "calendar_returns": {
+        "2022": 0.23002008494207482,
+        "2023": 0.07512685982495748
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5105.753997806481,
+      "net_pnl": 105.75399780648058,
+      "cagr": 0.010600292799368694,
+      "max_drawdown": 0.23288862929666265,
+      "completed_trades": 1,
+      "fees": 4.36,
+      "friction": 9.51609985351979,
+      "key": "validation/risk05_stress_whole/SPY_cash_dividend",
+      "calendar_returns": {
+        "2022": -0.17648859020958607,
+        "2023": 0.23999593377969353
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5105.753997806481,
+      "net_pnl": 105.75399780648058,
+      "cagr": 0.010600292799368694,
+      "max_drawdown": 0.23288862929666265,
+      "completed_trades": 1,
+      "fees": 4.36,
+      "friction": 9.51609985351979,
+      "key": "validation/risk05_stress_whole/SPY_reinvested_total_return",
+      "calendar_returns": {
+        "2022": -0.17648859020958607,
+        "2023": 0.23999593377969353
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6293.6449018575,
+      "net_pnl": 1293.6449018575004,
+      "cagr": 0.122910567562033,
+      "max_drawdown": 0.11506274669458971,
+      "completed_trades": 24,
+      "fees": 104.64000000000011,
+      "friction": 247.2805402013575,
+      "key": "validation/risk05_stress_fractional/C03",
+      "calendar_returns": {
+        "2022": 0.11312470467065916,
+        "2023": 0.13080679558174113
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6217.9788980585,
+      "net_pnl": 1217.9788980585,
+      "cagr": 0.1160887946354836,
+      "max_drawdown": 0.1350048918219603,
+      "completed_trades": 28,
+      "fees": 122.08000000000018,
+      "friction": 281.18878272844984,
+      "key": "validation/risk05_stress_fractional/T05",
+      "calendar_returns": {
+        "2022": 0.1565999365735835,
+        "2023": 0.07521688380499203
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6644.326113948541,
+      "net_pnl": 1644.3261139485412,
+      "cagr": 0.15400806472320183,
+      "max_drawdown": 0.1348313693161185,
+      "completed_trades": 26,
+      "fees": 113.36000000000016,
+      "friction": 268.4179581407543,
+      "key": "validation/risk05_stress_fractional/T06",
+      "calendar_returns": {
+        "2022": 0.23491596751545596,
+        "2023": 0.07607744797669924
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5111.067284497037,
+      "net_pnl": 111.06728449703678,
+      "cagr": 0.011129984191791786,
+      "max_drawdown": 0.24410414705445838,
+      "completed_trades": 1,
+      "fees": 4.36,
+      "friction": 9.97527641331174,
+      "key": "validation/risk05_stress_fractional/SPY_cash_dividend",
+      "calendar_returns": {
+        "2022": -0.184983585423933,
+        "2023": 0.25422437955573507
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5113.634561659268,
+      "net_pnl": 113.634561659268,
+      "cagr": 0.011385822900318088,
+      "max_drawdown": 0.2456309180820767,
+      "completed_trades": 1,
+      "fees": 19.62,
+      "friction": 10.19491731867201,
+      "key": "validation/risk05_stress_fractional/SPY_reinvested_total_return",
+      "calendar_returns": {
+        "2022": -0.18643083065101518,
+        "2023": 0.25708661397559607
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6682.746931566757,
+      "net_pnl": 1682.7469315667568,
+      "cagr": 0.1573650930501096,
+      "max_drawdown": 0.1133668676825369,
+      "completed_trades": 29,
+      "fees": 63.2200000000001,
+      "friction": 136.82037307898472,
+      "key": "validation/risk10_base_whole/C03",
+      "calendar_returns": {
+        "2022": 0.08538751576382175,
+        "2023": 0.23140294770460756
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5997.438105777339,
+      "net_pnl": 997.4381057773389,
+      "cagr": 0.09596711795720325,
+      "max_drawdown": 0.09941831800036083,
+      "completed_trades": 35,
+      "fees": 76.30000000000014,
+      "friction": 133.8602397948464,
+      "key": "validation/risk10_base_whole/T05",
+      "calendar_returns": {
+        "2022": 0.1726403132135952,
+        "2023": 0.022894750964426613
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6814.9390895149,
+      "net_pnl": 1814.9390895149,
+      "cagr": 0.16884286223248823,
+      "max_drawdown": 0.12864377969396645,
+      "completed_trades": 28,
+      "fees": 61.04000000000009,
+      "friction": 133.37543937781606,
+      "key": "validation/risk10_base_whole/T06",
+      "calendar_returns": {
+        "2022": 0.24438213975610257,
+        "2023": 0.09531290618661892
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5112.692047733241,
+      "net_pnl": 112.69204773324145,
+      "cagr": 0.011291905291211934,
+      "max_drawdown": 0.23272727771043544,
+      "completed_trades": 1,
+      "fees": 2.18,
+      "friction": 4.758049926759327,
+      "key": "validation/risk10_base_whole/SPY_cash_dividend",
+      "calendar_returns": {
+        "2022": -0.17579429022179305,
+        "2023": 0.24063495000758062
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5112.692047733241,
+      "net_pnl": 112.69204773324145,
+      "cagr": 0.011291905291211934,
+      "max_drawdown": 0.23272727771043544,
+      "completed_trades": 1,
+      "fees": 2.18,
+      "friction": 4.758049926759327,
+      "key": "validation/risk10_base_whole/SPY_reinvested_total_return",
+      "calendar_returns": {
+        "2022": -0.17579429022179305,
+        "2023": 0.24063495000758062
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6806.10166881419,
+      "net_pnl": 1806.10166881419,
+      "cagr": 0.1680790058822319,
+      "max_drawdown": 0.10806031717533104,
+      "completed_trades": 27,
+      "fees": 58.860000000000085,
+      "friction": 144.55890098077592,
+      "key": "validation/risk10_base_fractional/C03",
+      "calendar_returns": {
+        "2022": 0.09696654461106302,
+        "2023": 0.24089503043638216
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6444.811636912062,
+      "net_pnl": 1444.8116369120617,
+      "cagr": 0.1364184206655623,
+      "max_drawdown": 0.1305515767290628,
+      "completed_trades": 28,
+      "fees": 61.04000000000009,
+      "friction": 143.1803918476113,
+      "key": "validation/risk10_base_fractional/T05",
+      "calendar_returns": {
+        "2022": 0.17402287145971185,
+        "2023": 0.09790222892318234
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6860.416290938086,
+      "net_pnl": 1860.4162909380857,
+      "cagr": 0.172765903330919,
+      "max_drawdown": 0.13047041349719812,
+      "completed_trades": 26,
+      "fees": 56.68000000000008,
+      "friction": 136.45420906906347,
+      "key": "validation/risk10_base_fractional/T06",
+      "calendar_returns": {
+        "2022": 0.24927034348132504,
+        "2023": 0.09830771645795333
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5118.321375406817,
+      "net_pnl": 118.32137540681742,
+      "cagr": 0.011852716976471278,
+      "max_drawdown": 0.2441041476702751,
+      "completed_trades": 1,
+      "fees": 2.18,
+      "friction": 4.9912191150301535,
+      "key": "validation/risk10_base_fractional/SPY_cash_dividend",
+      "calendar_returns": {
+        "2022": -0.1843984414393698,
+        "2023": 0.2551033826957385
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5130.001830174549,
+      "net_pnl": 130.00183017454856,
+      "cagr": 0.013015385823433645,
+      "max_drawdown": 0.2452485833538227,
+      "completed_trades": 1,
+      "fees": 9.81,
+      "friction": 5.109519335125398,
+      "key": "validation/risk10_base_fractional/SPY_reinvested_total_return",
+      "calendar_returns": {
+        "2022": -0.1852019999909046,
+        "2023": 0.2592082528718245
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6270.414086839431,
+      "net_pnl": 1270.4140868394306,
+      "cagr": 0.12082051181065445,
+      "max_drawdown": 0.11179522962051458,
+      "completed_trades": 24,
+      "fees": 104.64000000000011,
+      "friction": 239.8782499805872,
+      "key": "validation/risk10_stress_whole/C03",
+      "calendar_returns": {
+        "2022": 0.11027610202022986,
+        "2023": 0.12952338169396715
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6202.256826916487,
+      "net_pnl": 1202.2568269164867,
+      "cagr": 0.11466619012306856,
+      "max_drawdown": 0.13331280576898796,
+      "completed_trades": 28,
+      "fees": 122.08000000000018,
+      "friction": 277.9748445370812,
+      "key": "validation/risk10_stress_whole/T05",
+      "calendar_returns": {
+        "2022": 0.15123595855904926,
+        "2023": 0.07749532679287996
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6612.138157227001,
+      "net_pnl": 1612.138157227001,
+      "cagr": 0.15118821173357633,
+      "max_drawdown": 0.13184234974867381,
+      "completed_trades": 26,
+      "fees": 113.36000000000016,
+      "friction": 260.9242993298827,
+      "key": "validation/risk10_stress_whole/T06",
+      "calendar_returns": {
+        "2022": 0.23002008494207482,
+        "2023": 0.07512685982495748
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5105.753997806481,
+      "net_pnl": 105.75399780648058,
+      "cagr": 0.010600292799368694,
+      "max_drawdown": 0.23288862929666265,
+      "completed_trades": 1,
+      "fees": 4.36,
+      "friction": 9.51609985351979,
+      "key": "validation/risk10_stress_whole/SPY_cash_dividend",
+      "calendar_returns": {
+        "2022": -0.17648859020958607,
+        "2023": 0.23999593377969353
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5105.753997806481,
+      "net_pnl": 105.75399780648058,
+      "cagr": 0.010600292799368694,
+      "max_drawdown": 0.23288862929666265,
+      "completed_trades": 1,
+      "fees": 4.36,
+      "friction": 9.51609985351979,
+      "key": "validation/risk10_stress_whole/SPY_reinvested_total_return",
+      "calendar_returns": {
+        "2022": -0.17648859020958607,
+        "2023": 0.23999593377969353
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6293.6449018575,
+      "net_pnl": 1293.6449018575004,
+      "cagr": 0.122910567562033,
+      "max_drawdown": 0.11506274669458971,
+      "completed_trades": 24,
+      "fees": 104.64000000000011,
+      "friction": 247.2805402013575,
+      "key": "validation/risk10_stress_fractional/C03",
+      "calendar_returns": {
+        "2022": 0.11312470467065916,
+        "2023": 0.13080679558174113
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6217.9788980585,
+      "net_pnl": 1217.9788980585,
+      "cagr": 0.1160887946354836,
+      "max_drawdown": 0.1350048918219603,
+      "completed_trades": 28,
+      "fees": 122.08000000000018,
+      "friction": 281.18878272844984,
+      "key": "validation/risk10_stress_fractional/T05",
+      "calendar_returns": {
+        "2022": 0.1565999365735835,
+        "2023": 0.07521688380499203
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6644.326113948541,
+      "net_pnl": 1644.3261139485412,
+      "cagr": 0.15400806472320183,
+      "max_drawdown": 0.1348313693161185,
+      "completed_trades": 26,
+      "fees": 113.36000000000016,
+      "friction": 268.4179581407543,
+      "key": "validation/risk10_stress_fractional/T06",
+      "calendar_returns": {
+        "2022": 0.23491596751545596,
+        "2023": 0.07607744797669924
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5111.067284497037,
+      "net_pnl": 111.06728449703678,
+      "cagr": 0.011129984191791786,
+      "max_drawdown": 0.24410414705445838,
+      "completed_trades": 1,
+      "fees": 4.36,
+      "friction": 9.97527641331174,
+      "key": "validation/risk10_stress_fractional/SPY_cash_dividend",
+      "calendar_returns": {
+        "2022": -0.184983585423933,
+        "2023": 0.25422437955573507
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5113.634561659268,
+      "net_pnl": 113.634561659268,
+      "cagr": 0.011385822900318088,
+      "max_drawdown": 0.2456309180820767,
+      "completed_trades": 1,
+      "fees": 19.62,
+      "friction": 10.19491731867201,
+      "key": "validation/risk10_stress_fractional/SPY_reinvested_total_return",
+      "calendar_returns": {
+        "2022": -0.18643083065101518,
+        "2023": 0.25708661397559607
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6493.552006401218,
+      "net_pnl": 1493.552006401218,
+      "cagr": 0.09801333506084364,
+      "max_drawdown": 0.13399863587515626,
+      "completed_trades": 47,
+      "fees": 102.46000000000022,
+      "friction": 256.7698931898983,
+      "key": "final/risk05_base_whole/C03",
+      "calendar_returns": {
+        "2024": 0.18932909979714196,
+        "2025": 0.19242462106423353,
+        "2026": -0.0842449148002462
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 8667.936782400726,
+      "net_pnl": 3667.936782400726,
+      "cagr": 0.21753050539719454,
+      "max_drawdown": 0.132648197485429,
+      "completed_trades": 58,
+      "fees": 126.4400000000003,
+      "friction": 261.4820908987798,
+      "key": "final/risk05_base_whole/T05",
+      "calendar_returns": {
+        "2024": 0.2442439425408447,
+        "2025": 0.3281647989319527,
+        "2026": 0.04903077733912431
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 7493.794535283977,
+      "net_pnl": 2493.794535283977,
+      "cagr": 0.15575518047257697,
+      "max_drawdown": 0.12989101349174692,
+      "completed_trades": 71,
+      "fees": 154.78000000000037,
+      "friction": 253.81707651341148,
+      "key": "final/risk05_base_whole/T06",
+      "calendar_returns": {
+        "2024": 0.2442439425408447,
+        "2025": 0.15838279063823735,
+        "2026": 0.03985825808118926
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 8134.196568149346,
+      "net_pnl": 3134.1965681493457,
+      "cagr": 0.19016154146417796,
+      "max_drawdown": 0.1772287148634597,
+      "completed_trades": 1,
+      "fees": 2.18,
+      "friction": 6.193199920654138,
+      "key": "final/risk05_base_whole/SPY_cash_dividend",
+      "calendar_returns": {
+        "2024": 0.241281866852338,
+        "2025": 0.16615237614240796,
+        "2026": 0.12387742109960231
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 8134.196568149346,
+      "net_pnl": 3134.1965681493457,
+      "cagr": 0.19016154146417796,
+      "max_drawdown": 0.1772287148634597,
+      "completed_trades": 1,
+      "fees": 2.18,
+      "friction": 6.193199920654138,
+      "key": "final/risk05_base_whole/SPY_reinvested_total_return",
+      "calendar_returns": {
+        "2024": 0.241281866852338,
+        "2025": 0.16615237614240796,
+        "2026": 0.12387742109960231
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6540.122319060923,
+      "net_pnl": 1540.1223190609226,
+      "cagr": 0.10082395081067608,
+      "max_drawdown": 0.14198820962695347,
+      "completed_trades": 46,
+      "fees": 100.2800000000002,
+      "friction": 267.7058591312916,
+      "key": "final/risk05_base_fractional/C03",
+      "calendar_returns": {
+        "2024": 0.19461135477708713,
+        "2025": 0.2033012416191251,
+        "2026": -0.09005558575493156
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 9279.80510058,
+      "net_pnl": 4279.805100580001,
+      "cagr": 0.24760513189188704,
+      "max_drawdown": 0.13472955447980028,
+      "completed_trades": 55,
+      "fees": 119.90000000000028,
+      "friction": 307.55751144204976,
+      "key": "final/risk05_base_fractional/T05",
+      "calendar_returns": {
+        "2024": 0.272627146902487,
+        "2025": 0.41619229704459637,
+        "2026": 0.029782340050301226
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 8050.460937099588,
+      "net_pnl": 3050.4609370995877,
+      "cagr": 0.1857640249738266,
+      "max_drawdown": 0.13488953248062274,
+      "completed_trades": 63,
+      "fees": 137.34000000000032,
+      "friction": 286.286734678398,
+      "key": "final/risk05_base_fractional/T06",
+      "calendar_returns": {
+        "2024": 0.272627146902487,
+        "2025": 0.22927691975871056,
+        "2026": 0.029200129021872856
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 8316.743093545341,
+      "net_pnl": 3316.7430935453413,
+      "cagr": 0.19964848394083523,
+      "max_drawdown": 0.18508825026475084,
+      "completed_trades": 1,
+      "fees": 2.18,
+      "friction": 6.55366273563597,
+      "key": "final/risk05_base_fractional/SPY_cash_dividend",
+      "calendar_returns": {
+        "2024": 0.25533788360274445,
+        "2025": 0.17385425361408724,
+        "2026": 0.1287778240665729
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 8352.318015917108,
+      "net_pnl": 3352.318015917108,
+      "cagr": 0.20148169972109464,
+      "max_drawdown": 0.18722199931847716,
+      "completed_trades": 1,
+      "fees": 14.17,
+      "friction": 6.777999783077264,
+      "key": "final/risk05_base_fractional/SPY_reinvested_total_return",
+      "calendar_returns": {
+        "2024": 0.2554059278454224,
+        "2025": 0.17632701758655367,
+        "2026": 0.1311619048481638
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6388.208786457988,
+      "net_pnl": 1388.208786457988,
+      "cagr": 0.0916075375269294,
+      "max_drawdown": 0.13203417345258983,
+      "completed_trades": 43,
+      "fees": 187.4800000000004,
+      "friction": 455.32860370943337,
+      "key": "final/risk05_stress_whole/C03",
+      "calendar_returns": {
+        "2024": 0.1429068849197337,
+        "2025": 0.22470203330712257,
+        "2026": -0.0872164396440378
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 8392.206261612757,
+      "net_pnl": 3392.206261612757,
+      "cagr": 0.20353123188188182,
+      "max_drawdown": 0.1332196219556756,
+      "completed_trades": 53,
+      "fees": 231.08000000000047,
+      "friction": 516.9733445957801,
+      "key": "final/risk05_stress_whole/T05",
+      "calendar_returns": {
+        "2024": 0.2380294994428127,
+        "2025": 0.30545946244554356,
+        "2026": 0.038512579207858666
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 8974.86131543152,
+      "net_pnl": 3974.861315431521,
+      "cagr": 0.2327811484841693,
+      "max_drawdown": 0.13574439113847847,
+      "completed_trades": 58,
+      "fees": 252.8800000000006,
+      "friction": 531.0443729142372,
+      "key": "final/risk05_stress_whole/T06",
+      "calendar_returns": {
+        "2024": 0.2380294994428127,
+        "2025": 0.19820815202301523,
+        "2026": 0.21002537808703003
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 8125.823368228689,
+      "net_pnl": 3125.823368228689,
+      "cagr": 0.1897231210045367,
+      "max_drawdown": 0.17732321919696226,
+      "completed_trades": 1,
+      "fees": 4.36,
+      "friction": 12.38639984130998,
+      "key": "final/risk05_stress_whole/SPY_cash_dividend",
+      "calendar_returns": {
+        "2024": 0.24059170684867603,
+        "2025": 0.16624480923211338,
+        "2026": 0.12325607479194467
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 8125.823368228689,
+      "net_pnl": 3125.823368228689,
+      "cagr": 0.1897231210045367,
+      "max_drawdown": 0.17732321919696226,
+      "completed_trades": 1,
+      "fees": 4.36,
+      "friction": 12.38639984130998,
+      "key": "final/risk05_stress_whole/SPY_reinvested_total_return",
+      "calendar_returns": {
+        "2024": 0.24059170684867603,
+        "2025": 0.16624480923211338,
+        "2026": 0.12325607479194467
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6321.980936759065,
+      "net_pnl": 1321.9809367590651,
+      "cagr": 0.0875454969109406,
+      "max_drawdown": 0.13745315736907704,
+      "completed_trades": 43,
+      "fees": 187.4800000000004,
+      "friction": 473.81974966027735,
+      "key": "final/risk05_stress_fractional/C03",
+      "calendar_returns": {
+        "2024": 0.14367839976947105,
+        "2025": 0.22305278861570765,
+        "2026": -0.09607154766727544
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 9423.3498924124,
+      "net_pnl": 4423.3498924124,
+      "cagr": 0.25447495718294655,
+      "max_drawdown": 0.14007749449009177,
+      "completed_trades": 48,
+      "fees": 209.28000000000048,
+      "friction": 547.1055577238927,
+      "key": "final/risk05_stress_fractional/T05",
+      "calendar_returns": {
+        "2024": 0.24865191757101646,
+        "2025": 0.31277238068330604,
+        "2026": 0.14975284552619605
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 8599.533928976845,
+      "net_pnl": 3599.5339289768453,
+      "cagr": 0.2140845727718339,
+      "max_drawdown": 0.14027322244153462,
+      "completed_trades": 59,
+      "fees": 257.2400000000006,
+      "friction": 544.866628700905,
+      "key": "final/risk05_stress_fractional/T06",
+      "calendar_returns": {
+        "2024": 0.24865191757101646,
+        "2025": 0.19847922185151856,
+        "2026": 0.14929895678516347
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 8305.63330861488,
+      "net_pnl": 3305.6333086148807,
+      "cagr": 0.19907495246591855,
+      "max_drawdown": 0.1850882630978954,
+      "completed_trades": 1,
+      "fees": 4.36,
+      "friction": 13.097922955154209,
+      "key": "final/risk05_stress_fractional/SPY_cash_dividend",
+      "calendar_returns": {
+        "2024": 0.2544372783381206,
+        "2025": 0.17385426621397926,
+        "2026": 0.12807925991951996
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 8325.983285223037,
+      "net_pnl": 3325.9832852230375,
+      "cagr": 0.20012512483608136,
+      "max_drawdown": 0.18722199302548648,
+      "completed_trades": 1,
+      "fees": 28.34,
+      "friction": 13.518899554356864,
+      "key": "final/risk05_stress_fractional/SPY_reinvested_total_return",
+      "calendar_returns": {
+        "2024": 0.25379755812511906,
+        "2025": 0.1755231353044444,
+        "2026": 0.12981394245194
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6452.2011877520345,
+      "net_pnl": 1452.2011877520345,
+      "cagr": 0.0955068553376539,
+      "max_drawdown": 0.13970061727138539,
+      "completed_trades": 47,
+      "fees": 102.46000000000022,
+      "friction": 257.2107081770813,
+      "key": "final/risk10_base_whole/C03",
+      "calendar_returns": {
+        "2024": 0.18932909979714196,
+        "2025": 0.19242462106423353,
+        "2026": -0.09007642618536083
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 8709.664147123507,
+      "net_pnl": 3709.664147123507,
+      "cagr": 0.21962403650125006,
+      "max_drawdown": 0.13209663810783434,
+      "completed_trades": 58,
+      "fees": 126.4400000000003,
+      "friction": 261.7406735016539,
+      "key": "final/risk10_base_whole/T05",
+      "calendar_returns": {
+        "2024": 0.2442439425408447,
+        "2025": 0.3281647989319527,
+        "2026": 0.05408080146254979
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 8317.832265133553,
+      "net_pnl": 3317.832265133553,
+      "cagr": 0.19970468483768888,
+      "max_drawdown": 0.13005729303511937,
+      "completed_trades": 61,
+      "fees": 132.9800000000003,
+      "friction": 271.6537022902961,
+      "key": "final/risk10_base_whole/T06",
+      "calendar_returns": {
+        "2024": 0.2442439425408447,
+        "2025": 0.28737323590325126,
+        "2026": 0.03855653490399913
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 8134.196568149346,
+      "net_pnl": 3134.1965681493457,
+      "cagr": 0.19016154146417796,
+      "max_drawdown": 0.1772287148634597,
+      "completed_trades": 1,
+      "fees": 2.18,
+      "friction": 6.193199920654138,
+      "key": "final/risk10_base_whole/SPY_cash_dividend",
+      "calendar_returns": {
+        "2024": 0.241281866852338,
+        "2025": 0.16615237614240796,
+        "2026": 0.12387742109960231
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 8134.196568149346,
+      "net_pnl": 3134.1965681493457,
+      "cagr": 0.19016154146417796,
+      "max_drawdown": 0.1772287148634597,
+      "completed_trades": 1,
+      "fees": 2.18,
+      "friction": 6.193199920654138,
+      "key": "final/risk10_base_whole/SPY_reinvested_total_return",
+      "calendar_returns": {
+        "2024": 0.241281866852338,
+        "2025": 0.16615237614240796,
+        "2026": 0.12387742109960231
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6502.138990705137,
+      "net_pnl": 1502.138990705137,
+      "cagr": 0.09853254872103268,
+      "max_drawdown": 0.14695838901763125,
+      "completed_trades": 46,
+      "fees": 100.2800000000002,
+      "friction": 267.81129252702254,
+      "key": "final/risk10_base_fractional/C03",
+      "calendar_returns": {
+        "2024": 0.19461135477708713,
+        "2025": 0.2033012416191251,
+        "2026": -0.09534030609893063
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 9292.326448201513,
+      "net_pnl": 4292.326448201513,
+      "cagr": 0.2482070893067816,
+      "max_drawdown": 0.1347281412651502,
+      "completed_trades": 55,
+      "fees": 119.90000000000028,
+      "friction": 307.72262685177384,
+      "key": "final/risk10_base_fractional/T05",
+      "calendar_returns": {
+        "2024": 0.272627146902487,
+        "2025": 0.41619229704459637,
+        "2026": 0.03117183719108252
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 8573.702101699759,
+      "net_pnl": 3573.7021016997587,
+      "cagr": 0.21277866333550421,
+      "max_drawdown": 0.13481584172393557,
+      "completed_trades": 53,
+      "fees": 115.54000000000026,
+      "friction": 297.6743846311835,
+      "key": "final/risk10_base_fractional/T06",
+      "calendar_returns": {
+        "2024": 0.272627146902487,
+        "2025": 0.3070352022481144,
+        "2026": 0.030884281269641267
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 8316.743093545341,
+      "net_pnl": 3316.7430935453413,
+      "cagr": 0.19964848394083523,
+      "max_drawdown": 0.18508825026475084,
+      "completed_trades": 1,
+      "fees": 2.18,
+      "friction": 6.55366273563597,
+      "key": "final/risk10_base_fractional/SPY_cash_dividend",
+      "calendar_returns": {
+        "2024": 0.25533788360274445,
+        "2025": 0.17385425361408724,
+        "2026": 0.1287778240665729
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 8352.318015917108,
+      "net_pnl": 3352.318015917108,
+      "cagr": 0.20148169972109464,
+      "max_drawdown": 0.18722199931847716,
+      "completed_trades": 1,
+      "fees": 14.17,
+      "friction": 6.777999783077264,
+      "key": "final/risk10_base_fractional/SPY_reinvested_total_return",
+      "calendar_returns": {
+        "2024": 0.2554059278454224,
+        "2025": 0.17632701758655367,
+        "2026": 0.1311619048481638
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6352.00640847386,
+      "net_pnl": 1352.0064084738597,
+      "cagr": 0.08939045885965391,
+      "max_drawdown": 0.1378872927943935,
+      "completed_trades": 44,
+      "fees": 191.8400000000004,
+      "friction": 455.8554301284838,
+      "key": "final/risk10_stress_whole/C03",
+      "calendar_returns": {
+        "2024": 0.1429068849197337,
+        "2025": 0.22470203330712257,
+        "2026": -0.0923892410621372
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 8437.958635711988,
+      "net_pnl": 3437.958635711988,
+      "cagr": 0.20587438461124874,
+      "max_drawdown": 0.13533129238849695,
+      "completed_trades": 53,
+      "fees": 231.08000000000047,
+      "friction": 518.9169397942044,
+      "key": "final/risk10_stress_whole/T05",
+      "calendar_returns": {
+        "2024": 0.2380294994428127,
+        "2025": 0.30545946244554356,
+        "2026": 0.04417431040815267
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 7569.270848465431,
+      "net_pnl": 2569.2708484654313,
+      "cagr": 0.1599060587197414,
+      "max_drawdown": 0.13374452527264613,
+      "completed_trades": 49,
+      "fees": 213.64000000000047,
+      "friction": 499.6611501091215,
+      "key": "final/risk10_stress_whole/T06",
+      "calendar_returns": {
+        "2024": 0.2380294994428127,
+        "2025": 0.20676496178676862,
+        "2026": 0.013282066285461136
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 8125.823368228689,
+      "net_pnl": 3125.823368228689,
+      "cagr": 0.1897231210045367,
+      "max_drawdown": 0.17732321919696226,
+      "completed_trades": 1,
+      "fees": 4.36,
+      "friction": 12.38639984130998,
+      "key": "final/risk10_stress_whole/SPY_cash_dividend",
+      "calendar_returns": {
+        "2024": 0.24059170684867603,
+        "2025": 0.16624480923211338,
+        "2026": 0.12325607479194467
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 8125.823368228689,
+      "net_pnl": 3125.823368228689,
+      "cagr": 0.1897231210045367,
+      "max_drawdown": 0.17732321919696226,
+      "completed_trades": 1,
+      "fees": 4.36,
+      "friction": 12.38639984130998,
+      "key": "final/risk10_stress_whole/SPY_reinvested_total_return",
+      "calendar_returns": {
+        "2024": 0.24059170684867603,
+        "2025": 0.16624480923211338,
+        "2026": 0.12325607479194467
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6275.741494136721,
+      "net_pnl": 1275.7414941367206,
+      "cagr": 0.08469320293225602,
+      "max_drawdown": 0.14372822999892032,
+      "completed_trades": 43,
+      "fees": 187.4800000000004,
+      "friction": 474.1096371649545,
+      "key": "final/risk10_stress_fractional/C03",
+      "calendar_returns": {
+        "2024": 0.14367839976947105,
+        "2025": 0.22305278861570765,
+        "2026": -0.10268294814830425
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 10024.393705834142,
+      "net_pnl": 5024.393705834142,
+      "cagr": 0.28253211632712283,
+      "max_drawdown": 0.14838773287573648,
+      "completed_trades": 48,
+      "fees": 209.28000000000048,
+      "friction": 567.4485900139612,
+      "key": "final/risk10_stress_fractional/T05",
+      "calendar_returns": {
+        "2024": 0.24865191757101646,
+        "2025": 0.31277238068330604,
+        "2026": 0.2230868342517971
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 9242.15093411012,
+      "net_pnl": 4242.150934110119,
+      "cagr": 0.24579177782586492,
+      "max_drawdown": 0.1486105262896864,
+      "completed_trades": 47,
+      "fees": 204.92000000000044,
+      "friction": 551.3990924411564,
+      "key": "final/risk10_stress_fractional/T06",
+      "calendar_returns": {
+        "2024": 0.24865191757101646,
+        "2025": 0.21081541006255233,
+        "2026": 0.22259812199832485
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 8305.63330861488,
+      "net_pnl": 3305.6333086148807,
+      "cagr": 0.19907495246591855,
+      "max_drawdown": 0.1850882630978954,
+      "completed_trades": 1,
+      "fees": 4.36,
+      "friction": 13.097922955154209,
+      "key": "final/risk10_stress_fractional/SPY_cash_dividend",
+      "calendar_returns": {
+        "2024": 0.2544372783381206,
+        "2025": 0.17385426621397926,
+        "2026": 0.12807925991951996
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 8325.983285223037,
+      "net_pnl": 3325.9832852230375,
+      "cagr": 0.20012512483608136,
+      "max_drawdown": 0.18722199302548648,
+      "completed_trades": 1,
+      "fees": 28.34,
+      "friction": 13.518899554356864,
+      "key": "final/risk10_stress_fractional/SPY_reinvested_total_return",
+      "calendar_returns": {
+        "2024": 0.25379755812511906,
+        "2025": 0.1755231353044444,
+        "2026": 0.12981394245194
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 7449.47342788136,
+      "net_pnl": 2449.4734278813603,
+      "cagr": 0.15330518152427808,
+      "max_drawdown": 0.13658508761206412,
+      "completed_trades": 53,
+      "fees": 115.54000000000026,
+      "friction": 247.2147428181777,
+      "key": "final/risk05_base_whole/P01_fullhistory",
+      "calendar_returns": {
+        "2024": 0.25092922476716306,
+        "2025": 0.2359877659060341,
+        "2026": -0.03637366534904285
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 8120.088893044287,
+      "net_pnl": 3120.088893044287,
+      "cagr": 0.1894226966524326,
+      "max_drawdown": 0.09290066964904076,
+      "completed_trades": 51,
+      "fees": 111.18000000000023,
+      "friction": 264.6047218023558,
+      "key": "final/risk05_base_fractional/P01_fullhistory",
+      "calendar_returns": {
+        "2024": 0.25573113969272643,
+        "2025": 0.24529324560618915,
+        "2026": 0.038538217052405566
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6466.512436875923,
+      "net_pnl": 1466.5124368759234,
+      "cagr": 0.09637549598488548,
+      "max_drawdown": 0.13532358984392223,
+      "completed_trades": 48,
+      "fees": 209.28000000000048,
+      "friction": 451.46282953646977,
+      "key": "final/risk05_stress_whole/P01_fullhistory",
+      "calendar_returns": {
+        "2024": 0.1286415154669729,
+        "2025": 0.22304422080755737,
+        "2026": -0.06308124660133785
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 7130.598149291383,
+      "net_pnl": 2130.5981492913834,
+      "cagr": 0.13539602342672552,
+      "max_drawdown": 0.09381826537283777,
+      "completed_trades": 46,
+      "fees": 200.56000000000043,
+      "friction": 485.92916855769926,
+      "key": "final/risk05_stress_fractional/P01_fullhistory",
+      "calendar_returns": {
+        "2024": 0.1331578218344156,
+        "2025": 0.2294959931648919,
+        "2026": 0.023619237153508443
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 7260.4548435095485,
+      "net_pnl": 2260.4548435095485,
+      "cagr": 0.14275009933989313,
+      "max_drawdown": 0.15568216011681113,
+      "completed_trades": 51,
+      "fees": 111.18000000000023,
+      "friction": 247.4732679097962,
+      "key": "final/risk10_base_whole/P01_fullhistory",
+      "calendar_returns": {
+        "2024": 0.25092922476716306,
+        "2025": 0.2359877659060341,
+        "2026": -0.06082415670288921
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 7366.106787590301,
+      "net_pnl": 2366.106787590301,
+      "cagr": 0.14867132053638987,
+      "max_drawdown": 0.16347968520748835,
+      "completed_trades": 44,
+      "fees": 95.9200000000002,
+      "friction": 258.73405865174635,
+      "key": "final/risk10_base_fractional/P01_fullhistory",
+      "calendar_returns": {
+        "2024": 0.25573113969272643,
+        "2025": 0.24839144633148735,
+        "2026": -0.06023220536179308
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6240.231054632174,
+      "net_pnl": 1240.2310546321742,
+      "cagr": 0.08249355445414297,
+      "max_drawdown": 0.16338280007064443,
+      "completed_trades": 47,
+      "fees": 204.92000000000044,
+      "friction": 447.0281836749284,
+      "key": "final/risk10_stress_whole/P01_fullhistory",
+      "calendar_returns": {
+        "2024": 0.1286415154669729,
+        "2025": 0.22763724831959076,
+        "2026": -0.09924934235747651
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6301.131861814872,
+      "net_pnl": 1301.1318618148716,
+      "cagr": 0.08626107988841336,
+      "max_drawdown": 0.16594376344781359,
+      "completed_trades": 44,
+      "fees": 191.8400000000004,
+      "friction": 469.58992055843856,
+      "key": "final/risk10_stress_fractional/P01_fullhistory",
+      "calendar_returns": {
+        "2024": 0.1331578218344156,
+        "2025": 0.23064299282388911,
+        "2026": -0.0962962600797389
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 8667.936782400726,
+      "net_pnl": 3667.936782400726,
+      "cagr": 0.21753050539719454,
+      "max_drawdown": 0.132648197485429,
+      "completed_trades": 58,
+      "fees": 126.4400000000003,
+      "friction": 261.4820908987798,
+      "key": "final/risk05_base_whole/T05_fullhistory",
+      "calendar_returns": {
+        "2024": 0.2442439425408447,
+        "2025": 0.3281647989319527,
+        "2026": 0.04903077733912431
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 9279.80510058,
+      "net_pnl": 4279.805100580001,
+      "cagr": 0.24760513189188704,
+      "max_drawdown": 0.13472955447980028,
+      "completed_trades": 55,
+      "fees": 119.90000000000028,
+      "friction": 307.55751144204976,
+      "key": "final/risk05_base_fractional/T05_fullhistory",
+      "calendar_returns": {
+        "2024": 0.272627146902487,
+        "2025": 0.41619229704459637,
+        "2026": 0.029782340050301226
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 8392.206261612757,
+      "net_pnl": 3392.206261612757,
+      "cagr": 0.20353123188188182,
+      "max_drawdown": 0.1332196219556756,
+      "completed_trades": 53,
+      "fees": 231.08000000000047,
+      "friction": 516.9733445957801,
+      "key": "final/risk05_stress_whole/T05_fullhistory",
+      "calendar_returns": {
+        "2024": 0.2380294994428127,
+        "2025": 0.30545946244554356,
+        "2026": 0.038512579207858666
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 9423.3498924124,
+      "net_pnl": 4423.3498924124,
+      "cagr": 0.25447495718294655,
+      "max_drawdown": 0.14007749449009177,
+      "completed_trades": 48,
+      "fees": 209.28000000000048,
+      "friction": 547.1055577238927,
+      "key": "final/risk05_stress_fractional/T05_fullhistory",
+      "calendar_returns": {
+        "2024": 0.24865191757101646,
+        "2025": 0.31277238068330604,
+        "2026": 0.14975284552619605
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 8709.664147123507,
+      "net_pnl": 3709.664147123507,
+      "cagr": 0.21962403650125006,
+      "max_drawdown": 0.13209663810783434,
+      "completed_trades": 58,
+      "fees": 126.4400000000003,
+      "friction": 261.7406735016539,
+      "key": "final/risk10_base_whole/T05_fullhistory",
+      "calendar_returns": {
+        "2024": 0.2442439425408447,
+        "2025": 0.3281647989319527,
+        "2026": 0.05408080146254979
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 9292.326448201513,
+      "net_pnl": 4292.326448201513,
+      "cagr": 0.2482070893067816,
+      "max_drawdown": 0.1347281412651502,
+      "completed_trades": 55,
+      "fees": 119.90000000000028,
+      "friction": 307.72262685177384,
+      "key": "final/risk10_base_fractional/T05_fullhistory",
+      "calendar_returns": {
+        "2024": 0.272627146902487,
+        "2025": 0.41619229704459637,
+        "2026": 0.03117183719108252
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 8437.958635711988,
+      "net_pnl": 3437.958635711988,
+      "cagr": 0.20587438461124874,
+      "max_drawdown": 0.13533129238849695,
+      "completed_trades": 53,
+      "fees": 231.08000000000047,
+      "friction": 518.9169397942044,
+      "key": "final/risk10_stress_whole/T05_fullhistory",
+      "calendar_returns": {
+        "2024": 0.2380294994428127,
+        "2025": 0.30545946244554356,
+        "2026": 0.04417431040815267
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 10024.393705834142,
+      "net_pnl": 5024.393705834142,
+      "cagr": 0.28253211632712283,
+      "max_drawdown": 0.14838773287573648,
+      "completed_trades": 48,
+      "fees": 209.28000000000048,
+      "friction": 567.4485900139612,
+      "key": "final/risk10_stress_fractional/T05_fullhistory",
+      "calendar_returns": {
+        "2024": 0.24865191757101646,
+        "2025": 0.31277238068330604,
+        "2026": 0.2230868342517971
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6777.991290858341,
+      "net_pnl": 1777.991290858341,
+      "cagr": 0.11498292346799244,
+      "max_drawdown": 0.12496769138120678,
+      "completed_trades": 78,
+      "fees": 170.04000000000042,
+      "friction": 282.1378321670546,
+      "key": "final/risk05_base_whole/C03_no_trend",
+      "calendar_returns": {
+        "2024": 0.19143364531072438,
+        "2025": 0.23497955129793957,
+        "2026": -0.07869935467126798
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6411.5191213335,
+      "net_pnl": 1411.5191213335002,
+      "cagr": 0.09303082370414528,
+      "max_drawdown": 0.15692514894947762,
+      "completed_trades": 62,
+      "fees": 270.3200000000006,
+      "friction": 513.9036177604946,
+      "key": "final/risk05_stress_whole/C03_no_trend",
+      "calendar_returns": {
+        "2024": 0.20183246838329594,
+        "2025": 0.1653291124085403,
+        "2026": -0.08441554888570035
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5489.590083340116,
+      "net_pnl": 489.5900833401156,
+      "cagr": 0.033982954465809234,
+      "max_drawdown": 0.25593741936677616,
+      "completed_trades": 62,
+      "fees": 135.1600000000003,
+      "friction": 276.7197573249657,
+      "key": "final/risk10_base_whole/C03_no_trend",
+      "calendar_returns": {
+        "2024": 0.18486526215248467,
+        "2025": 0.13864372979921202,
+        "2026": -0.18620861897357677
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 5902.653694212515,
+      "net_pnl": 902.6536942125149,
+      "cagr": 0.06116948744882644,
+      "max_drawdown": 0.2598183152919885,
+      "completed_trades": 55,
+      "fees": 239.80000000000052,
+      "friction": 549.4618255588986,
+      "key": "final/risk10_stress_whole/C03_no_trend",
+      "calendar_returns": {
+        "2024": 0.20605632348612257,
+        "2025": 0.22012208269814693,
+        "2026": -0.19775610223817186
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 7449.972243715108,
+      "net_pnl": 2449.9722437151077,
+      "cagr": 0.1533328072720752,
+      "max_drawdown": 0.09119618857654621,
+      "completed_trades": 65,
+      "fees": 141.70000000000033,
+      "friction": 253.46981148177528,
+      "key": "final/risk05_base_whole/C03_half_risk_ceilings",
+      "calendar_returns": {
+        "2024": 0.17360505620725264,
+        "2025": 0.2963150584171903,
+        "2026": -0.02061801213028225
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6306.89269431546,
+      "net_pnl": 1306.8926943154602,
+      "cagr": 0.08661625123350492,
+      "max_drawdown": 0.09468480452972838,
+      "completed_trades": 55,
+      "fees": 239.80000000000052,
+      "friction": 413.0203316583381,
+      "key": "final/risk05_stress_whole/C03_half_risk_ceilings",
+      "calendar_returns": {
+        "2024": 0.13712967461710335,
+        "2025": 0.1415535733080957,
+        "2026": -0.02828446319769129
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6493.552006401218,
+      "net_pnl": 1493.552006401218,
+      "cagr": 0.09801333506084364,
+      "max_drawdown": 0.13399863587515626,
+      "completed_trades": 47,
+      "fees": 102.46000000000022,
+      "friction": 256.7698931898983,
+      "key": "final/risk10_base_whole/C03_half_risk_ceilings",
+      "calendar_returns": {
+        "2024": 0.18932909979714196,
+        "2025": 0.19242462106423353,
+        "2026": -0.0842449148002462
+      },
+      "errors": []
+    },
+    {
+      "final_equity": 6388.208786457988,
+      "net_pnl": 1388.208786457988,
+      "cagr": 0.0916075375269294,
+      "max_drawdown": 0.13203417345258983,
+      "completed_trades": 43,
+      "fees": 187.4800000000004,
+      "friction": 455.32860370943337,
+      "key": "final/risk10_stress_whole/C03_half_risk_ceilings",
+      "calendar_returns": {
+        "2024": 0.1429068849197337,
+        "2025": 0.22470203330712257,
+        "2026": -0.0872164396440378
+      },
+      "errors": []
+    }
+  ],
+  "independent_benchmarks": [
+    {
+      "key": "development/risk05_base_whole/SPY_cash_dividend",
+      "max_equity_abs_error": 1.8189894035458565e-12
+    },
+    {
+      "key": "development/risk05_base_whole/SPY_reinvested_total_return",
+      "max_equity_abs_error": 1.8189894035458565e-12
+    },
+    {
+      "key": "development/risk05_base_fractional/SPY_cash_dividend",
+      "max_equity_abs_error": 3.637978807091713e-12
+    },
+    {
+      "key": "development/risk05_base_fractional/SPY_reinvested_total_return",
+      "max_equity_abs_error": 1.8189894035458565e-12
+    },
+    {
+      "key": "development/risk05_stress_whole/SPY_cash_dividend",
+      "max_equity_abs_error": 1.8189894035458565e-12
+    },
+    {
+      "key": "development/risk05_stress_whole/SPY_reinvested_total_return",
+      "max_equity_abs_error": 1.8189894035458565e-12
+    },
+    {
+      "key": "development/risk05_stress_fractional/SPY_cash_dividend",
+      "max_equity_abs_error": 1.8189894035458565e-12
+    },
+    {
+      "key": "development/risk05_stress_fractional/SPY_reinvested_total_return",
+      "max_equity_abs_error": 1.8189894035458565e-12
+    },
+    {
+      "key": "development/risk10_base_whole/SPY_cash_dividend",
+      "max_equity_abs_error": 1.8189894035458565e-12
+    },
+    {
+      "key": "development/risk10_base_whole/SPY_reinvested_total_return",
+      "max_equity_abs_error": 1.8189894035458565e-12
+    },
+    {
+      "key": "development/risk10_base_fractional/SPY_cash_dividend",
+      "max_equity_abs_error": 3.637978807091713e-12
+    },
+    {
+      "key": "development/risk10_base_fractional/SPY_reinvested_total_return",
+      "max_equity_abs_error": 1.8189894035458565e-12
+    },
+    {
+      "key": "development/risk10_stress_whole/SPY_cash_dividend",
+      "max_equity_abs_error": 1.8189894035458565e-12
+    },
+    {
+      "key": "development/risk10_stress_whole/SPY_reinvested_total_return",
+      "max_equity_abs_error": 1.8189894035458565e-12
+    },
+    {
+      "key": "development/risk10_stress_fractional/SPY_cash_dividend",
+      "max_equity_abs_error": 1.8189894035458565e-12
+    },
+    {
+      "key": "development/risk10_stress_fractional/SPY_reinvested_total_return",
+      "max_equity_abs_error": 1.8189894035458565e-12
+    },
+    {
+      "key": "validation/risk05_base_whole/SPY_cash_dividend",
+      "max_equity_abs_error": 9.094947017729282e-13
+    },
+    {
+      "key": "validation/risk05_base_whole/SPY_reinvested_total_return",
+      "max_equity_abs_error": 9.094947017729282e-13
+    },
+    {
+      "key": "validation/risk05_base_fractional/SPY_cash_dividend",
+      "max_equity_abs_error": 1.8189894035458565e-12
+    },
+    {
+      "key": "validation/risk05_base_fractional/SPY_reinvested_total_return",
+      "max_equity_abs_error": 1.3642420526593924e-12
+    },
+    {
+      "key": "validation/risk05_stress_whole/SPY_cash_dividend",
+      "max_equity_abs_error": 9.094947017729282e-13
+    },
+    {
+      "key": "validation/risk05_stress_whole/SPY_reinvested_total_return",
+      "max_equity_abs_error": 9.094947017729282e-13
+    },
+    {
+      "key": "validation/risk05_stress_fractional/SPY_cash_dividend",
+      "max_equity_abs_error": 9.094947017729282e-13
+    },
+    {
+      "key": "validation/risk05_stress_fractional/SPY_reinvested_total_return",
+      "max_equity_abs_error": 9.094947017729282e-13
+    },
+    {
+      "key": "validation/risk10_base_whole/SPY_cash_dividend",
+      "max_equity_abs_error": 9.094947017729282e-13
+    },
+    {
+      "key": "validation/risk10_base_whole/SPY_reinvested_total_return",
+      "max_equity_abs_error": 9.094947017729282e-13
+    },
+    {
+      "key": "validation/risk10_base_fractional/SPY_cash_dividend",
+      "max_equity_abs_error": 1.8189894035458565e-12
+    },
+    {
+      "key": "validation/risk10_base_fractional/SPY_reinvested_total_return",
+      "max_equity_abs_error": 1.3642420526593924e-12
+    },
+    {
+      "key": "validation/risk10_stress_whole/SPY_cash_dividend",
+      "max_equity_abs_error": 9.094947017729282e-13
+    },
+    {
+      "key": "validation/risk10_stress_whole/SPY_reinvested_total_return",
+      "max_equity_abs_error": 9.094947017729282e-13
+    },
+    {
+      "key": "validation/risk10_stress_fractional/SPY_cash_dividend",
+      "max_equity_abs_error": 9.094947017729282e-13
+    },
+    {
+      "key": "validation/risk10_stress_fractional/SPY_reinvested_total_return",
+      "max_equity_abs_error": 9.094947017729282e-13
+    },
+    {
+      "key": "final/risk05_base_whole/SPY_cash_dividend",
+      "max_equity_abs_error": 1.8189894035458565e-12
+    },
+    {
+      "key": "final/risk05_base_whole/SPY_reinvested_total_return",
+      "max_equity_abs_error": 1.8189894035458565e-12
+    },
+    {
+      "key": "final/risk05_base_fractional/SPY_cash_dividend",
+      "max_equity_abs_error": 1.8189894035458565e-12
+    },
+    {
+      "key": "final/risk05_base_fractional/SPY_reinvested_total_return",
+      "max_equity_abs_error": 1.8189894035458565e-12
+    },
+    {
+      "key": "final/risk05_stress_whole/SPY_cash_dividend",
+      "max_equity_abs_error": 1.8189894035458565e-12
+    },
+    {
+      "key": "final/risk05_stress_whole/SPY_reinvested_total_return",
+      "max_equity_abs_error": 1.8189894035458565e-12
+    },
+    {
+      "key": "final/risk05_stress_fractional/SPY_cash_dividend",
+      "max_equity_abs_error": 1.8189894035458565e-12
+    },
+    {
+      "key": "final/risk05_stress_fractional/SPY_reinvested_total_return",
+      "max_equity_abs_error": 1.8189894035458565e-12
+    },
+    {
+      "key": "final/risk10_base_whole/SPY_cash_dividend",
+      "max_equity_abs_error": 1.8189894035458565e-12
+    },
+    {
+      "key": "final/risk10_base_whole/SPY_reinvested_total_return",
+      "max_equity_abs_error": 1.8189894035458565e-12
+    },
+    {
+      "key": "final/risk10_base_fractional/SPY_cash_dividend",
+      "max_equity_abs_error": 1.8189894035458565e-12
+    },
+    {
+      "key": "final/risk10_base_fractional/SPY_reinvested_total_return",
+      "max_equity_abs_error": 1.8189894035458565e-12
+    },
+    {
+      "key": "final/risk10_stress_whole/SPY_cash_dividend",
+      "max_equity_abs_error": 1.8189894035458565e-12
+    },
+    {
+      "key": "final/risk10_stress_whole/SPY_reinvested_total_return",
+      "max_equity_abs_error": 1.8189894035458565e-12
+    },
+    {
+      "key": "final/risk10_stress_fractional/SPY_cash_dividend",
+      "max_equity_abs_error": 1.8189894035458565e-12
+    },
+    {
+      "key": "final/risk10_stress_fractional/SPY_reinvested_total_return",
+      "max_equity_abs_error": 1.8189894035458565e-12
+    }
+  ],
+  "ranking": [
+    {
+      "candidate": "C03",
+      "passing_scenarios": 0,
+      "worst_penalized_increment": -0.2644973694588686,
+      "mean_turnover": 95.42529232402325
+    },
+    {
+      "candidate": "C04",
+      "passing_scenarios": 0,
+      "worst_penalized_increment": -0.2647343122742034,
+      "mean_turnover": 0.0
+    },
+    {
+      "candidate": "P01",
+      "passing_scenarios": 0,
+      "worst_penalized_increment": -0.2670940521689909,
+      "mean_turnover": 86.86949702310295
+    },
+    {
+      "candidate": "P02",
+      "passing_scenarios": 0,
+      "worst_penalized_increment": -0.4415152699846401,
+      "mean_turnover": 88.05240883090065
+    }
+  ],
+  "inputs_unchanged": {
+    "model_pipeline.py": true,
+    "evaluate.py": true,
+    "execution_adapter.py": true,
+    "analysis/model/registry.json": true,
+    "data/context.csv": true,
+    "data/processed/GLD.csv": true,
+    "data/processed/QQQ.csv": true,
+    "data/processed/SPY.csv": true
+  },
+  "prior_attempt_same_rank_and_lock": true,
+  "retained_failed_portfolios": 104,
+  "original_file_count": 1579,
+  "original_hash_failures": [],
+  "reviewed_sha256": {
+    "analysis/model/portfolios/development/risk05_base_whole/P01/trades.csv": "ee6da12da1a2a73e8b13512fa616d4400d4945f968f752053dfbf129e3fd7029",
+    "analysis/model/portfolios/development/risk05_base_whole/P01/equity.csv": "a22861f4b4799783942dd60ffe1c6091404b222807e61bbf946aa9d416260bcb",
+    "analysis/model/portfolios/development/risk05_base_whole/P01/decisions.csv": "41134d9c65dac1e2fe9c1ef6d03747578d7cc0a471de75af75437814c410e9e2",
+    "analysis/model/portfolios/development/risk05_base_whole/P02/trades.csv": "c4f2de1f3c89701c421c60478039948d36384e5af9b4303d4b6a65751cf2d8aa",
+    "analysis/model/portfolios/development/risk05_base_whole/P02/equity.csv": "7f53a5748c2b7a5470660d176b187a967db47c3ab6e206a567036b71193781f4",
+    "analysis/model/portfolios/development/risk05_base_whole/P02/decisions.csv": "025f66447cba30b63063a79ebfe8797a1f09f09afd4e2517da29b0e234f25c30",
+    "analysis/model/portfolios/development/risk05_base_whole/C03/trades.csv": "d25f112d3ac3dbecc2ebaa09dfd7f4abe68bb5a3739eaa7a82f17882474d1b44",
+    "analysis/model/portfolios/development/risk05_base_whole/C03/equity.csv": "66870db177ce5ed1d30ee1e7caed6defd738edfddc5e4af59afb656ca2e7cc07",
+    "analysis/model/portfolios/development/risk05_base_whole/C03/decisions.csv": "73abb1d7f363a48a26d5e18e565e8cc553c1db7320ecf20956e6bcf58ff34200",
+    "analysis/model/portfolios/development/risk05_base_whole/C04/trades.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "analysis/model/portfolios/development/risk05_base_whole/C04/equity.csv": "c2a57167a9fffd25370770a6463db6700320db9fd90529647063448ab9d99106",
+    "analysis/model/portfolios/development/risk05_base_whole/C04/decisions.csv": "d34f4d2eb6ae1f7b35655743d64aafb44089dddedb2223dd9341a3d6d7bcb5d6",
+    "analysis/model/portfolios/development/risk05_base_whole/T05/trades.csv": "40c0d9b71f2ce11208d37d1840058d6629e163b5b5c2acfbc08d9d6078fb2a26",
+    "analysis/model/portfolios/development/risk05_base_whole/T05/equity.csv": "2d7a0aad3ae35e8cbf1543231a2dbe93d6bddb2b3a0a8503f2cd7324d8ebd8e0",
+    "analysis/model/portfolios/development/risk05_base_whole/T05/decisions.csv": "e1c7edfa0f2a970e6e3e331260bc893278f7da99321f9ce87b003f6c19425c31",
+    "analysis/model/portfolios/development/risk05_base_whole/T06/trades.csv": "271e67dcf151a871420537774922cd75e0c943840347f3e0c1e12a5f6d7b613e",
+    "analysis/model/portfolios/development/risk05_base_whole/T06/equity.csv": "74188732d92ce4a0e124eebcb20d3bf3d6a0e6d31558997ca4e6116ef0f6a3c9",
+    "analysis/model/portfolios/development/risk05_base_whole/T06/decisions.csv": "bd5863d3c8052035b339724e3591d6eb39e19dc872fa80ad227f7d558349d41f",
+    "analysis/model/portfolios/development/risk05_base_whole/SPY_cash_dividend/trades.csv": "0ab114fd0b43bd18126254cbefcf8dd079c68bebb2eadb78cb6c49ab402ca515",
+    "analysis/model/portfolios/development/risk05_base_whole/SPY_cash_dividend/equity.csv": "f5eec08ff9a34cebfb1547aab81cfae6e743fa732c535714522b5bdae4608a08",
+    "analysis/model/portfolios/development/risk05_base_whole/SPY_cash_dividend/decisions.csv": "5ec1d35af5b641283c51c8f7c456d7a40013889d0c6912aed9450023d81b86ac",
+    "analysis/model/portfolios/development/risk05_base_whole/SPY_reinvested_total_return/trades.csv": "0ab114fd0b43bd18126254cbefcf8dd079c68bebb2eadb78cb6c49ab402ca515",
+    "analysis/model/portfolios/development/risk05_base_whole/SPY_reinvested_total_return/equity.csv": "f5eec08ff9a34cebfb1547aab81cfae6e743fa732c535714522b5bdae4608a08",
+    "analysis/model/portfolios/development/risk05_base_whole/SPY_reinvested_total_return/decisions.csv": "5ec1d35af5b641283c51c8f7c456d7a40013889d0c6912aed9450023d81b86ac",
+    "analysis/model/portfolios/development/risk05_base_fractional/P01/trades.csv": "79b62a334d2d9edb1d0c6796afb19b7c86fae19847c665fa3eb6b0f2a75bf51d",
+    "analysis/model/portfolios/development/risk05_base_fractional/P01/equity.csv": "b581df9df21d2a0f1ed21dcb744b00eead6327eed933bedf2b29a918e2eb5f14",
+    "analysis/model/portfolios/development/risk05_base_fractional/P01/decisions.csv": "045e4de28596f39a90b2391dcc2278cf1968829a583b1cd9f4c7a344277084fc",
+    "analysis/model/portfolios/development/risk05_base_fractional/P02/trades.csv": "adb5272db73888a9998b7143a3a4c0772c59774232dd0527f0ced0c2a64c2814",
+    "analysis/model/portfolios/development/risk05_base_fractional/P02/equity.csv": "e045b714ae6f83b7d65ae3824f1293f4a0773ea3133dd7d89dbb61aa8faf2e5c",
+    "analysis/model/portfolios/development/risk05_base_fractional/P02/decisions.csv": "5759de36074ac1f6fd9469d3d5b32e76e065fde6771fe8afa657893e0131c111",
+    "analysis/model/portfolios/development/risk05_base_fractional/C03/trades.csv": "de7f0fea34770dddbe15a0a70af5a7d5c04e77d4dd6f73a2787c84dd03e00865",
+    "analysis/model/portfolios/development/risk05_base_fractional/C03/equity.csv": "3eca2112ac2c09a7f496749b41b54e2ac8839bfe3e387d0c0b504b34e8eb0a09",
+    "analysis/model/portfolios/development/risk05_base_fractional/C03/decisions.csv": "3ed2de8fc0472659c3c82a5a2e05879fabb665cf03d2cfd55327168c9fe842ff",
+    "analysis/model/portfolios/development/risk05_base_fractional/C04/trades.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "analysis/model/portfolios/development/risk05_base_fractional/C04/equity.csv": "c2a57167a9fffd25370770a6463db6700320db9fd90529647063448ab9d99106",
+    "analysis/model/portfolios/development/risk05_base_fractional/C04/decisions.csv": "d34f4d2eb6ae1f7b35655743d64aafb44089dddedb2223dd9341a3d6d7bcb5d6",
+    "analysis/model/portfolios/development/risk05_base_fractional/T05/trades.csv": "1f1047bc638ee6d92100dd486e52cc0a1bb1fd4798449a83f62591d000f8b28e",
+    "analysis/model/portfolios/development/risk05_base_fractional/T05/equity.csv": "c85c39bebb502d498ecb09e4cd6a6f3eb1d9156fdd867173761793f5bb0f1e5f",
+    "analysis/model/portfolios/development/risk05_base_fractional/T05/decisions.csv": "34cfb0112f13de272e4770568d61fbe9e7374ae3226659f2a271df3438b0b15c",
+    "analysis/model/portfolios/development/risk05_base_fractional/T06/trades.csv": "4d574d1730ff7cb976cea43c8bb59b4eb0f3f67de6f701cf48b4f3d074ce404d",
+    "analysis/model/portfolios/development/risk05_base_fractional/T06/equity.csv": "7de6d5e7841362178ba5e0514988af80efff11ef7d7ea3436acf1364d39555b4",
+    "analysis/model/portfolios/development/risk05_base_fractional/T06/decisions.csv": "643ab17a880c612ec78f320dbf9c09ec6be5ff491201b3c973a560551b0ee681",
+    "analysis/model/portfolios/development/risk05_base_fractional/SPY_cash_dividend/trades.csv": "00ddaa1703de79e6f3633c8b7f6597b551411598a33727ffe98c588611b367ff",
+    "analysis/model/portfolios/development/risk05_base_fractional/SPY_cash_dividend/equity.csv": "e03fe57b8c9986b38244ac74edd67e3ac4c979569f4c2ca29f9a33facc1e148d",
+    "analysis/model/portfolios/development/risk05_base_fractional/SPY_cash_dividend/decisions.csv": "e7cd3915cdb76cbc21788dcf56833bdb50520c715a1fc52b25517ef79feb51db",
+    "analysis/model/portfolios/development/risk05_base_fractional/SPY_reinvested_total_return/trades.csv": "2199e3c0542145acd5fc37d38c5dd690a0e068410ebf25e19e406ef456ef0b97",
+    "analysis/model/portfolios/development/risk05_base_fractional/SPY_reinvested_total_return/equity.csv": "2fd418deba40a44ce242be18b5f7e712e06afba4b8752baba61314c9b0b43b80",
+    "analysis/model/portfolios/development/risk05_base_fractional/SPY_reinvested_total_return/decisions.csv": "c651a827b060fc9f28f19a4730ed26c993d7a11d8fe9d723d1407b977fe65104",
+    "analysis/model/portfolios/development/risk05_stress_whole/P01/trades.csv": "136e55e53a4f2c2f21cf8a4a6c006a77b57bb65844bd0d27984000866bd69cb1",
+    "analysis/model/portfolios/development/risk05_stress_whole/P01/equity.csv": "b465f9e0431f721894edb0a1f118c832a51a400defeef931fd39aec5276443fc",
+    "analysis/model/portfolios/development/risk05_stress_whole/P01/decisions.csv": "87236ab84e82d057d6a87eb142a7742b81f8bc0ed40e09efc9eb877db0d6e559",
+    "analysis/model/portfolios/development/risk05_stress_whole/P02/trades.csv": "2fda4546ee83e1d51aa8882a038fa5a6450520f854f8185eab98cb8574112ec8",
+    "analysis/model/portfolios/development/risk05_stress_whole/P02/equity.csv": "0f680a99d420536d5d2c012e50c87ac0e78c261d8ee7dc092bd3d4b6f4f579ed",
+    "analysis/model/portfolios/development/risk05_stress_whole/P02/decisions.csv": "db67c26c69d0446212c9a030674c017a39710e72258841354e05b57a4c37ba70",
+    "analysis/model/portfolios/development/risk05_stress_whole/C03/trades.csv": "765897e54eb730018a61006c1fe9c71e648d0b43f3837b047622f6c52ab13429",
+    "analysis/model/portfolios/development/risk05_stress_whole/C03/equity.csv": "1f9f81925668b1f77f265a19e94c33b2f8b5788e0dc359a3c626fe30d053d3bb",
+    "analysis/model/portfolios/development/risk05_stress_whole/C03/decisions.csv": "4808af47390aa60364c375467bf64912c6ea22c26989a51d4d1e656c6f0ff1e1",
+    "analysis/model/portfolios/development/risk05_stress_whole/C04/trades.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "analysis/model/portfolios/development/risk05_stress_whole/C04/equity.csv": "c2a57167a9fffd25370770a6463db6700320db9fd90529647063448ab9d99106",
+    "analysis/model/portfolios/development/risk05_stress_whole/C04/decisions.csv": "d34f4d2eb6ae1f7b35655743d64aafb44089dddedb2223dd9341a3d6d7bcb5d6",
+    "analysis/model/portfolios/development/risk05_stress_whole/T05/trades.csv": "bd74e630ea39ca0eb44c1972d85c6f28dc71cbf74ff6f80c182d52ab6a725d14",
+    "analysis/model/portfolios/development/risk05_stress_whole/T05/equity.csv": "c57fb70909b1aad7d5be2e74be839e1fdb0ce22c214cc0067d63bb81483a616d",
+    "analysis/model/portfolios/development/risk05_stress_whole/T05/decisions.csv": "4247187dd778d779eb34e67ec1747a05342995550d1a39cdbc28ec8b9e9d9f37",
+    "analysis/model/portfolios/development/risk05_stress_whole/T06/trades.csv": "f064bb563480bf707dadd501ac93a2cd170c894a1a037e804f813a680fae6409",
+    "analysis/model/portfolios/development/risk05_stress_whole/T06/equity.csv": "1184edbb6133e58933ad0d584c570a811b8490633705f8521c2086fa78ec092d",
+    "analysis/model/portfolios/development/risk05_stress_whole/T06/decisions.csv": "92ef0dde05db19b3555a299abfd416040ee9238cffbbd8db213eddfe5581fb3f",
+    "analysis/model/portfolios/development/risk05_stress_whole/SPY_cash_dividend/trades.csv": "1fa44613468cae8b8c66293915978dae3a671f263f8a18fe5ca96f44fc5ad23a",
+    "analysis/model/portfolios/development/risk05_stress_whole/SPY_cash_dividend/equity.csv": "ab0c8dfb05022e575f1f140aaa8af091c706742f69dd506b87f268ee8a3ac4eb",
+    "analysis/model/portfolios/development/risk05_stress_whole/SPY_cash_dividend/decisions.csv": "f9401d6538a1a5ea56ba39413ab80fa9386db2c427c7bce86770e3e738d297f0",
+    "analysis/model/portfolios/development/risk05_stress_whole/SPY_reinvested_total_return/trades.csv": "1fa44613468cae8b8c66293915978dae3a671f263f8a18fe5ca96f44fc5ad23a",
+    "analysis/model/portfolios/development/risk05_stress_whole/SPY_reinvested_total_return/equity.csv": "ab0c8dfb05022e575f1f140aaa8af091c706742f69dd506b87f268ee8a3ac4eb",
+    "analysis/model/portfolios/development/risk05_stress_whole/SPY_reinvested_total_return/decisions.csv": "f9401d6538a1a5ea56ba39413ab80fa9386db2c427c7bce86770e3e738d297f0",
+    "analysis/model/portfolios/development/risk05_stress_fractional/P01/trades.csv": "98135fb2a39d60a7f5bf82af77046b0aaeda9b49a05c256997fb50a59d5b5ed1",
+    "analysis/model/portfolios/development/risk05_stress_fractional/P01/equity.csv": "a0edc5867a68fd245108bd503de0a44433b9c4d27adf879124eb1163676c668f",
+    "analysis/model/portfolios/development/risk05_stress_fractional/P01/decisions.csv": "4e6cacbee497744b4ca87cf744b2ecc892b70f1e3d0a889028bda67bc712f0e5",
+    "analysis/model/portfolios/development/risk05_stress_fractional/P02/trades.csv": "1d69e41af5e000d0728c67ed7d0ac7bed9a867d41b78ba0b02e76eb8fde7c462",
+    "analysis/model/portfolios/development/risk05_stress_fractional/P02/equity.csv": "f28cd1d3d4afae15d0b677a413aa26e20bf32e09ab1e57d161d1037975d2fa81",
+    "analysis/model/portfolios/development/risk05_stress_fractional/P02/decisions.csv": "75558fd6ae12b4907e652fbdc4146b2272f61c56801314adbffd58b8319e25c1",
+    "analysis/model/portfolios/development/risk05_stress_fractional/C03/trades.csv": "dd8af8b9b040e5c85085fca09a8580404ae2016dbf27cf2d7e6896f8e51d0e05",
+    "analysis/model/portfolios/development/risk05_stress_fractional/C03/equity.csv": "3d7c574877bf8062022df151bbb426c302de7c2dda0f1083c1a653a24963a20d",
+    "analysis/model/portfolios/development/risk05_stress_fractional/C03/decisions.csv": "72832c28a4fd208c89751f566ab677fc0740c26ae794bfbacb1ac3db32e8172d",
+    "analysis/model/portfolios/development/risk05_stress_fractional/C04/trades.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "analysis/model/portfolios/development/risk05_stress_fractional/C04/equity.csv": "c2a57167a9fffd25370770a6463db6700320db9fd90529647063448ab9d99106",
+    "analysis/model/portfolios/development/risk05_stress_fractional/C04/decisions.csv": "d34f4d2eb6ae1f7b35655743d64aafb44089dddedb2223dd9341a3d6d7bcb5d6",
+    "analysis/model/portfolios/development/risk05_stress_fractional/T05/trades.csv": "f65d9c50f886732c565ed2c75976473b11875aa39b68eee349d3382dd0753f88",
+    "analysis/model/portfolios/development/risk05_stress_fractional/T05/equity.csv": "ba8edfbffc8660d5fde19686926c3176f771fa116bc42acb7dc2c6f5f106855f",
+    "analysis/model/portfolios/development/risk05_stress_fractional/T05/decisions.csv": "8d281e12678f6e1b06feb91dd57206867cfd7dac69c86d3577926f783d5ece4f",
+    "analysis/model/portfolios/development/risk05_stress_fractional/T06/trades.csv": "b69d46a4ee6632c1422aa947e2e2382f1defc928d5f84eba2000ea0c8d327450",
+    "analysis/model/portfolios/development/risk05_stress_fractional/T06/equity.csv": "fc98f971f618413134ed1bf33f4f72ac81dedcb72f100a35c646f57f9473f3fb",
+    "analysis/model/portfolios/development/risk05_stress_fractional/T06/decisions.csv": "4b1ab762fceea16df9feb48e4e2ba19ef06731cfcb4212202187c573cdc291d3",
+    "analysis/model/portfolios/development/risk05_stress_fractional/SPY_cash_dividend/trades.csv": "139cd9e3df571b6b2d18c85964e94a1a0d48c2b5cee758efcf4ed4e57b4498c6",
+    "analysis/model/portfolios/development/risk05_stress_fractional/SPY_cash_dividend/equity.csv": "8d6e7097b2838162bc331b658966627408e5831ff253f7371fa26061aebaaed9",
+    "analysis/model/portfolios/development/risk05_stress_fractional/SPY_cash_dividend/decisions.csv": "2e9ec0b3de1f369568b9824b34b2ee146938eac8a20fe6b5f44b62390c17751e",
+    "analysis/model/portfolios/development/risk05_stress_fractional/SPY_reinvested_total_return/trades.csv": "3566b5d621f28947ef042adbd7a48920b16768b3429347dde2a282a135003695",
+    "analysis/model/portfolios/development/risk05_stress_fractional/SPY_reinvested_total_return/equity.csv": "3abc14e26fb9066493440ec909fc84ee02779bb0cb07fc0258574f73a5739d64",
+    "analysis/model/portfolios/development/risk05_stress_fractional/SPY_reinvested_total_return/decisions.csv": "4a34c61034bc2d83fa95039305f5fdf1d30899a6ca7bfab915b8bcaac80e57f7",
+    "analysis/model/portfolios/development/risk10_base_whole/P01/trades.csv": "283c4e5cdd1acfc777f02bb1143b7fdd6a3cb0ebc49d4b920fe426bd81b026f5",
+    "analysis/model/portfolios/development/risk10_base_whole/P01/equity.csv": "eba4c513c0416702f6be2c2df5a2d3a85f50739ba007bb756387c3ab77ad94b8",
+    "analysis/model/portfolios/development/risk10_base_whole/P01/decisions.csv": "8e6a6d221c9ff61d18ba89db57561a29ebb4fac9ff4fa0566b573abec00587f5",
+    "analysis/model/portfolios/development/risk10_base_whole/P02/trades.csv": "5677ff84012edcb7700da2b56bd54c31ef527da90fabed15c55bd6ea8a618cc7",
+    "analysis/model/portfolios/development/risk10_base_whole/P02/equity.csv": "79534ed31cba9d2863d44fc564a07f85ea0c9d0118399199c54b394974d7c75c",
+    "analysis/model/portfolios/development/risk10_base_whole/P02/decisions.csv": "ed760ab69238b126c91be9ad642faf2720e1cd5e8646bd437bf01901b72e7dfa",
+    "analysis/model/portfolios/development/risk10_base_whole/C03/trades.csv": "6b70a97339b8a1ba158598e43d19faba2d7b41a8ab5e9d5f08828a60265b4b8b",
+    "analysis/model/portfolios/development/risk10_base_whole/C03/equity.csv": "d918d012b70e1ff9d738da77942325969f4cbd68efc5d1d85ab6d238671807b2",
+    "analysis/model/portfolios/development/risk10_base_whole/C03/decisions.csv": "fe78770985411cc51faadc4f7861c4af98584841ff6172bbc71e130e166d2997",
+    "analysis/model/portfolios/development/risk10_base_whole/C04/trades.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "analysis/model/portfolios/development/risk10_base_whole/C04/equity.csv": "15d17a525fef084ea8ee22299f8dbd306e7426b91c0309de8b5e51f5d4c29f5c",
+    "analysis/model/portfolios/development/risk10_base_whole/C04/decisions.csv": "d34f4d2eb6ae1f7b35655743d64aafb44089dddedb2223dd9341a3d6d7bcb5d6",
+    "analysis/model/portfolios/development/risk10_base_whole/T05/trades.csv": "26c39bdfaa96ca47d526e25382be6411f322596ebfb8b2bb19fff2937fadc743",
+    "analysis/model/portfolios/development/risk10_base_whole/T05/equity.csv": "135e0ded1c56e274afee79906dec6200383a95197cfb78e63c6e3f55ef2dc64b",
+    "analysis/model/portfolios/development/risk10_base_whole/T05/decisions.csv": "15e792538dd3739a8fe5f34bd1f53f2b22c83cfcc173499143fc49f09babab7b",
+    "analysis/model/portfolios/development/risk10_base_whole/T06/trades.csv": "1cc77647b4fed3be9fa46514516f82a054ad627d5148af506a4c12661b72c297",
+    "analysis/model/portfolios/development/risk10_base_whole/T06/equity.csv": "ce361cdb92ce975ad57a482d7aecc4976787c7431cffb2bb0d555e9758f0ca08",
+    "analysis/model/portfolios/development/risk10_base_whole/T06/decisions.csv": "983e35b9b1ec3ca4a7f14e02e33f1193c07845155d73823b788e426b3a931461",
+    "analysis/model/portfolios/development/risk10_base_whole/SPY_cash_dividend/trades.csv": "0ab114fd0b43bd18126254cbefcf8dd079c68bebb2eadb78cb6c49ab402ca515",
+    "analysis/model/portfolios/development/risk10_base_whole/SPY_cash_dividend/equity.csv": "f5eec08ff9a34cebfb1547aab81cfae6e743fa732c535714522b5bdae4608a08",
+    "analysis/model/portfolios/development/risk10_base_whole/SPY_cash_dividend/decisions.csv": "5ec1d35af5b641283c51c8f7c456d7a40013889d0c6912aed9450023d81b86ac",
+    "analysis/model/portfolios/development/risk10_base_whole/SPY_reinvested_total_return/trades.csv": "0ab114fd0b43bd18126254cbefcf8dd079c68bebb2eadb78cb6c49ab402ca515",
+    "analysis/model/portfolios/development/risk10_base_whole/SPY_reinvested_total_return/equity.csv": "f5eec08ff9a34cebfb1547aab81cfae6e743fa732c535714522b5bdae4608a08",
+    "analysis/model/portfolios/development/risk10_base_whole/SPY_reinvested_total_return/decisions.csv": "5ec1d35af5b641283c51c8f7c456d7a40013889d0c6912aed9450023d81b86ac",
+    "analysis/model/portfolios/development/risk10_base_fractional/P01/trades.csv": "5daa083af801f96d5b98c9efcbeeefe6ab0cd4c519af4a80bf84d593b326a28f",
+    "analysis/model/portfolios/development/risk10_base_fractional/P01/equity.csv": "f07daa3ffcfad468a43169438cc93c681ca9b5bae0897356724af95158bb8bbd",
+    "analysis/model/portfolios/development/risk10_base_fractional/P01/decisions.csv": "ff1b7210252e410682bf03280a6d200923b1c9dc63c6f5b7929ec5b7209d5ccb",
+    "analysis/model/portfolios/development/risk10_base_fractional/P02/trades.csv": "6385a0a70793315310b8919e883fceedc1337c5baa222deb25cea8d4282de8ec",
+    "analysis/model/portfolios/development/risk10_base_fractional/P02/equity.csv": "f9866c76a62dc20d400f660201b99542f94724b5eb05c74913f375c4255ae5ca",
+    "analysis/model/portfolios/development/risk10_base_fractional/P02/decisions.csv": "c65c8b492276439cf6fee1ef3f96810d6d1f9bd883e863bba9c3d1dfc9aa3d08",
+    "analysis/model/portfolios/development/risk10_base_fractional/C03/trades.csv": "eaa50d838db56158622eda1d5a6e71ea2598f72843f82d42c7debf1c8c847dad",
+    "analysis/model/portfolios/development/risk10_base_fractional/C03/equity.csv": "8369149400a288d4ceefaf96f2b13de283124f78060806c4ce316757fb7a1ed2",
+    "analysis/model/portfolios/development/risk10_base_fractional/C03/decisions.csv": "cd8e17331dfd1fb5f2b9e35ee28cd0e050f664cb5d2bd72279c90a908d21c948",
+    "analysis/model/portfolios/development/risk10_base_fractional/C04/trades.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "analysis/model/portfolios/development/risk10_base_fractional/C04/equity.csv": "15d17a525fef084ea8ee22299f8dbd306e7426b91c0309de8b5e51f5d4c29f5c",
+    "analysis/model/portfolios/development/risk10_base_fractional/C04/decisions.csv": "d34f4d2eb6ae1f7b35655743d64aafb44089dddedb2223dd9341a3d6d7bcb5d6",
+    "analysis/model/portfolios/development/risk10_base_fractional/T05/trades.csv": "d60b10d130323f5c15042a6c3341aff13a0cae0da8f891c79e4ef5330efe4a81",
+    "analysis/model/portfolios/development/risk10_base_fractional/T05/equity.csv": "241fc4341fb683ee973392734c9e1b9fcba69498ffbd76cde3ad89a515f210a7",
+    "analysis/model/portfolios/development/risk10_base_fractional/T05/decisions.csv": "7cba432e4e7c1560734fc44832e7acc4ce193a03410df8e13c6982b84b9f0408",
+    "analysis/model/portfolios/development/risk10_base_fractional/T06/trades.csv": "1ff806ffd38c7190fc90687c6e713a424ff8db61e4568f8e367d8d52cb2ff8a4",
+    "analysis/model/portfolios/development/risk10_base_fractional/T06/equity.csv": "f5eae632db1ac5e163d8527012d7e05803dec52a3e52e21cde6f971862119620",
+    "analysis/model/portfolios/development/risk10_base_fractional/T06/decisions.csv": "25da29a3dd9a5648b48125ec5302adb43b70a2fece554be6bc0e6066ce2b524e",
+    "analysis/model/portfolios/development/risk10_base_fractional/SPY_cash_dividend/trades.csv": "00ddaa1703de79e6f3633c8b7f6597b551411598a33727ffe98c588611b367ff",
+    "analysis/model/portfolios/development/risk10_base_fractional/SPY_cash_dividend/equity.csv": "e03fe57b8c9986b38244ac74edd67e3ac4c979569f4c2ca29f9a33facc1e148d",
+    "analysis/model/portfolios/development/risk10_base_fractional/SPY_cash_dividend/decisions.csv": "e7cd3915cdb76cbc21788dcf56833bdb50520c715a1fc52b25517ef79feb51db",
+    "analysis/model/portfolios/development/risk10_base_fractional/SPY_reinvested_total_return/trades.csv": "2199e3c0542145acd5fc37d38c5dd690a0e068410ebf25e19e406ef456ef0b97",
+    "analysis/model/portfolios/development/risk10_base_fractional/SPY_reinvested_total_return/equity.csv": "2fd418deba40a44ce242be18b5f7e712e06afba4b8752baba61314c9b0b43b80",
+    "analysis/model/portfolios/development/risk10_base_fractional/SPY_reinvested_total_return/decisions.csv": "c651a827b060fc9f28f19a4730ed26c993d7a11d8fe9d723d1407b977fe65104",
+    "analysis/model/portfolios/development/risk10_stress_whole/P01/trades.csv": "84e274258846dee507cfc183dbd126f907a8b71765e2ba258fa6ca8451f66f1a",
+    "analysis/model/portfolios/development/risk10_stress_whole/P01/equity.csv": "42342410a53901545d0d1c0ddaef14a82f7da58222eca32fcae44da6d0e0b5a6",
+    "analysis/model/portfolios/development/risk10_stress_whole/P01/decisions.csv": "226ad7dc9f89e762a940a6e3bc18ddf9e8cb3a5117df8bcf5944513225454fc8",
+    "analysis/model/portfolios/development/risk10_stress_whole/P02/trades.csv": "d40641e57a7e4ae5e86c38900a9a7d2bc2c41e711b838f537c34cdd2085f9858",
+    "analysis/model/portfolios/development/risk10_stress_whole/P02/equity.csv": "4468b8d06281b6623a35945cadc1c664b5f266a2ecfda02179853f50ac3321bf",
+    "analysis/model/portfolios/development/risk10_stress_whole/P02/decisions.csv": "efe27ad3144b12d2e7ea7cbb1ef21ea222dc1f0fa23e2baa3dee8b29d34d9541",
+    "analysis/model/portfolios/development/risk10_stress_whole/C03/trades.csv": "c69531692a21ea42b5fd5f0baa0f4f63d7b7b2dc543a1f45de9fdc3c4237ccaa",
+    "analysis/model/portfolios/development/risk10_stress_whole/C03/equity.csv": "cccbaa37171189cd151d47aeae0554c51ba6158f4e7839e22ca8434c40b935ce",
+    "analysis/model/portfolios/development/risk10_stress_whole/C03/decisions.csv": "d2b8944c85df6fcda6896f95ff43778aa2fe14ae9046d576f92524e33fe60519",
+    "analysis/model/portfolios/development/risk10_stress_whole/C04/trades.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "analysis/model/portfolios/development/risk10_stress_whole/C04/equity.csv": "15d17a525fef084ea8ee22299f8dbd306e7426b91c0309de8b5e51f5d4c29f5c",
+    "analysis/model/portfolios/development/risk10_stress_whole/C04/decisions.csv": "d34f4d2eb6ae1f7b35655743d64aafb44089dddedb2223dd9341a3d6d7bcb5d6",
+    "analysis/model/portfolios/development/risk10_stress_whole/T05/trades.csv": "0bea8c6bdfef488c693cee38fa8dffcf5ea196829fb29e90c5afa0568eb72375",
+    "analysis/model/portfolios/development/risk10_stress_whole/T05/equity.csv": "d88cd6dd87fd0d7b6c4461dc04c93264f2949a0266db4b19e85e3e198409e1de",
+    "analysis/model/portfolios/development/risk10_stress_whole/T05/decisions.csv": "4b6a0fbc06854f803cc3630136acc506f01d4b1be888fe83f7df820f296ccc95",
+    "analysis/model/portfolios/development/risk10_stress_whole/T06/trades.csv": "99937b02464c205c86a83ef0bcfe4593e799b465d00aa18ed79eb5e5e88f53c0",
+    "analysis/model/portfolios/development/risk10_stress_whole/T06/equity.csv": "63024f098880b3a99e0edf14cce976aeedd87dd843beddbca795657128131adf",
+    "analysis/model/portfolios/development/risk10_stress_whole/T06/decisions.csv": "e8e6828c0790f81cc0b9207be739bcb5b1dad7dcdaefc92e23fb9f0e9f7e1889",
+    "analysis/model/portfolios/development/risk10_stress_whole/SPY_cash_dividend/trades.csv": "1fa44613468cae8b8c66293915978dae3a671f263f8a18fe5ca96f44fc5ad23a",
+    "analysis/model/portfolios/development/risk10_stress_whole/SPY_cash_dividend/equity.csv": "ab0c8dfb05022e575f1f140aaa8af091c706742f69dd506b87f268ee8a3ac4eb",
+    "analysis/model/portfolios/development/risk10_stress_whole/SPY_cash_dividend/decisions.csv": "f9401d6538a1a5ea56ba39413ab80fa9386db2c427c7bce86770e3e738d297f0",
+    "analysis/model/portfolios/development/risk10_stress_whole/SPY_reinvested_total_return/trades.csv": "1fa44613468cae8b8c66293915978dae3a671f263f8a18fe5ca96f44fc5ad23a",
+    "analysis/model/portfolios/development/risk10_stress_whole/SPY_reinvested_total_return/equity.csv": "ab0c8dfb05022e575f1f140aaa8af091c706742f69dd506b87f268ee8a3ac4eb",
+    "analysis/model/portfolios/development/risk10_stress_whole/SPY_reinvested_total_return/decisions.csv": "f9401d6538a1a5ea56ba39413ab80fa9386db2c427c7bce86770e3e738d297f0",
+    "analysis/model/portfolios/development/risk10_stress_fractional/P01/trades.csv": "9e69e81d7a1f25297b31c56555a6adb6e0e228bd52fc3828590034f6ba8f7383",
+    "analysis/model/portfolios/development/risk10_stress_fractional/P01/equity.csv": "0b960f331bcc50eef7583b1568c1e8367fff044f19e20d0358a78888be4a0e8f",
+    "analysis/model/portfolios/development/risk10_stress_fractional/P01/decisions.csv": "de0359828974a3e514de362bb370e1259ae0f9270d69f983171a5f4b2f0c4e39",
+    "analysis/model/portfolios/development/risk10_stress_fractional/P02/trades.csv": "f9256e7c1e51b4001270dd528c7d71f6dd2bc85c8dac9cb2b6fa91c7fbd23123",
+    "analysis/model/portfolios/development/risk10_stress_fractional/P02/equity.csv": "6d8c220467280a223fa32b4e0381424678fecf079ccd71dde9a1fb24e8c647e6",
+    "analysis/model/portfolios/development/risk10_stress_fractional/P02/decisions.csv": "c8fdba6f49bb1509d362f8821d8690c8eeb25ccdd84188ba771b14a61e619a1a",
+    "analysis/model/portfolios/development/risk10_stress_fractional/C03/trades.csv": "d30d043ed89bf3f19f717967ec75b10732299d2164bde819a314f7f0d452c892",
+    "analysis/model/portfolios/development/risk10_stress_fractional/C03/equity.csv": "4ae2deb555d7756daa86926c98c086fff3048b6c78de85e15794e67732e3134b",
+    "analysis/model/portfolios/development/risk10_stress_fractional/C03/decisions.csv": "546d6802a4c8e5e6abe29a839b671bac46b8715fdb30c9b597b2edd5dc17e741",
+    "analysis/model/portfolios/development/risk10_stress_fractional/C04/trades.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "analysis/model/portfolios/development/risk10_stress_fractional/C04/equity.csv": "15d17a525fef084ea8ee22299f8dbd306e7426b91c0309de8b5e51f5d4c29f5c",
+    "analysis/model/portfolios/development/risk10_stress_fractional/C04/decisions.csv": "d34f4d2eb6ae1f7b35655743d64aafb44089dddedb2223dd9341a3d6d7bcb5d6",
+    "analysis/model/portfolios/development/risk10_stress_fractional/T05/trades.csv": "15f892191dbc600fc122e8c44aa1c616a02995da746857af1b86dc36dcbcf412",
+    "analysis/model/portfolios/development/risk10_stress_fractional/T05/equity.csv": "661899ed0a3352995079083d62611c58520d1380e9a4b9b8c8b5a5f334b565a8",
+    "analysis/model/portfolios/development/risk10_stress_fractional/T05/decisions.csv": "978ee1f6d6dbd044afa2817ac69021008b7ec218bdf9cfe159247873997a9ec2",
+    "analysis/model/portfolios/development/risk10_stress_fractional/T06/trades.csv": "5ede734bfc93a2c52afad92459aab1794e6836bb3b111611c98ec25acabc4546",
+    "analysis/model/portfolios/development/risk10_stress_fractional/T06/equity.csv": "1136b7ac6d4ab11f6e925d550067f961e3bd1eeadd61e9d5a584b4ceadc41e19",
+    "analysis/model/portfolios/development/risk10_stress_fractional/T06/decisions.csv": "822aa948ae1b2c3993d2081ef8c8936f154a9fdac1d78f4eb73f8bff9d937313",
+    "analysis/model/portfolios/development/risk10_stress_fractional/SPY_cash_dividend/trades.csv": "139cd9e3df571b6b2d18c85964e94a1a0d48c2b5cee758efcf4ed4e57b4498c6",
+    "analysis/model/portfolios/development/risk10_stress_fractional/SPY_cash_dividend/equity.csv": "8d6e7097b2838162bc331b658966627408e5831ff253f7371fa26061aebaaed9",
+    "analysis/model/portfolios/development/risk10_stress_fractional/SPY_cash_dividend/decisions.csv": "2e9ec0b3de1f369568b9824b34b2ee146938eac8a20fe6b5f44b62390c17751e",
+    "analysis/model/portfolios/development/risk10_stress_fractional/SPY_reinvested_total_return/trades.csv": "3566b5d621f28947ef042adbd7a48920b16768b3429347dde2a282a135003695",
+    "analysis/model/portfolios/development/risk10_stress_fractional/SPY_reinvested_total_return/equity.csv": "3abc14e26fb9066493440ec909fc84ee02779bb0cb07fc0258574f73a5739d64",
+    "analysis/model/portfolios/development/risk10_stress_fractional/SPY_reinvested_total_return/decisions.csv": "4a34c61034bc2d83fa95039305f5fdf1d30899a6ca7bfab915b8bcaac80e57f7",
+    "analysis/model/portfolios/validation/risk05_base_whole/C03/trades.csv": "20a50f4b52e1e0725050ccd2f2d3a17b6f032e8b0fd3232b18355013b816d483",
+    "analysis/model/portfolios/validation/risk05_base_whole/C03/equity.csv": "2fd03c68deac0b3af99a4c9b62a591a3ab1aaa46c3662871b485bdc64d30c784",
+    "analysis/model/portfolios/validation/risk05_base_whole/C03/decisions.csv": "7448db02109d8e6f7eeb3ff3b2880031fe6016513ecd35c9d470fb19eed1edfd",
+    "analysis/model/portfolios/validation/risk05_base_whole/T05/trades.csv": "c35e6839e2b8228a7f4afba415cb37fc5ac2a9064d93fdaff59047888f0711c1",
+    "analysis/model/portfolios/validation/risk05_base_whole/T05/equity.csv": "f81c09ea0dd88d732dd5296de4814966c849257873b58181d4482fc502b8746c",
+    "analysis/model/portfolios/validation/risk05_base_whole/T05/decisions.csv": "7014f36b5812708064c3f0f0271e4d0d3f8e6067d8a90f1309ab7a5d6444a21f",
+    "analysis/model/portfolios/validation/risk05_base_whole/T06/trades.csv": "7bb996b78f748474ff64cf22cecec399c71ebf12a10455e10b7c29ef2866d758",
+    "analysis/model/portfolios/validation/risk05_base_whole/T06/equity.csv": "9c7f8430fb0a2bb7a0f11335fbfec2eb5d8555428f0948450ffa11d921794a82",
+    "analysis/model/portfolios/validation/risk05_base_whole/T06/decisions.csv": "a9ed13ca1d2e9ce2ec9a20011d7035a6bbd7edca0f5138c2a0ef9e84ed910805",
+    "analysis/model/portfolios/validation/risk05_base_whole/SPY_cash_dividend/trades.csv": "583f9313b2acbe3b2ef29bfe9543b1727124a9ce488e0fe049ed4c15fbc657ab",
+    "analysis/model/portfolios/validation/risk05_base_whole/SPY_cash_dividend/equity.csv": "83cd72ef7c08ff315f6282f1ff680dda89cbe39fd34f20496cd50325d00bb3b5",
+    "analysis/model/portfolios/validation/risk05_base_whole/SPY_cash_dividend/decisions.csv": "32004d088bbd06626e1e5a2ed4204472782136167bba3b3b46c34133c9de3223",
+    "analysis/model/portfolios/validation/risk05_base_whole/SPY_reinvested_total_return/trades.csv": "583f9313b2acbe3b2ef29bfe9543b1727124a9ce488e0fe049ed4c15fbc657ab",
+    "analysis/model/portfolios/validation/risk05_base_whole/SPY_reinvested_total_return/equity.csv": "83cd72ef7c08ff315f6282f1ff680dda89cbe39fd34f20496cd50325d00bb3b5",
+    "analysis/model/portfolios/validation/risk05_base_whole/SPY_reinvested_total_return/decisions.csv": "32004d088bbd06626e1e5a2ed4204472782136167bba3b3b46c34133c9de3223",
+    "analysis/model/portfolios/validation/risk05_base_fractional/C03/trades.csv": "9cd543f3925b97fdcfc6881aa1f6b778ef2e3741cee6b8db9999a868ecbe5f24",
+    "analysis/model/portfolios/validation/risk05_base_fractional/C03/equity.csv": "af9312b0a7ad7fa464d5dfff55b226757eb9fab6175310a0a27bfa42e67c70ed",
+    "analysis/model/portfolios/validation/risk05_base_fractional/C03/decisions.csv": "00f557a659f69a896376f038219e8cc1aa636a8c51e9cdfc309272032ca8ae80",
+    "analysis/model/portfolios/validation/risk05_base_fractional/T05/trades.csv": "17db4102d8c26904f938e8de4915e4ed66a79fa49817f3712729c2ad652d6e7e",
+    "analysis/model/portfolios/validation/risk05_base_fractional/T05/equity.csv": "a6022dceb0e11b8b5878a5de9011b9544621235c7381a111f23cf90b87673a97",
+    "analysis/model/portfolios/validation/risk05_base_fractional/T05/decisions.csv": "5854ceda98beb30b77540a635a5dedf5ca023e9fb18f1d72e4681776dee855d7",
+    "analysis/model/portfolios/validation/risk05_base_fractional/T06/trades.csv": "eb90f1ffcdd318481ce129d84e444260a4819e0df9f41c5724ed09ee1d1b8b5c",
+    "analysis/model/portfolios/validation/risk05_base_fractional/T06/equity.csv": "0b38e719c1fcb68e810b9a88aa3c312b4722589451e3504247f4fd7f3dac56b8",
+    "analysis/model/portfolios/validation/risk05_base_fractional/T06/decisions.csv": "fff5dce8f88b6777c4449c55826ddecfd531834ee187b984b70e0db1cd771148",
+    "analysis/model/portfolios/validation/risk05_base_fractional/SPY_cash_dividend/trades.csv": "5989db8aee0f5c48ae8124ed6c29fa32bca85f4dc1dc7e4be97118c5f14c203a",
+    "analysis/model/portfolios/validation/risk05_base_fractional/SPY_cash_dividend/equity.csv": "13e03854c524c9734746b62fe916cdfb068bbfe3c8e55cd5efa011bf45f46f53",
+    "analysis/model/portfolios/validation/risk05_base_fractional/SPY_cash_dividend/decisions.csv": "0050d50ded50c5978018a0b6fcbcbcc6ef2be47d976532d37a63a2f9742439eb",
+    "analysis/model/portfolios/validation/risk05_base_fractional/SPY_reinvested_total_return/trades.csv": "e077763b7fb2ce6af82d81d76172929160d10f5792c3ccf4739f2ed8816d4dd5",
+    "analysis/model/portfolios/validation/risk05_base_fractional/SPY_reinvested_total_return/equity.csv": "c607db17c012aa9852e4945452b98bc5bf727de72ac378ba1e1ac6d7cf1ac1c3",
+    "analysis/model/portfolios/validation/risk05_base_fractional/SPY_reinvested_total_return/decisions.csv": "2f081601512dc30b0c92b9df895c6918e1e002c3418125ce788a8328e2202fee",
+    "analysis/model/portfolios/validation/risk05_stress_whole/C03/trades.csv": "6b6e49f9883943645ed4607ab5f40cab49884a8b924c6f46bd29d23243842824",
+    "analysis/model/portfolios/validation/risk05_stress_whole/C03/equity.csv": "c4cdf255488f505c4191ff6ea3a405704552b3c3035a0e887b605ec87273818d",
+    "analysis/model/portfolios/validation/risk05_stress_whole/C03/decisions.csv": "ab05e8a6534112b6533da58454a6c761e96ce16ad3e23cfa79af1e12bb73d19d",
+    "analysis/model/portfolios/validation/risk05_stress_whole/T05/trades.csv": "e2c12470af97f3150eb4cf46990fd7376e2374c19f0032e6029ff43a909b8fad",
+    "analysis/model/portfolios/validation/risk05_stress_whole/T05/equity.csv": "c8539f0903349ff3df346d2b68b716623f563ff23c8b923c3e6aa190b8333520",
+    "analysis/model/portfolios/validation/risk05_stress_whole/T05/decisions.csv": "89b51e7702ae3e0bdd5ba6bce413e0aa2a1e7e69976d40db2a337da3bc67d285",
+    "analysis/model/portfolios/validation/risk05_stress_whole/T06/trades.csv": "41d8bda2d97535580af40fbfc3e17566fb563b061d524240d7d2bdf1b4c36837",
+    "analysis/model/portfolios/validation/risk05_stress_whole/T06/equity.csv": "b6fe86e6bea0b9457803b0863fecc2efb084cf403993eb3d64825cb9e7603d3a",
+    "analysis/model/portfolios/validation/risk05_stress_whole/T06/decisions.csv": "9f20bb503e7fe4a536cc1867d00e97344b7ef1752b5bc414c5dfc7b8800f53a6",
+    "analysis/model/portfolios/validation/risk05_stress_whole/SPY_cash_dividend/trades.csv": "639e47939c88dce52fcfecdfce64e1bf6f136d18c775777f7f0564d33f6021d1",
+    "analysis/model/portfolios/validation/risk05_stress_whole/SPY_cash_dividend/equity.csv": "5ddd19c5ece09ce604086386094ebb1aa72e3f451ef78e76ae45f3b13ce440ce",
+    "analysis/model/portfolios/validation/risk05_stress_whole/SPY_cash_dividend/decisions.csv": "ab4e9401e5996b418586c0913c60ece2f1ca39b780c6bb6a4626a17ab80ba79b",
+    "analysis/model/portfolios/validation/risk05_stress_whole/SPY_reinvested_total_return/trades.csv": "639e47939c88dce52fcfecdfce64e1bf6f136d18c775777f7f0564d33f6021d1",
+    "analysis/model/portfolios/validation/risk05_stress_whole/SPY_reinvested_total_return/equity.csv": "5ddd19c5ece09ce604086386094ebb1aa72e3f451ef78e76ae45f3b13ce440ce",
+    "analysis/model/portfolios/validation/risk05_stress_whole/SPY_reinvested_total_return/decisions.csv": "ab4e9401e5996b418586c0913c60ece2f1ca39b780c6bb6a4626a17ab80ba79b",
+    "analysis/model/portfolios/validation/risk05_stress_fractional/C03/trades.csv": "a5c4584a3668512ff16089ec4202835a263d7bbcd8e864e942d8ba2d89209edd",
+    "analysis/model/portfolios/validation/risk05_stress_fractional/C03/equity.csv": "dbfe7be879522cf151d52e546f1e74778a1c50f716c15a88ad0fe3ac35a33fc3",
+    "analysis/model/portfolios/validation/risk05_stress_fractional/C03/decisions.csv": "70d4f85a748c74936036792cfe8dcc0ccaee9e5c84022072bcfc171d6ba24ea0",
+    "analysis/model/portfolios/validation/risk05_stress_fractional/T05/trades.csv": "683f15fee80278c0a164c49bcc5d558601c22aa975b6c72d737e51123257dd37",
+    "analysis/model/portfolios/validation/risk05_stress_fractional/T05/equity.csv": "17e6287c2f5d80b6e71929fd0f07bff2613d291461df2a201407cb4e6dc3961d",
+    "analysis/model/portfolios/validation/risk05_stress_fractional/T05/decisions.csv": "fb83323a11759774a2eb80b9705ab776ba8d0004069ae86ebcd06f769f15b554",
+    "analysis/model/portfolios/validation/risk05_stress_fractional/T06/trades.csv": "2bf8e1c2d860a3cbdc35b7853882ce0c8d24b2b931d3bb2dd2ae52125b87fd0c",
+    "analysis/model/portfolios/validation/risk05_stress_fractional/T06/equity.csv": "c0feedf6d82a1971633662243240a7c467fab8fb3af4c06f34e72434a80323c8",
+    "analysis/model/portfolios/validation/risk05_stress_fractional/T06/decisions.csv": "bdfe3ae56d455bf53c4c54113eb6855ce9d2dc8c83f870c34e961fbf0050c346",
+    "analysis/model/portfolios/validation/risk05_stress_fractional/SPY_cash_dividend/trades.csv": "a3c7584bced66a708a15c85e490f3d2117cbd007512687c57dae700b522b4de4",
+    "analysis/model/portfolios/validation/risk05_stress_fractional/SPY_cash_dividend/equity.csv": "76be813856b9402b2bbee2ad12e16e54663dd8b07285ad1c98f6382c59394910",
+    "analysis/model/portfolios/validation/risk05_stress_fractional/SPY_cash_dividend/decisions.csv": "034759905d60905350e18028131ccba34c1eaa6bb0afe6817b0f9b6037c3fa82",
+    "analysis/model/portfolios/validation/risk05_stress_fractional/SPY_reinvested_total_return/trades.csv": "44f4ba013dec57c8adf9a5ed0f035d68e68b4c8272374a7b4f93017b8f91206b",
+    "analysis/model/portfolios/validation/risk05_stress_fractional/SPY_reinvested_total_return/equity.csv": "5b50128b1a80a6135aaa03faf9dbe479033024fc98025b9dbecad33088210ecd",
+    "analysis/model/portfolios/validation/risk05_stress_fractional/SPY_reinvested_total_return/decisions.csv": "587eba361fbb0d48d137faac73ab506433279c949a518857519f82aea2364207",
+    "analysis/model/portfolios/validation/risk10_base_whole/C03/trades.csv": "20a50f4b52e1e0725050ccd2f2d3a17b6f032e8b0fd3232b18355013b816d483",
+    "analysis/model/portfolios/validation/risk10_base_whole/C03/equity.csv": "8b061755c8ad8fddc7cb302be8874f980cea4828deca53b04ea82df9caf4c3a8",
+    "analysis/model/portfolios/validation/risk10_base_whole/C03/decisions.csv": "ba7a5a06ef11cb260a4982ca193d9d310b39e278ed6d1e4851fd9e75c96d7288",
+    "analysis/model/portfolios/validation/risk10_base_whole/T05/trades.csv": "c35e6839e2b8228a7f4afba415cb37fc5ac2a9064d93fdaff59047888f0711c1",
+    "analysis/model/portfolios/validation/risk10_base_whole/T05/equity.csv": "567bfa41b680154112fd33c083d015a02bf57a66aec223b8a2a44545eb52f854",
+    "analysis/model/portfolios/validation/risk10_base_whole/T05/decisions.csv": "78934edadda88badd7632fea45c576f97898191432e4af3dc307abedd3f8d661",
+    "analysis/model/portfolios/validation/risk10_base_whole/T06/trades.csv": "7bb996b78f748474ff64cf22cecec399c71ebf12a10455e10b7c29ef2866d758",
+    "analysis/model/portfolios/validation/risk10_base_whole/T06/equity.csv": "eaf05fcce73afaf7a107191de615ebfd418b501448f386b80e5d44e5ade36213",
+    "analysis/model/portfolios/validation/risk10_base_whole/T06/decisions.csv": "82648c65fc9e3d4d880b2b557a9fb01b915a75132f6a2d5c61cab2405c911d63",
+    "analysis/model/portfolios/validation/risk10_base_whole/SPY_cash_dividend/trades.csv": "583f9313b2acbe3b2ef29bfe9543b1727124a9ce488e0fe049ed4c15fbc657ab",
+    "analysis/model/portfolios/validation/risk10_base_whole/SPY_cash_dividend/equity.csv": "83cd72ef7c08ff315f6282f1ff680dda89cbe39fd34f20496cd50325d00bb3b5",
+    "analysis/model/portfolios/validation/risk10_base_whole/SPY_cash_dividend/decisions.csv": "32004d088bbd06626e1e5a2ed4204472782136167bba3b3b46c34133c9de3223",
+    "analysis/model/portfolios/validation/risk10_base_whole/SPY_reinvested_total_return/trades.csv": "583f9313b2acbe3b2ef29bfe9543b1727124a9ce488e0fe049ed4c15fbc657ab",
+    "analysis/model/portfolios/validation/risk10_base_whole/SPY_reinvested_total_return/equity.csv": "83cd72ef7c08ff315f6282f1ff680dda89cbe39fd34f20496cd50325d00bb3b5",
+    "analysis/model/portfolios/validation/risk10_base_whole/SPY_reinvested_total_return/decisions.csv": "32004d088bbd06626e1e5a2ed4204472782136167bba3b3b46c34133c9de3223",
+    "analysis/model/portfolios/validation/risk10_base_fractional/C03/trades.csv": "9cd543f3925b97fdcfc6881aa1f6b778ef2e3741cee6b8db9999a868ecbe5f24",
+    "analysis/model/portfolios/validation/risk10_base_fractional/C03/equity.csv": "f44c0d539f4ed056b4cc14a716b694b775af16746dadc47b84458681b952810d",
+    "analysis/model/portfolios/validation/risk10_base_fractional/C03/decisions.csv": "a32b42ef4a3fd6c0409b5fc2033149c117f88ff3bbaadc422e33e14795087c6c",
+    "analysis/model/portfolios/validation/risk10_base_fractional/T05/trades.csv": "17db4102d8c26904f938e8de4915e4ed66a79fa49817f3712729c2ad652d6e7e",
+    "analysis/model/portfolios/validation/risk10_base_fractional/T05/equity.csv": "eeff44644ef6fde2215a04486334f3cfb42441b280d191b0754f5db50cfe09b1",
+    "analysis/model/portfolios/validation/risk10_base_fractional/T05/decisions.csv": "3a06205ad1d59542aa815386a35028d12af1e68186837e2b67778c9fd756650d",
+    "analysis/model/portfolios/validation/risk10_base_fractional/T06/trades.csv": "eb90f1ffcdd318481ce129d84e444260a4819e0df9f41c5724ed09ee1d1b8b5c",
+    "analysis/model/portfolios/validation/risk10_base_fractional/T06/equity.csv": "dd22beadf3b20de5d8cb3157db40ec771b8145350b0840ca416cb81af3dbd9bd",
+    "analysis/model/portfolios/validation/risk10_base_fractional/T06/decisions.csv": "1aafe3ee92ea81174291882394c9f206d097bbeb850342d752068fad53c9fc08",
+    "analysis/model/portfolios/validation/risk10_base_fractional/SPY_cash_dividend/trades.csv": "5989db8aee0f5c48ae8124ed6c29fa32bca85f4dc1dc7e4be97118c5f14c203a",
+    "analysis/model/portfolios/validation/risk10_base_fractional/SPY_cash_dividend/equity.csv": "13e03854c524c9734746b62fe916cdfb068bbfe3c8e55cd5efa011bf45f46f53",
+    "analysis/model/portfolios/validation/risk10_base_fractional/SPY_cash_dividend/decisions.csv": "0050d50ded50c5978018a0b6fcbcbcc6ef2be47d976532d37a63a2f9742439eb",
+    "analysis/model/portfolios/validation/risk10_base_fractional/SPY_reinvested_total_return/trades.csv": "e077763b7fb2ce6af82d81d76172929160d10f5792c3ccf4739f2ed8816d4dd5",
+    "analysis/model/portfolios/validation/risk10_base_fractional/SPY_reinvested_total_return/equity.csv": "c607db17c012aa9852e4945452b98bc5bf727de72ac378ba1e1ac6d7cf1ac1c3",
+    "analysis/model/portfolios/validation/risk10_base_fractional/SPY_reinvested_total_return/decisions.csv": "2f081601512dc30b0c92b9df895c6918e1e002c3418125ce788a8328e2202fee",
+    "analysis/model/portfolios/validation/risk10_stress_whole/C03/trades.csv": "6b6e49f9883943645ed4607ab5f40cab49884a8b924c6f46bd29d23243842824",
+    "analysis/model/portfolios/validation/risk10_stress_whole/C03/equity.csv": "09327e8ebabe88ed1f8f50686be0b122671029306238dc90ca8d6046749cbb0a",
+    "analysis/model/portfolios/validation/risk10_stress_whole/C03/decisions.csv": "19e07b11bf3654c3354990be16824e87890c84cf6f19b380a58396c0b14e570d",
+    "analysis/model/portfolios/validation/risk10_stress_whole/T05/trades.csv": "e2c12470af97f3150eb4cf46990fd7376e2374c19f0032e6029ff43a909b8fad",
+    "analysis/model/portfolios/validation/risk10_stress_whole/T05/equity.csv": "ac3caf922c8b66a5eca0fa10c8d4a00cb38ea5a462c9ecca351eb0804ce9b274",
+    "analysis/model/portfolios/validation/risk10_stress_whole/T05/decisions.csv": "a65e5b46efa6ebcf8dcbd3ad9675ed8f0e75bdcd27903c0fd325b804f7ff6c3b",
+    "analysis/model/portfolios/validation/risk10_stress_whole/T06/trades.csv": "41d8bda2d97535580af40fbfc3e17566fb563b061d524240d7d2bdf1b4c36837",
+    "analysis/model/portfolios/validation/risk10_stress_whole/T06/equity.csv": "6cf6d5214bc238167fc0aaffca480f14bb0e2578d3bce53504fde75a150bb88c",
+    "analysis/model/portfolios/validation/risk10_stress_whole/T06/decisions.csv": "c80b11e519919d1335b0ab9e2405fc228c0b2eaaa71ce7d3bb8912d32671884d",
+    "analysis/model/portfolios/validation/risk10_stress_whole/SPY_cash_dividend/trades.csv": "639e47939c88dce52fcfecdfce64e1bf6f136d18c775777f7f0564d33f6021d1",
+    "analysis/model/portfolios/validation/risk10_stress_whole/SPY_cash_dividend/equity.csv": "5ddd19c5ece09ce604086386094ebb1aa72e3f451ef78e76ae45f3b13ce440ce",
+    "analysis/model/portfolios/validation/risk10_stress_whole/SPY_cash_dividend/decisions.csv": "ab4e9401e5996b418586c0913c60ece2f1ca39b780c6bb6a4626a17ab80ba79b",
+    "analysis/model/portfolios/validation/risk10_stress_whole/SPY_reinvested_total_return/trades.csv": "639e47939c88dce52fcfecdfce64e1bf6f136d18c775777f7f0564d33f6021d1",
+    "analysis/model/portfolios/validation/risk10_stress_whole/SPY_reinvested_total_return/equity.csv": "5ddd19c5ece09ce604086386094ebb1aa72e3f451ef78e76ae45f3b13ce440ce",
+    "analysis/model/portfolios/validation/risk10_stress_whole/SPY_reinvested_total_return/decisions.csv": "ab4e9401e5996b418586c0913c60ece2f1ca39b780c6bb6a4626a17ab80ba79b",
+    "analysis/model/portfolios/validation/risk10_stress_fractional/C03/trades.csv": "a5c4584a3668512ff16089ec4202835a263d7bbcd8e864e942d8ba2d89209edd",
+    "analysis/model/portfolios/validation/risk10_stress_fractional/C03/equity.csv": "e30319ea8b1728285220c64aec8d8970e69f806fc5ce32eb38011443d1a0920a",
+    "analysis/model/portfolios/validation/risk10_stress_fractional/C03/decisions.csv": "567cb6334dbdf123e150d5d142deb310b078c836b0423c2f2f5cf1395a588bc4",
+    "analysis/model/portfolios/validation/risk10_stress_fractional/T05/trades.csv": "683f15fee80278c0a164c49bcc5d558601c22aa975b6c72d737e51123257dd37",
+    "analysis/model/portfolios/validation/risk10_stress_fractional/T05/equity.csv": "e92ef0ad5e1973cf4fad92c33ee7e8c23ad6043c2a407ce444e0a55c995c1815",
+    "analysis/model/portfolios/validation/risk10_stress_fractional/T05/decisions.csv": "3a8bbb768aa6a125f477449af151a52b1140d6f5ed9a192905ef19773bb66f25",
+    "analysis/model/portfolios/validation/risk10_stress_fractional/T06/trades.csv": "2bf8e1c2d860a3cbdc35b7853882ce0c8d24b2b931d3bb2dd2ae52125b87fd0c",
+    "analysis/model/portfolios/validation/risk10_stress_fractional/T06/equity.csv": "7c100a9c1b61f08f3caf46aca4a0cd430a7e71f35e46f4881a3dedf76a5741fc",
+    "analysis/model/portfolios/validation/risk10_stress_fractional/T06/decisions.csv": "c8cda3644bc673a394c4baf19672b0999a478eb148ff961294cea0dbd9fefaf8",
+    "analysis/model/portfolios/validation/risk10_stress_fractional/SPY_cash_dividend/trades.csv": "a3c7584bced66a708a15c85e490f3d2117cbd007512687c57dae700b522b4de4",
+    "analysis/model/portfolios/validation/risk10_stress_fractional/SPY_cash_dividend/equity.csv": "76be813856b9402b2bbee2ad12e16e54663dd8b07285ad1c98f6382c59394910",
+    "analysis/model/portfolios/validation/risk10_stress_fractional/SPY_cash_dividend/decisions.csv": "034759905d60905350e18028131ccba34c1eaa6bb0afe6817b0f9b6037c3fa82",
+    "analysis/model/portfolios/validation/risk10_stress_fractional/SPY_reinvested_total_return/trades.csv": "44f4ba013dec57c8adf9a5ed0f035d68e68b4c8272374a7b4f93017b8f91206b",
+    "analysis/model/portfolios/validation/risk10_stress_fractional/SPY_reinvested_total_return/equity.csv": "5b50128b1a80a6135aaa03faf9dbe479033024fc98025b9dbecad33088210ecd",
+    "analysis/model/portfolios/validation/risk10_stress_fractional/SPY_reinvested_total_return/decisions.csv": "587eba361fbb0d48d137faac73ab506433279c949a518857519f82aea2364207",
+    "analysis/model/portfolios/final/risk05_base_whole/C03/trades.csv": "375916676eb1656b0ea4d12606254d0b03d0ff72fc7c31df2878e63dbc8b31ab",
+    "analysis/model/portfolios/final/risk05_base_whole/C03/equity.csv": "db72e767afa91f72009479281e1afb1e422b6091b708a26e995dac3838934d67",
+    "analysis/model/portfolios/final/risk05_base_whole/C03/decisions.csv": "67d969e3fa2c885243da84aae1ed5419f76d5149cecd09b4d7db8b65de388ace",
+    "analysis/model/portfolios/final/risk05_base_whole/T05/trades.csv": "0628b6f431bfdbff4bd633f219767d6bb6067495667493cdef9a68fe01622e29",
+    "analysis/model/portfolios/final/risk05_base_whole/T05/equity.csv": "dee8796f5e45a6deb4408211260bee0e980af52497ea61b5cfca46abffe4e909",
+    "analysis/model/portfolios/final/risk05_base_whole/T05/decisions.csv": "505c8f112f35d1c14309ba7edb0c1203377abe6cbc98f08c518be8f48ce04335",
+    "analysis/model/portfolios/final/risk05_base_whole/T06/trades.csv": "f7179bc0cf67a8bcfb0d1936b7c79c7868e3cdb9c1a15f4485f01d65f7db73b8",
+    "analysis/model/portfolios/final/risk05_base_whole/T06/equity.csv": "176ba06dbd0f457e81aa70afa851186dd0f9114b42815a9c3453b72612486581",
+    "analysis/model/portfolios/final/risk05_base_whole/T06/decisions.csv": "071a577692e42e680e9a59093d7ef7fc3fc375ed7402663b3fd4d1a35a38fd01",
+    "analysis/model/portfolios/final/risk05_base_whole/SPY_cash_dividend/trades.csv": "baf0ca01a0ec04325e272ef76763af1b6e02e6b7068a1c2ed18f25487df3509b",
+    "analysis/model/portfolios/final/risk05_base_whole/SPY_cash_dividend/equity.csv": "13d368ef3ab34ef978fc5eb06af4cb2ff6de982629492dd255673846002d303a",
+    "analysis/model/portfolios/final/risk05_base_whole/SPY_cash_dividend/decisions.csv": "3770ee84fac199a771290db7090170fde170cfc266e1186c222bbafed3c2109c",
+    "analysis/model/portfolios/final/risk05_base_whole/SPY_reinvested_total_return/trades.csv": "baf0ca01a0ec04325e272ef76763af1b6e02e6b7068a1c2ed18f25487df3509b",
+    "analysis/model/portfolios/final/risk05_base_whole/SPY_reinvested_total_return/equity.csv": "13d368ef3ab34ef978fc5eb06af4cb2ff6de982629492dd255673846002d303a",
+    "analysis/model/portfolios/final/risk05_base_whole/SPY_reinvested_total_return/decisions.csv": "3770ee84fac199a771290db7090170fde170cfc266e1186c222bbafed3c2109c",
+    "analysis/model/portfolios/final/risk05_base_fractional/C03/trades.csv": "372c1a3cc7da3240baf4adab3d8da5381862e91110168654c43bc007ac7f3e00",
+    "analysis/model/portfolios/final/risk05_base_fractional/C03/equity.csv": "2010073162f087431ac5650ef4660ead355eea0be964052ce527c48c3e8dd0f4",
+    "analysis/model/portfolios/final/risk05_base_fractional/C03/decisions.csv": "212e7d8157056872631f123f9876c1bc16f05344b5395176199fec960470d0b5",
+    "analysis/model/portfolios/final/risk05_base_fractional/T05/trades.csv": "59e957425fcd38afb2d364e4fe7f3d7a5bca0a0024f937b06a72d7bf93da04d9",
+    "analysis/model/portfolios/final/risk05_base_fractional/T05/equity.csv": "3a855d8b6086a2c243ac6b11a417bb4f1764e1ffe1d58f50fc35d02b8863d57c",
+    "analysis/model/portfolios/final/risk05_base_fractional/T05/decisions.csv": "3aab8866cf671ea58742c7d2124a621e5f1213277a57f7ed14b1f5a469b0ac18",
+    "analysis/model/portfolios/final/risk05_base_fractional/T06/trades.csv": "2afe0057b4182636f21f964294d057e00a57e0d172b6d3c5c1d0e8d19aa3060f",
+    "analysis/model/portfolios/final/risk05_base_fractional/T06/equity.csv": "121d010749c52617ceade1d31acf53133b37ae438ab6eaf6658115c4ced0849c",
+    "analysis/model/portfolios/final/risk05_base_fractional/T06/decisions.csv": "fbaeed27f2e2ab7956c6500bbdacacb40262b27e0d426df5b2b25c693333eeaf",
+    "analysis/model/portfolios/final/risk05_base_fractional/SPY_cash_dividend/trades.csv": "9c958e7553eaf4c26abb641c43398162b088db8b34083ae50b3f87718a45cfbd",
+    "analysis/model/portfolios/final/risk05_base_fractional/SPY_cash_dividend/equity.csv": "57e2ff81472614114a409be927d55218a22b20792709ddd7f2cead003783824e",
+    "analysis/model/portfolios/final/risk05_base_fractional/SPY_cash_dividend/decisions.csv": "ad5f12a50ff20a00ee40a817d3bc4edf1a876db7f09c7c453dd972a8a0b4440b",
+    "analysis/model/portfolios/final/risk05_base_fractional/SPY_reinvested_total_return/trades.csv": "9df60ee19154eb76409cb8784e181616e3b4855276f534cd5c815b8fcbf81a69",
+    "analysis/model/portfolios/final/risk05_base_fractional/SPY_reinvested_total_return/equity.csv": "5bc985a859a3e1bae6beb3c444a87ffec2232f3bf6f23cc88915302a62e3bf65",
+    "analysis/model/portfolios/final/risk05_base_fractional/SPY_reinvested_total_return/decisions.csv": "add9155c43798a8fbc2eac0d1219674b03d4abf6e4ac8b643b78e2a6fe311d7d",
+    "analysis/model/portfolios/final/risk05_stress_whole/C03/trades.csv": "f97d4e204453e5fec9ccc42828f17bb5978400c0cd12a052b6befc0d51d08711",
+    "analysis/model/portfolios/final/risk05_stress_whole/C03/equity.csv": "2c0f4a61c7424ad49128948db4bef40c90426adc46aa0505f751bb722965dc84",
+    "analysis/model/portfolios/final/risk05_stress_whole/C03/decisions.csv": "5d214fe7aead2f63d5445dff3bb6ee375f34debce47fd16a433ce1d4ea1ec2ee",
+    "analysis/model/portfolios/final/risk05_stress_whole/T05/trades.csv": "27715d05e8d397ccf8a40afbaaa397958383517851448a19e691e4b72102dd29",
+    "analysis/model/portfolios/final/risk05_stress_whole/T05/equity.csv": "51675d06d7bb3e24a64215f52a36ffef3b689a89b970e8b96716c1b93ecf58ef",
+    "analysis/model/portfolios/final/risk05_stress_whole/T05/decisions.csv": "301aefce6b4b1cbacf8ff00802ba3107da1133a79c15b9198db4ebc822d42944",
+    "analysis/model/portfolios/final/risk05_stress_whole/T06/trades.csv": "c4f2f5dfe50271261f909c51aa510d75393e6459b70b5e2401979bb8c9a20f42",
+    "analysis/model/portfolios/final/risk05_stress_whole/T06/equity.csv": "e25ac05b29cf72c2ca53a0ef231483cb973349470e6fe68ea64bb106383bd64d",
+    "analysis/model/portfolios/final/risk05_stress_whole/T06/decisions.csv": "9950bdf1f7cc4e9a14340f43b1e9ec1bfc4c975c0bc5d9b1e37d8b527fd6e802",
+    "analysis/model/portfolios/final/risk05_stress_whole/SPY_cash_dividend/trades.csv": "126a858cda946b4a2ef1fa1e6ab2c1c0805e05611ca9d8e3428310b787b60c39",
+    "analysis/model/portfolios/final/risk05_stress_whole/SPY_cash_dividend/equity.csv": "6c0f0dc1a992f3470267646a2cad800cd060d0adea45d9e0c4dd7ff7ccd57922",
+    "analysis/model/portfolios/final/risk05_stress_whole/SPY_cash_dividend/decisions.csv": "92ea05b12a152477c833820493a3f217c5b85d009469ff3d578e344fa373a3c8",
+    "analysis/model/portfolios/final/risk05_stress_whole/SPY_reinvested_total_return/trades.csv": "126a858cda946b4a2ef1fa1e6ab2c1c0805e05611ca9d8e3428310b787b60c39",
+    "analysis/model/portfolios/final/risk05_stress_whole/SPY_reinvested_total_return/equity.csv": "6c0f0dc1a992f3470267646a2cad800cd060d0adea45d9e0c4dd7ff7ccd57922",
+    "analysis/model/portfolios/final/risk05_stress_whole/SPY_reinvested_total_return/decisions.csv": "92ea05b12a152477c833820493a3f217c5b85d009469ff3d578e344fa373a3c8",
+    "analysis/model/portfolios/final/risk05_stress_fractional/C03/trades.csv": "1f428e79466dea9ae11bd9c96dc43e719e3704f05da257b700658023a4810e06",
+    "analysis/model/portfolios/final/risk05_stress_fractional/C03/equity.csv": "fe50c0f4d5575bc8cc0b6c13b4b1f325eb36f2164930bba1415397dd4863bc2a",
+    "analysis/model/portfolios/final/risk05_stress_fractional/C03/decisions.csv": "2c2f76a4c20f9dd51aa1ddaa6e2e594b4ac9998efe62e3ca68c3f22a27abee36",
+    "analysis/model/portfolios/final/risk05_stress_fractional/T05/trades.csv": "1b21e787c7bcba1f4e5ca64dfbd67180bfb352728b8c9cca58d78416cc6915a6",
+    "analysis/model/portfolios/final/risk05_stress_fractional/T05/equity.csv": "7ce3cdfdf5025e06daa05d989d3e7b8b312d30ca2359e765ca1d5890076c364e",
+    "analysis/model/portfolios/final/risk05_stress_fractional/T05/decisions.csv": "c221a3675677dff1b3e5ef032a5fb80b62edf971b34b317d464674116d70e3b8",
+    "analysis/model/portfolios/final/risk05_stress_fractional/T06/trades.csv": "82fd1c307f6882c299346644f1c05227bb8b8eaf84d4e31c52dc59fbf48719a4",
+    "analysis/model/portfolios/final/risk05_stress_fractional/T06/equity.csv": "546fa0c6bd6626951f4e2418c6b54a4f9987d915ad228360baa02cf2d3929696",
+    "analysis/model/portfolios/final/risk05_stress_fractional/T06/decisions.csv": "432856b8a69aebbca879713700f88deb52eb9569b640e24cf6e9b60f4df27244",
+    "analysis/model/portfolios/final/risk05_stress_fractional/SPY_cash_dividend/trades.csv": "8e17deebbce0c3c3700b7a6516b84e2324b3dce9a6ff24a8ce7be51c6f3c8dd4",
+    "analysis/model/portfolios/final/risk05_stress_fractional/SPY_cash_dividend/equity.csv": "a75ee394e3e6dd548e7a11ac49beb67d4fec3d404813e0e83b29f8759a17c781",
+    "analysis/model/portfolios/final/risk05_stress_fractional/SPY_cash_dividend/decisions.csv": "445575cc5fa48404fc2f83c144ad5328388e93bc9eec35c62007e80fd9cc2321",
+    "analysis/model/portfolios/final/risk05_stress_fractional/SPY_reinvested_total_return/trades.csv": "d907e8da2c106fa4a534cdb2fd803307b8a962f65166d3cd08940e79b2271b2b",
+    "analysis/model/portfolios/final/risk05_stress_fractional/SPY_reinvested_total_return/equity.csv": "1729c7d6bbadb0a9b765a1e28580ef9fc78ed6a29e8cb621ba85a1b9c8223efb",
+    "analysis/model/portfolios/final/risk05_stress_fractional/SPY_reinvested_total_return/decisions.csv": "d3e93c5b3b4554d8f15eda714287382edc5beeb7e0682e4c7527288bf029cb8d",
+    "analysis/model/portfolios/final/risk10_base_whole/C03/trades.csv": "4697de8e6fc7a34401bcf23881fc0677f416f8695a969367751255dc08b7ba95",
+    "analysis/model/portfolios/final/risk10_base_whole/C03/equity.csv": "e1fc95ca29137344db56d0b7dc61e31aeb76611f3b4efd96a7b3bb05dcaf4cac",
+    "analysis/model/portfolios/final/risk10_base_whole/C03/decisions.csv": "8fdb951cd06bcc27ea931926ab2d6cdc318b2b098507bce6c6cd7f024cdb7a23",
+    "analysis/model/portfolios/final/risk10_base_whole/T05/trades.csv": "fc16df9db2c0f650833ca4aaaa9f0b01c35d7d3857763c053ae2c68540f55ad2",
+    "analysis/model/portfolios/final/risk10_base_whole/T05/equity.csv": "df5872b43cd24fea9a0df4fda40d36b552d4f6c688dbfe66477544f59f3eb187",
+    "analysis/model/portfolios/final/risk10_base_whole/T05/decisions.csv": "5812ca31046105bec49d0fcfb258bce0f55568d18fcb8755a00e323c1c9b4035",
+    "analysis/model/portfolios/final/risk10_base_whole/T06/trades.csv": "391cd49279aa20f9e77a170d6ef846a330c1aa10305573421683be9a89e5da3c",
+    "analysis/model/portfolios/final/risk10_base_whole/T06/equity.csv": "68ff3170d886d12ae25b1c5ed2c6da959f6de2e9a75f4fd45ca518ffa264eae3",
+    "analysis/model/portfolios/final/risk10_base_whole/T06/decisions.csv": "c3cf16a3413051e2a4ba424192102dd6c4c758dd52092da02b663f8acb4dd455",
+    "analysis/model/portfolios/final/risk10_base_whole/SPY_cash_dividend/trades.csv": "baf0ca01a0ec04325e272ef76763af1b6e02e6b7068a1c2ed18f25487df3509b",
+    "analysis/model/portfolios/final/risk10_base_whole/SPY_cash_dividend/equity.csv": "13d368ef3ab34ef978fc5eb06af4cb2ff6de982629492dd255673846002d303a",
+    "analysis/model/portfolios/final/risk10_base_whole/SPY_cash_dividend/decisions.csv": "3770ee84fac199a771290db7090170fde170cfc266e1186c222bbafed3c2109c",
+    "analysis/model/portfolios/final/risk10_base_whole/SPY_reinvested_total_return/trades.csv": "baf0ca01a0ec04325e272ef76763af1b6e02e6b7068a1c2ed18f25487df3509b",
+    "analysis/model/portfolios/final/risk10_base_whole/SPY_reinvested_total_return/equity.csv": "13d368ef3ab34ef978fc5eb06af4cb2ff6de982629492dd255673846002d303a",
+    "analysis/model/portfolios/final/risk10_base_whole/SPY_reinvested_total_return/decisions.csv": "3770ee84fac199a771290db7090170fde170cfc266e1186c222bbafed3c2109c",
+    "analysis/model/portfolios/final/risk10_base_fractional/C03/trades.csv": "6a86189ac177a7898f52852a318e89014b25408dc72b1ef9da8fcfdb888dce74",
+    "analysis/model/portfolios/final/risk10_base_fractional/C03/equity.csv": "f5e594ac2efe0dfa3de675e2cb311550b85d9b60e4e5fd56ccc63632d30d5a34",
+    "analysis/model/portfolios/final/risk10_base_fractional/C03/decisions.csv": "53f5a4052e29afff33636dc80f828ec9d7f78516dd6b9a15c94aa63a0e1bb4b8",
+    "analysis/model/portfolios/final/risk10_base_fractional/T05/trades.csv": "28163bc5ace5dc9562d1bbb02172b0312136135db1dc070c35121c05abfa4028",
+    "analysis/model/portfolios/final/risk10_base_fractional/T05/equity.csv": "c9bb7888e520e52a0cdae087a3776683a5ef22f14740f5d04950f2d977620658",
+    "analysis/model/portfolios/final/risk10_base_fractional/T05/decisions.csv": "f03705e5f09eaee45439b524ffebfff34bad6a9f2f5348d011da431ca2e1c0f9",
+    "analysis/model/portfolios/final/risk10_base_fractional/T06/trades.csv": "ac47f2d009079051123f8d8c7549509eca695b323facf57c89c214daf6cd3a86",
+    "analysis/model/portfolios/final/risk10_base_fractional/T06/equity.csv": "b61f8f9925ce008ef519d38d12ab5b0aee2e0acdeb45aac9ccf9915d399aac6e",
+    "analysis/model/portfolios/final/risk10_base_fractional/T06/decisions.csv": "14f69bb7a88cfaed9ab342ceaaaba4ac337f84498764ae466959e5151eb5d2ec",
+    "analysis/model/portfolios/final/risk10_base_fractional/SPY_cash_dividend/trades.csv": "9c958e7553eaf4c26abb641c43398162b088db8b34083ae50b3f87718a45cfbd",
+    "analysis/model/portfolios/final/risk10_base_fractional/SPY_cash_dividend/equity.csv": "57e2ff81472614114a409be927d55218a22b20792709ddd7f2cead003783824e",
+    "analysis/model/portfolios/final/risk10_base_fractional/SPY_cash_dividend/decisions.csv": "ad5f12a50ff20a00ee40a817d3bc4edf1a876db7f09c7c453dd972a8a0b4440b",
+    "analysis/model/portfolios/final/risk10_base_fractional/SPY_reinvested_total_return/trades.csv": "9df60ee19154eb76409cb8784e181616e3b4855276f534cd5c815b8fcbf81a69",
+    "analysis/model/portfolios/final/risk10_base_fractional/SPY_reinvested_total_return/equity.csv": "5bc985a859a3e1bae6beb3c444a87ffec2232f3bf6f23cc88915302a62e3bf65",
+    "analysis/model/portfolios/final/risk10_base_fractional/SPY_reinvested_total_return/decisions.csv": "add9155c43798a8fbc2eac0d1219674b03d4abf6e4ac8b643b78e2a6fe311d7d",
+    "analysis/model/portfolios/final/risk10_stress_whole/C03/trades.csv": "d8068fb316a394aae47262aaac9ce9ebdecbb8e61933d537873b769fe36a7119",
+    "analysis/model/portfolios/final/risk10_stress_whole/C03/equity.csv": "abd99a9b0dbbe748b060d311c098600d185b33b71115c0720a691dba20f2b2b0",
+    "analysis/model/portfolios/final/risk10_stress_whole/C03/decisions.csv": "7213a26e9227a64b4ab4b541d1d3e2238992db16bb00aa6fd843d8ad62550021",
+    "analysis/model/portfolios/final/risk10_stress_whole/T05/trades.csv": "ba817d1c4331d3db5086e22aa52f2cd2aa77c4605efa5ce481ee542ba39ece6c",
+    "analysis/model/portfolios/final/risk10_stress_whole/T05/equity.csv": "9c54dbe5224f415eedd2db081c61f4e4fdd563a4133c3a0a090f41e4971c3a8b",
+    "analysis/model/portfolios/final/risk10_stress_whole/T05/decisions.csv": "d2210497bdd45cfb28b0682fbf603870dc9161c1d79d165d172bda2b370d60be",
+    "analysis/model/portfolios/final/risk10_stress_whole/T06/trades.csv": "7abcadc82538bd47b29903c3c0b911d118c691be6ab91732a1e102c90d6affea",
+    "analysis/model/portfolios/final/risk10_stress_whole/T06/equity.csv": "e92e68874ca51a03f15254f275f99596fd187b72fe5a87eb4071f9a7cf054e88",
+    "analysis/model/portfolios/final/risk10_stress_whole/T06/decisions.csv": "2a96f356316e9d89361d3e1a01aea3edec0c96d7142abdd74cc9079237d54abd",
+    "analysis/model/portfolios/final/risk10_stress_whole/SPY_cash_dividend/trades.csv": "126a858cda946b4a2ef1fa1e6ab2c1c0805e05611ca9d8e3428310b787b60c39",
+    "analysis/model/portfolios/final/risk10_stress_whole/SPY_cash_dividend/equity.csv": "6c0f0dc1a992f3470267646a2cad800cd060d0adea45d9e0c4dd7ff7ccd57922",
+    "analysis/model/portfolios/final/risk10_stress_whole/SPY_cash_dividend/decisions.csv": "92ea05b12a152477c833820493a3f217c5b85d009469ff3d578e344fa373a3c8",
+    "analysis/model/portfolios/final/risk10_stress_whole/SPY_reinvested_total_return/trades.csv": "126a858cda946b4a2ef1fa1e6ab2c1c0805e05611ca9d8e3428310b787b60c39",
+    "analysis/model/portfolios/final/risk10_stress_whole/SPY_reinvested_total_return/equity.csv": "6c0f0dc1a992f3470267646a2cad800cd060d0adea45d9e0c4dd7ff7ccd57922",
+    "analysis/model/portfolios/final/risk10_stress_whole/SPY_reinvested_total_return/decisions.csv": "92ea05b12a152477c833820493a3f217c5b85d009469ff3d578e344fa373a3c8",
+    "analysis/model/portfolios/final/risk10_stress_fractional/C03/trades.csv": "1246ea135ebaa511eba70f251b7d8a4160449911264d17a318b75b13fbb5cb73",
+    "analysis/model/portfolios/final/risk10_stress_fractional/C03/equity.csv": "90ea0a5e74726b46f80c05de3c7b66ebf41d4daeb18dcd9baaf9461b076ec794",
+    "analysis/model/portfolios/final/risk10_stress_fractional/C03/decisions.csv": "145e26ab099af056bea02e22e44b3b3e07b7481781fb6745f81d34d00afffb8f",
+    "analysis/model/portfolios/final/risk10_stress_fractional/T05/trades.csv": "2dbed0488c97aac69f659d2d50532c98437b2db68d655b2da129ce32aba58e2e",
+    "analysis/model/portfolios/final/risk10_stress_fractional/T05/equity.csv": "5818f1596f6a951e14935c3056660d10730110dd03fbf0e8329b3ad36ac47dad",
+    "analysis/model/portfolios/final/risk10_stress_fractional/T05/decisions.csv": "0dab867a2fe31bcd1c2cd962cf296974e86c259148072f5cebbe06a540e173af",
+    "analysis/model/portfolios/final/risk10_stress_fractional/T06/trades.csv": "bb6d52a68cad2a77388c4782b9545c44c627a4eae46b566813f9e00247249fbe",
+    "analysis/model/portfolios/final/risk10_stress_fractional/T06/equity.csv": "351c34a75165e59dbeed3679a7e67daff013ded80c7f0a69b995e5ff1f130b91",
+    "analysis/model/portfolios/final/risk10_stress_fractional/T06/decisions.csv": "46074c08420b5988fe6628fbfc0e412b74b5e59165b88fe42de5ec114c9277cd",
+    "analysis/model/portfolios/final/risk10_stress_fractional/SPY_cash_dividend/trades.csv": "8e17deebbce0c3c3700b7a6516b84e2324b3dce9a6ff24a8ce7be51c6f3c8dd4",
+    "analysis/model/portfolios/final/risk10_stress_fractional/SPY_cash_dividend/equity.csv": "a75ee394e3e6dd548e7a11ac49beb67d4fec3d404813e0e83b29f8759a17c781",
+    "analysis/model/portfolios/final/risk10_stress_fractional/SPY_cash_dividend/decisions.csv": "445575cc5fa48404fc2f83c144ad5328388e93bc9eec35c62007e80fd9cc2321",
+    "analysis/model/portfolios/final/risk10_stress_fractional/SPY_reinvested_total_return/trades.csv": "d907e8da2c106fa4a534cdb2fd803307b8a962f65166d3cd08940e79b2271b2b",
+    "analysis/model/portfolios/final/risk10_stress_fractional/SPY_reinvested_total_return/equity.csv": "1729c7d6bbadb0a9b765a1e28580ef9fc78ed6a29e8cb621ba85a1b9c8223efb",
+    "analysis/model/portfolios/final/risk10_stress_fractional/SPY_reinvested_total_return/decisions.csv": "d3e93c5b3b4554d8f15eda714287382edc5beeb7e0682e4c7527288bf029cb8d",
+    "analysis/model/portfolios/final/risk05_base_whole/P01_fullhistory/trades.csv": "bf472b762d1d1f0dbc8e2bc0ad9b78709a8143fc40db4cbce815bad7aa505c15",
+    "analysis/model/portfolios/final/risk05_base_whole/P01_fullhistory/equity.csv": "19a1305b87a62cec20c466bb52f7ef3f0b1c4af4d2f3ccf1b7d398e33d85284b",
+    "analysis/model/portfolios/final/risk05_base_whole/P01_fullhistory/decisions.csv": "0e17885dd1f3c473b15f14174854916c073076c66d0f6d949e00b4f702a1f345",
+    "analysis/model/portfolios/final/risk05_base_fractional/P01_fullhistory/trades.csv": "bbca142b918f948c1474554c66238afd70fa318bd3b672353b2b94e067c71086",
+    "analysis/model/portfolios/final/risk05_base_fractional/P01_fullhistory/equity.csv": "728a24d6ed6f2970aed9a449113fab109dcddbdb7115cb357f2918bb19f4c55d",
+    "analysis/model/portfolios/final/risk05_base_fractional/P01_fullhistory/decisions.csv": "00f95d6ea15f0fee992b0d326dd5e1c8e9f9cb056d73f3942118cf29ebe83cbc",
+    "analysis/model/portfolios/final/risk05_stress_whole/P01_fullhistory/trades.csv": "2d5e9d5775bb58831baa4744b0651da4525c6fa9ee89984f2aebc207f5358c30",
+    "analysis/model/portfolios/final/risk05_stress_whole/P01_fullhistory/equity.csv": "75bd3473568f8903613a111747fdfdb7b03d27925b605e56406f9e5feb56df25",
+    "analysis/model/portfolios/final/risk05_stress_whole/P01_fullhistory/decisions.csv": "0b0ec891f9936b98cac4096034d1480be08a2f34c1b2a11bc75f61f3615fe155",
+    "analysis/model/portfolios/final/risk05_stress_fractional/P01_fullhistory/trades.csv": "01998cdbb24677f5cce9362c7dc0ef7ab6c03a25d5ca1db0b9c66bf141fd9572",
+    "analysis/model/portfolios/final/risk05_stress_fractional/P01_fullhistory/equity.csv": "f5e16bf201df018c27e937306d27d295ef2fa30932bb67a835711786b9d9f0ba",
+    "analysis/model/portfolios/final/risk05_stress_fractional/P01_fullhistory/decisions.csv": "3cdb2e55cf0deae4316ee0f7798e7c9f2941a4fae38c0546830e8ab5b3ec4eee",
+    "analysis/model/portfolios/final/risk10_base_whole/P01_fullhistory/trades.csv": "9f9cc03e8525fd2df19ef6526906bc579f0d283cd5821c5df7317f290d0f8dfe",
+    "analysis/model/portfolios/final/risk10_base_whole/P01_fullhistory/equity.csv": "9fd5e718798b4f815218934d111fc93fd75f831471321f2b4187954b5568a80a",
+    "analysis/model/portfolios/final/risk10_base_whole/P01_fullhistory/decisions.csv": "d274cc64ac46ae919d6b2de557ebfe01f439fa45525bdca1cd772f8a2d9502cc",
+    "analysis/model/portfolios/final/risk10_base_fractional/P01_fullhistory/trades.csv": "473113f26bc9f334f984b89c7943d8af6b0ef2e639194d7696da64bb0e62b2a9",
+    "analysis/model/portfolios/final/risk10_base_fractional/P01_fullhistory/equity.csv": "8627265a45d3b6a97fd266b9678b03046460551e585dbe2baf99e54c5ef128b6",
+    "analysis/model/portfolios/final/risk10_base_fractional/P01_fullhistory/decisions.csv": "70b1e2885401eb1d7988bc6a857df693b70781a9cfdbcbdc797557ed62b6f918",
+    "analysis/model/portfolios/final/risk10_stress_whole/P01_fullhistory/trades.csv": "1ddb522e6a03fd7bdf0b2203c4bd73327b884984911b1a5ac521e24ee30851a5",
+    "analysis/model/portfolios/final/risk10_stress_whole/P01_fullhistory/equity.csv": "889ae9328bbd171336a780354c8f9c0752cc0aefcd945668d1a93261af5e5cc8",
+    "analysis/model/portfolios/final/risk10_stress_whole/P01_fullhistory/decisions.csv": "4008e6770fb8cdd4e6dd20f6fb568fa40751c62357deef05c80147997debd0cb",
+    "analysis/model/portfolios/final/risk10_stress_fractional/P01_fullhistory/trades.csv": "90e7d7b4f478c5d2fd762a0816695bae46e688afb7db19a74b22c368eb53e44b",
+    "analysis/model/portfolios/final/risk10_stress_fractional/P01_fullhistory/equity.csv": "c0306220c022f02272088aca3f927a43638e18324a4665c47d6891bd8bc3c8cf",
+    "analysis/model/portfolios/final/risk10_stress_fractional/P01_fullhistory/decisions.csv": "d80a10acdf2a8dc401d7115defff3233789a9ee1adaee5f8da6d6f21d8c99175",
+    "analysis/model/portfolios/final/risk05_base_whole/T05_fullhistory/trades.csv": "0628b6f431bfdbff4bd633f219767d6bb6067495667493cdef9a68fe01622e29",
+    "analysis/model/portfolios/final/risk05_base_whole/T05_fullhistory/equity.csv": "dee8796f5e45a6deb4408211260bee0e980af52497ea61b5cfca46abffe4e909",
+    "analysis/model/portfolios/final/risk05_base_whole/T05_fullhistory/decisions.csv": "505c8f112f35d1c14309ba7edb0c1203377abe6cbc98f08c518be8f48ce04335",
+    "analysis/model/portfolios/final/risk05_base_fractional/T05_fullhistory/trades.csv": "59e957425fcd38afb2d364e4fe7f3d7a5bca0a0024f937b06a72d7bf93da04d9",
+    "analysis/model/portfolios/final/risk05_base_fractional/T05_fullhistory/equity.csv": "3a855d8b6086a2c243ac6b11a417bb4f1764e1ffe1d58f50fc35d02b8863d57c",
+    "analysis/model/portfolios/final/risk05_base_fractional/T05_fullhistory/decisions.csv": "3aab8866cf671ea58742c7d2124a621e5f1213277a57f7ed14b1f5a469b0ac18",
+    "analysis/model/portfolios/final/risk05_stress_whole/T05_fullhistory/trades.csv": "27715d05e8d397ccf8a40afbaaa397958383517851448a19e691e4b72102dd29",
+    "analysis/model/portfolios/final/risk05_stress_whole/T05_fullhistory/equity.csv": "51675d06d7bb3e24a64215f52a36ffef3b689a89b970e8b96716c1b93ecf58ef",
+    "analysis/model/portfolios/final/risk05_stress_whole/T05_fullhistory/decisions.csv": "301aefce6b4b1cbacf8ff00802ba3107da1133a79c15b9198db4ebc822d42944",
+    "analysis/model/portfolios/final/risk05_stress_fractional/T05_fullhistory/trades.csv": "1b21e787c7bcba1f4e5ca64dfbd67180bfb352728b8c9cca58d78416cc6915a6",
+    "analysis/model/portfolios/final/risk05_stress_fractional/T05_fullhistory/equity.csv": "7ce3cdfdf5025e06daa05d989d3e7b8b312d30ca2359e765ca1d5890076c364e",
+    "analysis/model/portfolios/final/risk05_stress_fractional/T05_fullhistory/decisions.csv": "c221a3675677dff1b3e5ef032a5fb80b62edf971b34b317d464674116d70e3b8",
+    "analysis/model/portfolios/final/risk10_base_whole/T05_fullhistory/trades.csv": "fc16df9db2c0f650833ca4aaaa9f0b01c35d7d3857763c053ae2c68540f55ad2",
+    "analysis/model/portfolios/final/risk10_base_whole/T05_fullhistory/equity.csv": "df5872b43cd24fea9a0df4fda40d36b552d4f6c688dbfe66477544f59f3eb187",
+    "analysis/model/portfolios/final/risk10_base_whole/T05_fullhistory/decisions.csv": "5812ca31046105bec49d0fcfb258bce0f55568d18fcb8755a00e323c1c9b4035",
+    "analysis/model/portfolios/final/risk10_base_fractional/T05_fullhistory/trades.csv": "28163bc5ace5dc9562d1bbb02172b0312136135db1dc070c35121c05abfa4028",
+    "analysis/model/portfolios/final/risk10_base_fractional/T05_fullhistory/equity.csv": "c9bb7888e520e52a0cdae087a3776683a5ef22f14740f5d04950f2d977620658",
+    "analysis/model/portfolios/final/risk10_base_fractional/T05_fullhistory/decisions.csv": "f03705e5f09eaee45439b524ffebfff34bad6a9f2f5348d011da431ca2e1c0f9",
+    "analysis/model/portfolios/final/risk10_stress_whole/T05_fullhistory/trades.csv": "ba817d1c4331d3db5086e22aa52f2cd2aa77c4605efa5ce481ee542ba39ece6c",
+    "analysis/model/portfolios/final/risk10_stress_whole/T05_fullhistory/equity.csv": "9c54dbe5224f415eedd2db081c61f4e4fdd563a4133c3a0a090f41e4971c3a8b",
+    "analysis/model/portfolios/final/risk10_stress_whole/T05_fullhistory/decisions.csv": "d2210497bdd45cfb28b0682fbf603870dc9161c1d79d165d172bda2b370d60be",
+    "analysis/model/portfolios/final/risk10_stress_fractional/T05_fullhistory/trades.csv": "2dbed0488c97aac69f659d2d50532c98437b2db68d655b2da129ce32aba58e2e",
+    "analysis/model/portfolios/final/risk10_stress_fractional/T05_fullhistory/equity.csv": "5818f1596f6a951e14935c3056660d10730110dd03fbf0e8329b3ad36ac47dad",
+    "analysis/model/portfolios/final/risk10_stress_fractional/T05_fullhistory/decisions.csv": "0dab867a2fe31bcd1c2cd962cf296974e86c259148072f5cebbe06a540e173af",
+    "analysis/model/portfolios/final/risk05_base_whole/C03_no_trend/trades.csv": "9348c0153204102254e312d20ffe730a0a38ecf9a0f354d4262152d07d1bad1c",
+    "analysis/model/portfolios/final/risk05_base_whole/C03_no_trend/equity.csv": "6604d986615b88fa0002663ba8625a9d17d64440a09c45b8bd4ba1c420cff39f",
+    "analysis/model/portfolios/final/risk05_base_whole/C03_no_trend/decisions.csv": "a4d878e8dbf0b4d951ee7e7463857c40b6fc5a6f8555c5d186e08b574cd3e242",
+    "analysis/model/portfolios/final/risk05_stress_whole/C03_no_trend/trades.csv": "51ceb2cc5c18c2b69c43ec77ab984b69b36c5674e352cfa8f2752449024bdd9c",
+    "analysis/model/portfolios/final/risk05_stress_whole/C03_no_trend/equity.csv": "549436c78aa9538f79a7eda0f4107e196de82a964145b72827dc763d3f3b3105",
+    "analysis/model/portfolios/final/risk05_stress_whole/C03_no_trend/decisions.csv": "ca18968abc8d800bcd22acb0ef118e5eb91358f198d5c3dcf1e28626af620444",
+    "analysis/model/portfolios/final/risk10_base_whole/C03_no_trend/trades.csv": "d6fbeb286ef2dbab4551865f64a0ed7d46a640cae714a32fadffea877eb2d3ec",
+    "analysis/model/portfolios/final/risk10_base_whole/C03_no_trend/equity.csv": "cf44dc6fc724a7d0ffd2543aa779bf610cd224d45dc74064cece46336b5d5dc3",
+    "analysis/model/portfolios/final/risk10_base_whole/C03_no_trend/decisions.csv": "0b93089754d414e2796a37543ac28b5c5ab9343087985e967aa85a0d66decfd6",
+    "analysis/model/portfolios/final/risk10_stress_whole/C03_no_trend/trades.csv": "ca3754a13d9950fa269fcfbb1c63d9be4172cdfe16a11bda06c7f315f29ade7a",
+    "analysis/model/portfolios/final/risk10_stress_whole/C03_no_trend/equity.csv": "d2ae3a546a886b2cf319e5b8719e0f5cdf7b6cbf1c9d7c853a82cfdda8963062",
+    "analysis/model/portfolios/final/risk10_stress_whole/C03_no_trend/decisions.csv": "f9cd305a409aa7ef9e9815813b6cda16c34961845fe634363429e0561ad08925",
+    "analysis/model/portfolios/final/risk05_base_whole/C03_half_risk_ceilings/trades.csv": "5389ad80a61ef3396173928f89306f6e744f983ae5244acaa6b1f272e0023b2a",
+    "analysis/model/portfolios/final/risk05_base_whole/C03_half_risk_ceilings/equity.csv": "ab89f7f2471dc568762bfd149b783ecca46d9d52ed9f03be0c5514eb8f27a6c5",
+    "analysis/model/portfolios/final/risk05_base_whole/C03_half_risk_ceilings/decisions.csv": "58fb51bb06b9080d8038213e1802bed096f90d785cda2d96e0e2378d3a597afa",
+    "analysis/model/portfolios/final/risk05_stress_whole/C03_half_risk_ceilings/trades.csv": "060dc56a249f5f0918b24d42c3dd1cdd92fd9bf300011ffdabfbd820bb76730d",
+    "analysis/model/portfolios/final/risk05_stress_whole/C03_half_risk_ceilings/equity.csv": "b1ad415174799a6d28ccc2071c66cd23b8431eb602202a9c08c31912e0b45c89",
+    "analysis/model/portfolios/final/risk05_stress_whole/C03_half_risk_ceilings/decisions.csv": "10f41a676e2abc4ae13b75e0f38182b3f08e45a1b6655766ee1eacf0b147a8f4",
+    "analysis/model/portfolios/final/risk10_base_whole/C03_half_risk_ceilings/trades.csv": "375916676eb1656b0ea4d12606254d0b03d0ff72fc7c31df2878e63dbc8b31ab",
+    "analysis/model/portfolios/final/risk10_base_whole/C03_half_risk_ceilings/equity.csv": "36541f23d051a2dd4df1444086317da83add0c49fbb8a8f1bc599614a1a4be55",
+    "analysis/model/portfolios/final/risk10_base_whole/C03_half_risk_ceilings/decisions.csv": "926d4a1b5c1f0f1b9c2934e430bda8c578ed6886de212d610f47157c28a694ce",
+    "analysis/model/portfolios/final/risk10_stress_whole/C03_half_risk_ceilings/trades.csv": "f97d4e204453e5fec9ccc42828f17bb5978400c0cd12a052b6befc0d51d08711",
+    "analysis/model/portfolios/final/risk10_stress_whole/C03_half_risk_ceilings/equity.csv": "b32d19f0575270932430ea340179b80294aa0d8231a274c9174507e13858da3c",
+    "analysis/model/portfolios/final/risk10_stress_whole/C03_half_risk_ceilings/decisions.csv": "b865541d548deffa2194517173a54e8875b28cc975d073ab43582d04a8c9068a",
+    "analysis/model/final_yearly.csv": "581b894a0689cfb9426fb5939a995620dacf8df9dc0b575b78a3d0e12e0a93c2",
+    "analysis/model/development_ranking.csv": "0199303d37bdfaa70c531c30a54899f39dc96ef7def9f41297232c88bb5a883f",
+    "analysis/model/development_metrics.json": "d40efa1b18c16817df54e6e605be8c28ec1018738b319090fc64120b71384023",
+    "analysis/model/events.jsonl": "0a57ebbff5124bae3fab9ef7b47b8fb0aa349c5308a526ed2f07830b908c9370",
+    "analysis/model/registry.json": "b8320d3ec42512d2cfeded25159ec140fb97d7df5d41caedd1a8a1c87d2daebd",
+    "analysis/model/availability_frozen.json": "08e7129fef95f07435cf86cb778f74fb9ce64e6c1a39153eaeaa4d74b26df244",
+    "analysis/model/final_gates.json": "3b4605d5e8aaae1b6bb4711e6d9988a9333f8a7f3282fddd2942a61fe9ee2a83",
+    "analysis/model/inputs.json": "cfec663f7e6d34c3a1d0d5b545cc0bfd5bac2445a8df5fd05bd489c7dc1914c6",
+    "analysis/model/validation_yearly.csv": "58717fabf45da9f2eb25774d0760e6da64927e34c1d9f8ac7bdfa4d8716c42e0",
+    "analysis/model/final_folds.csv": "ee0b2e3e38f8be6be6c31d3d9ce9f616e26fb0c83e42c075cee74ba9271c7039",
+    "analysis/model/development_folds.csv": "575dfc12841f5f9d9c3ca0e0fc0aea08df82d1790826c65758989c94a9a822db",
+    "analysis/model/run_counts.json": "a73ac5e0b5b99f448cb00e151604d4d02b1e481ed9bcd3e45d0929fca200babb",
+    "analysis/model/development_yearly.csv": "598b04a7b92cefce2936cf1ed684c4525fec4e15df46739781e4f668b5f10244",
+    "analysis/model/confidence_calibration.json": "16b5159addfbf5a04a1e854767f82244433b171f3852b87aa675f909ddc63c02",
+    "analysis/model/validation_results.csv": "585e864baa38f300285de9ae0f5bb8f8f83b32055256f312c5ff42eb651dff8a",
+    "analysis/model/validation_gates.json": "73633e9a3db8e3014afc246086ea3328dd0647d051ae35d3fbba74e34f73fc25",
+    "analysis/model/locked.json": "d302611663675acc6f3f205d256803a528cf84b1b6836c1bfbac770b78695f69",
+    "analysis/model/final_results.csv": "ddfaeac1c091cbab411b03eebf5532ceef52b59936b44152f6ab2e1aa722ddb2",
+    "analysis/model/MODEL_REPORT.md": "56dfc4d77f03f80ed872f3ff01fe63231783eea962c75c1c25a714e3d21b5655",
+    "analysis/model/validation_metrics.json": "4af79fe7121c83df5567dde487ce018c5cfbf5d567b7da44d73a727e0fc47a99",
+    "analysis/model/final_metrics.json": "53a226d7f13f8f25157e5fa79b871d7375e2614a1538a50e09876f94fa192ace",
+    "analysis/model/causal_audit.json": "254f2067bba87b38b35a975fa74c52875a413d7ea4bafa1ca0c6e3cdc36edbf2",
+    "analysis/model/validation_folds.csv": "d354bbc949577996905870d9336fcf4aadd8b14e1f4aae8e36ba7724f480baed",
+    "analysis/model/development_results.csv": "1541fe9cd4a944a52ba899fdb3652b53c9073aa1c6167cc1454bd8514c1f1ed7",
+    "analysis/model/predictions/development/T05/fits.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "analysis/model/predictions/development/T05/predictions.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "analysis/model/predictions/development/P02/fits.json": "1222ddce70de1cfda9a87b4a1906390839c764a8c4ccb40a16ec967b4bcb1abf",
+    "analysis/model/predictions/development/P02/predictions.csv": "ceb0bd1d231ab0592a278a6354e2b4e030d5c8ae2e47ee04cbf82547cb58ed70",
+    "analysis/model/predictions/development/P01/fits.json": "1c568aaf6fd46b099f1a94865d3e2fe04988ab73a6832f0aab7ca850a6be6739",
+    "analysis/model/predictions/development/P01/predictions.csv": "7e29497154dc25fa4492e3a7b6410ecc7286e73bb2e9a0cfc386bf7b9fa5a54f",
+    "analysis/model/predictions/development/T06/fits.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "analysis/model/predictions/development/T06/predictions.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "analysis/model/predictions/development/C04/predictions.csv": "4cea015c7baf87bb7e8ebbbec39992741bd95f8e2a13c14263008ed08cc8dfa4",
+    "analysis/model/predictions/development/C03/fits.json": "111e3572ea7eb3edb8bd79bb4b928727e2c4766446f3b428b8f10e5e191d30f8",
+    "analysis/model/predictions/development/C03/predictions.csv": "dc73d56f71e57d25d9535021bf3d8c14c78a3a97ddb96efc6c5d31861d5472ff",
+    "analysis/model/predictions/validation/T05/fits.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "analysis/model/predictions/validation/T05/predictions.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "analysis/model/predictions/validation/T06/fits.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "analysis/model/predictions/validation/T06/predictions.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "analysis/model/predictions/validation/C03/fits.json": "44f2ac3b8532d2d693c6d592ea7606d9739f66189c4462fa6803cb9bf3cdff4c",
+    "analysis/model/predictions/validation/C03/predictions.csv": "7b485357193425df80cabb3a251c59a3dcf54c15e13ebfb22e241a9664234212",
+    "analysis/model/predictions/final/T05/fits.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "analysis/model/predictions/final/T05/predictions.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "analysis/model/predictions/final/T06/fits.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "analysis/model/predictions/final/T06/predictions.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "analysis/model/predictions/final/C03/fits.json": "b3aa35af38c8bd311c19019cd5b0422b1b2de5182f635839e0da5796f0b37fc6",
+    "analysis/model/predictions/final/C03/predictions.csv": "1f2f803513bdae52f0416b4982083e9aff26684c51df0b79e3810c548efe762b",
+    "model_pipeline.py": "e7ef9a2788bedcc07dc36a482f7dd04bd3aca8d7f5c8c452da4698ef98d64de1",
+    "evaluate.py": "2e0244dff606d12a1a8dc12c8823a39087786132ba24bd1e9974846bd99229f0",
+    "execution_adapter.py": "eec99994da45dfc10e577c7cda9de54fef0c6de5f226c17fd3653492f61694bf",
+    "paper.py": "c741281c31b0cffc07dc0fa48043fe49cd46307ef34353a33fece7494982ed1d",
+    "data_pipeline.py": "860d4f78f6784c5002df406ba67f276321282df43c5db684d64eae64e5911363",
+    "CHARTER.md": "2e492917c0d8e9d91593b352f9d21260f899bdb5ad87f046a2656c6c9aa377dd",
+    "requirements.lock.txt": "edacc755219b793dfd5ecaf8f29b3da30c27ca04d9896b73d3eb36ac9c3f8b60"
+  }
+}

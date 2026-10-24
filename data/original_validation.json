@@ -1,0 +1,47 @@
+{
+  "SPY": {
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "rows": 4476,
+    "expected_rows": 4476,
+    "first_session": "2009-01-02",
+    "last_session": "2026-10-19",
+    "missing_sessions": [],
+    "unexpected_sessions": [],
+    "warmup_sessions": 252,
+    "dividend_events": 71,
+    "split_events": 0,
+    "discontinuities": []
+  },
+  "QQQ": {
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "rows": 4476,
+    "expected_rows": 4476,
+    "first_session": "2009-01-02",
+    "last_session": "2026-10-19",
+    "missing_sessions": [],
+    "unexpected_sessions": [],
+    "warmup_sessions": 252,
+    "dividend_events": 74,
+    "split_events": 0,
+    "discontinuities": []
+  },
+  "GLD": {
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "rows": 4476,
+    "expected_rows": 4476,
+    "first_session": "2009-01-02",
+    "last_session": "2026-10-19",
+    "missing_sessions": [],
+    "unexpected_sessions": [],
+    "warmup_sessions": 252,
+    "dividend_events": 0,
+    "split_events": 0,
+    "discontinuities": []
+  }
+}

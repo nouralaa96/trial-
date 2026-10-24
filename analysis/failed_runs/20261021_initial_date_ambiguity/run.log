@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/workspace/trading-research-v4/evaluate.py", line 193, in <module>
+    run()
+  File "/workspace/trading-research-v4/evaluate.py", line 158, in run
+    dev,_,_=stage('development',[c['id'] for c in registry['candidates']],registry,config)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/trading-research-v4/evaluate.py", line 65, in stage
+    p,l,logs,recs,mods,n=predict_stage(catalog[cid],partition,features,calendar,registry)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/trading-research-v4/model_pipeline.py", line 105, in predict_stage
+    rows=pd.concat([f.assign(date=f.index,symbol=s) for s,f in labeled.items() if s in symbols]).sort_values(['date','symbol'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/trading-research-v4/.venv/lib/python3.12/site-packages/pandas/core/frame.py", line 7194, in sort_values
+    keys = [self._get_label_or_level_values(x, axis=axis) for x in by]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/trading-research-v4/.venv/lib/python3.12/site-packages/pandas/core/generic.py", line 1909, in _get_label_or_level_values
+    self._check_label_or_level_ambiguity(key, axis=axis)
+  File "/workspace/trading-research-v4/.venv/lib/python3.12/site-packages/pandas/core/generic.py", line 1871, in _check_label_or_level_ambiguity
+    raise ValueError(msg)
+ValueError: 'date' is both an index level and a column label, which is ambiguous.

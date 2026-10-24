@@ -1,0 +1,33 @@
+{
+  "candidate": "C03",
+  "locked_utc": "2026-10-24T05:10:36.071029+00:00",
+  "basis": "development_only",
+  "registry_sha256": "b8320d3ec42512d2cfeded25159ec140fb97d7df5d41caedd1a8a1c87d2daebd",
+  "ranking": [
+    {
+      "candidate": "C03",
+      "passing_scenarios": 0,
+      "worst_penalized_increment": -0.26449736945886854,
+      "mean_turnover": 95.42529232402325
+    },
+    {
+      "candidate": "C04",
+      "passing_scenarios": 0,
+      "worst_penalized_increment": -0.2647343122742034,
+      "mean_turnover": 0.0
+    },
+    {
+      "candidate": "P01",
+      "passing_scenarios": 0,
+      "worst_penalized_increment": -0.267094052168991,
+      "mean_turnover": 86.86949702310295
+    },
+    {
+      "candidate": "P02",
+      "passing_scenarios": 0,
+      "worst_penalized_increment": -0.44151526998464025,
+      "mean_turnover": 88.05240883090065
+    }
+  ],
+  "replacement_after_validation": false
+}

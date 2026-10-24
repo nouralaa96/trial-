@@ -1,0 +1,155 @@
+{
+  "experiment_id": "etf-ridge-5000-percent-v2",
+  "universe": [
+    "SPY",
+    "QQQ",
+    "GLD"
+  ],
+  "data_start": "2009-01-01",
+  "training_start": "2010-01-01",
+  "training_end": "2018-12-31",
+  "development_start": "2019-01-01",
+  "development_end": "2021-12-31",
+  "validation_start": "2022-01-01",
+  "validation_end": "2023-12-31",
+  "final_start": "2024-01-01",
+  "final_end": "2026-10-19",
+  "initial_equity": 5000.0,
+  "weekly_budget": 750.0,
+  "per_trade_risk_fraction": 0.05,
+  "max_positions": 3,
+  "max_candidates_per_session": 2,
+  "max_entries_per_session": 1,
+  "session_risk_budget": 250.0,
+  "capital_floor": 160.0,
+  "entry_cap_multiplier": 1.005,
+  "stop_atr": 2.0,
+  "target_atr": 6.0,
+  "max_holding_sessions": 5,
+  "fractional_precision": 6,
+  "whole_shares": true,
+  "fee_per_side": 1.09,
+  "slippage_bps": 5.0,
+  "dividend_payment_lag_days": 30,
+  "ridge_alphas": [
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "embargo_sessions": 10,
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 20261020,
+  "bootstrap_block_weeks": [
+    2,
+    4,
+    8
+  ],
+  "scenarios": {
+    "risk05_base_whole": {
+      "fee_per_side": 1.09,
+      "slippage_bps": 5.0,
+      "whole_shares": true,
+      "per_trade_risk_fraction": 0.05,
+      "session_risk_fraction": 0.05,
+      "session_risk_budget": 250.0,
+      "weekly_risk_fraction": 0.15,
+      "weekly_budget": 750.0
+    },
+    "risk05_base_fractional": {
+      "fee_per_side": 1.09,
+      "slippage_bps": 5.0,
+      "whole_shares": false,
+      "per_trade_risk_fraction": 0.05,
+      "session_risk_fraction": 0.05,
+      "session_risk_budget": 250.0,
+      "weekly_risk_fraction": 0.15,
+      "weekly_budget": 750.0
+    },
+    "risk05_stress_whole": {
+      "fee_per_side": 2.18,
+      "slippage_bps": 10.0,
+      "whole_shares": true,
+      "per_trade_risk_fraction": 0.05,
+      "session_risk_fraction": 0.05,
+      "session_risk_budget": 250.0,
+      "weekly_risk_fraction": 0.15,
+      "weekly_budget": 750.0
+    },
+    "risk05_stress_fractional": {
+      "fee_per_side": 2.18,
+      "slippage_bps": 10.0,
+      "whole_shares": false,
+      "per_trade_risk_fraction": 0.05,
+      "session_risk_fraction": 0.05,
+      "session_risk_budget": 250.0,
+      "weekly_risk_fraction": 0.15,
+      "weekly_budget": 750.0
+    },
+    "risk10_base_whole": {
+      "fee_per_side": 1.09,
+      "slippage_bps": 5.0,
+      "whole_shares": true,
+      "per_trade_risk_fraction": 0.1,
+      "session_risk_fraction": 0.1,
+      "session_risk_budget": 500.0,
+      "weekly_risk_fraction": 0.3,
+      "weekly_budget": 1500.0
+    },
+    "risk10_base_fractional": {
+      "fee_per_side": 1.09,
+      "slippage_bps": 5.0,
+      "whole_shares": false,
+      "per_trade_risk_fraction": 0.1,
+      "session_risk_fraction": 0.1,
+      "session_risk_budget": 500.0,
+      "weekly_risk_fraction": 0.3,
+      "weekly_budget": 1500.0
+    },
+    "risk10_stress_whole": {
+      "fee_per_side": 2.18,
+      "slippage_bps": 10.0,
+      "whole_shares": true,
+      "per_trade_risk_fraction": 0.1,
+      "session_risk_fraction": 0.1,
+      "session_risk_budget": 500.0,
+      "weekly_risk_fraction": 0.3,
+      "weekly_budget": 1500.0
+    },
+    "risk10_stress_fractional": {
+      "fee_per_side": 2.18,
+      "slippage_bps": 10.0,
+      "whole_shares": false,
+      "per_trade_risk_fraction": 0.1,
+      "session_risk_fraction": 0.1,
+      "session_risk_budget": 500.0,
+      "weekly_risk_fraction": 0.3,
+      "weekly_budget": 1500.0
+    }
+  },
+  "nearby_parameter_sensitivity": {
+    "entry_cap_multiplier": [
+      1.0025,
+      1.0075
+    ],
+    "stop_target_atr_pairs": [
+      [
+        1.8,
+        5.4
+      ],
+      [
+        2.2,
+        6.6
+      ]
+    ]
+  },
+  "risk_fractions": [
+    0.05,
+    0.1
+  ],
+  "weekly_risk_fraction": 0.15,
+  "configuration_status": "frozen",
+  "session_risk_fraction": 0.05,
+  "annual_incremental_return_gate": 0.02,
+  "historical_interpretation": "exploratory retrospective rerun after viewing v1 results; not new untouched or prospective evidence"
+}

@@ -1,0 +1,40 @@
+{
+  "retrievals": {
+    "SPY": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=1230768000&period2=1792540800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "retrieved_at_utc": "2026-10-20T18:01:20.088337+00:00",
+      "tls_verification": true,
+      "http_status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "final_url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=1230768000&period2=1792540800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "status": "retrieved",
+      "path": "data/raw/20261020T180119866454Z/SPY.json",
+      "sha256": "9ddaef526e3a1aad7be28c198fe54ede97a37611f44f503d2f2a56327d32714f",
+      "bytes": 496135
+    },
+    "QQQ": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?period1=1230768000&period2=1792540800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "retrieved_at_utc": "2026-10-20T18:01:20.941491+00:00",
+      "tls_verification": true,
+      "http_status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "final_url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?period1=1230768000&period2=1792540800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "status": "retrieved",
+      "path": "data/raw/20261020T180119866454Z/QQQ.json",
+      "sha256": "2862a623b4150bec2c16aec694b623415843af8dacd1cd23a545e8cf443fa3df",
+      "bytes": 493662
+    },
+    "GLD": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?period1=1230768000&period2=1792540800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "retrieved_at_utc": "2026-10-20T18:01:21.912003+00:00",
+      "tls_verification": true,
+      "http_status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "final_url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?period1=1230768000&period2=1792540800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "status": "retrieved",
+      "path": "data/raw/20261020T180119866454Z/GLD.json",
+      "sha256": "0dec7790119ac81966cb127c64afd77daf89e2a851487016dff10bdeecb731ed",
+      "bytes": 493019
+    }
+  }
+}

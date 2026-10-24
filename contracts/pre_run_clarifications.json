@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-10-21T04:19:32.383126+00:00",
+  "stage": "before first performance run",
+  "clarifications": [
+    "Half-size sensitivity means halving maximum trade and session risk-sizing budgets; it does not mechanically halve shares if cash affordability already binds. Report actual exposure and never select this sensitivity. Weekly ceiling stays original and risk is never increased.",
+    "SPY comparison includes costed cash-dividend buy-and-hold and costed reinvested reference; selection benchmark is maximum of both and sameholdT05. Neither is falsely described as an official index.",
+    "Add final full-entry-history P01 and T05 for all8 scenarios; no-trend4 plus half-risk-budget4 remain finalist-only nonselection sensitivities. Six candidates; planned168portfolios, <=200hard bound.",
+    "Missing-context rows counted separately over full valuation sessions and actual permissible entry dates. Terminal missingness must not be attributed to returns if h20 end restrictions already exclude those dates."
+  ]
+}

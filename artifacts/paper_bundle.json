@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "purpose": "RESEARCH_PAPER_ONLY",
+  "created_at": "2026-10-24T05:11:05.579808+00:00",
+  "candidate": "C03",
+  "status": "REJECTED_RESEARCH",
+  "evaluation_start": "2024-01-02",
+  "evaluation_end": "2026-10-19",
+  "max_model_age_days": 110,
+  "context_max_age_days": 5,
+  "files": {
+    "metadata": {
+      "path": "artifacts/models/metadata.json",
+      "sha256": "b65048382cbc9bbe97c2770b2ae2a2ba597284f20a821fbec4a56b7e289416c1"
+    },
+    "predictions": {
+      "path": "artifacts/predictions/C03.csv",
+      "sha256": "1f2f803513bdae52f0416b4982083e9aff26684c51df0b79e3810c548efe762b"
+    },
+    "config": {
+      "path": "legacy/frozen_config.json",
+      "sha256": "ba9afaa05dcb0f50c02818ac48d5301f8080a70304816219315c2a60dc790b91"
+    },
+    "gates": {
+      "path": "analysis/model/final_gates.json",
+      "sha256": "3b4605d5e8aaae1b6bb4711e6d9988a9333f8a7f3282fddd2942a61fe9ee2a83"
+    },
+    "model": {
+      "path": "artifacts/models/finalist.joblib",
+      "sha256": "6ec246e71e55dcdbb51b74f9527c1947f31dd977cbda015b5e4e847824f7c642"
+    },
+    "data_SPY": {
+      "path": "data/processed/SPY.csv",
+      "sha256": "594c61b4627ae2c8a7a1f0647a9671837a9ac9e82e74155461c20cdc51a03614"
+    },
+    "data_QQQ": {
+      "path": "data/processed/QQQ.csv",
+      "sha256": "930aabd81660250381787b1dc8fe5b66454e48b155e1ab57318c9d26835d0ad0"
+    },
+    "data_GLD": {
+      "path": "data/processed/GLD.csv",
+      "sha256": "b03b6f0dda5fcbc3cd7ea6dcd24d5224b0982d81249eb203e07a6420731d54f4"
+    },
+    "context": {
+      "path": "data/context.csv",
+      "sha256": "9b5d44c1a02a436cc46b9cb1cad38d412185dec4c3b333bd5f8678b70cb3d93b"
+    },
+    "paper_source": {
+      "path": "paper.py",
+      "sha256": "c741281c31b0cffc07dc0fa48043fe49cd46307ef34353a33fece7494982ed1d"
+    },
+    "execution_source": {
+      "path": "execution_adapter.py",
+      "sha256": "eec99994da45dfc10e577c7cda9de54fef0c6de5f226c17fd3653492f61694bf"
+    },
+    "registry": {
+      "path": "analysis/model/registry.json",
+      "sha256": "b8320d3ec42512d2cfeded25159ec140fb97d7df5d41caedd1a8a1c87d2daebd"
+    }
+  }
+}
