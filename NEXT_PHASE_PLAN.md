@@ -2,6 +2,8 @@
 
 Status: proposal. V4 remains a frozen, rejected research result. This plan authorizes no live orders and changes no V4 model, data, gates, or results.
 
+Progress on 2026-10-25: the Phase 2 accounting diagnosis is in `analysis/v5/ATTRIBUTION_REPORT.md`. The first Phase 1 source preflight is in `analysis/v5/DATA_REFRESH_REPORT.md`: all three staged ETF feeds reach 2026-10-23 and pass recent-bar checks, while VIX is stale, so the combined input status is `REFUSED`. No prospective paper evaluation has started.
+
 ## Starting evidence and objective
 
 On the final V4 period (2024-01-02 to 2026-10-19), the $5,000 whole-share C03 Ridge account returned 9.80% CAGR after modeled costs, with 13.40% maximum drawdown and 47 completed trades. The comparable simple trend T05 returned 21.75% CAGR with 13.26% drawdown; costed SPY buy-and-hold returned 19.02% CAGR. C03 did not add value, and the 10% drawdown target failed. All 2019-2026 history has been examined; it cannot serve as untouched evidence for a new model. The VIX snapshot is stale for current decisions. Historical replay works, but the paper tool correctly refuses current actionable signals.

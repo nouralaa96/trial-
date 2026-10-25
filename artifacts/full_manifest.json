@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-10-25T06:54:57.994943+00:00",
+  "created_utc": "2026-10-25T09:30:54.038762+00:00",
   "hash": "SHA256",
   "excluded": [
     ".git",
@@ -16,15 +16,15 @@
     "expected_files": 1233,
     "failures": []
   },
-  "file_count": 1570,
+  "file_count": 1578,
   "files": {
     "CHARTER.md": {
       "sha256": "2e492917c0d8e9d91593b352f9d21260f899bdb5ad87f046a2656c6c9aa377dd",
       "bytes": 4302
     },
     "NEXT_PHASE_PLAN.md": {
-      "sha256": "45e7d12ee94734475d4edc035517726c20d225b46f9855e21bfe348667f8391d",
-      "bytes": 8368
+      "sha256": "ece9fb75fa355c62d4a7571e4faedf042456f622f2fccb119b70eec652d29851",
+      "bytes": 8728
     },
     "README.md": {
       "sha256": "6738a814b2b05f2f2f6704223f5893bedfcdb4f95540bbdd0776b73195e0bb0d",
@@ -3634,6 +3634,10 @@
       "sha256": "f44c57d26f75e423ef905ece1afb55b3dcb9c7c102cfa412274d2ee88c2acfbd",
       "bytes": 5642
     },
+    "analysis/v5/DATA_REFRESH_REPORT.md": {
+      "sha256": "a7a89c3c73e63498c20929ba72612d566ac9dc8fcbf3a96e12ab4be41e95b458",
+      "bytes": 2607
+    },
     "analysis/v5/attribute_v4.py": {
       "sha256": "d7e3920464d2f5df4509bcd38eec68372aa2c3f610295f7611edc6f391ff959c",
       "bytes": 7503
@@ -3641,6 +3645,34 @@
     "analysis/v5/attribution.json": {
       "sha256": "53dca66dcaae639403ef37d140074203a460aff2349802eeccb67738da46ff46",
       "bytes": 6843
+    },
+    "analysis/v5/data/probe_validation.json": {
+      "sha256": "1f3332f71bb3f730b2f37dbe3e975f08fdd5728523468b4b5cb0f5bcf9561b01",
+      "bytes": 2083
+    },
+    "analysis/v5/data/raw/20261025_yahoo_probe/GLD.json": {
+      "sha256": "76d3b792929ad203fdbfc339f57e24d846e3006fd82d520eee1036cd3dc992e8",
+      "bytes": 12155
+    },
+    "analysis/v5/data/raw/20261025_yahoo_probe/QQQ.json": {
+      "sha256": "e98c40b235e4d1bdaefbe01bef6c6312a712a3f8e1d7b75d6111132d0f74b2d1",
+      "bytes": 12149
+    },
+    "analysis/v5/data/raw/20261025_yahoo_probe/SPY.json": {
+      "sha256": "cd674dd9aa076d0b1cde3f076e37ad1c199cc372fdf8600fd400e4590d108a13",
+      "bytes": 12133
+    },
+    "analysis/v5/data/raw/20261025_yahoo_probe/retrieval_evidence.json": {
+      "sha256": "98270757203ac2d85d54755957657815088f3158f8e61ffd6692175455bf0c9b",
+      "bytes": 1865
+    },
+    "analysis/v5/test_validate_refresh.py": {
+      "sha256": "7c795db62cdbf5462fbc973782fcfc722097dd64f6b8d10734d6daa48193dd15",
+      "bytes": 2846
+    },
+    "analysis/v5/validate_refresh.py": {
+      "sha256": "1687f2c3142f636048726529cc1b9874f502902364f7b6909812128d42f3f133",
+      "bytes": 7462
     },
     "artifacts/models/finalist.joblib": {
       "sha256": "6ec246e71e55dcdbb51b74f9527c1947f31dd977cbda015b5e4e847824f7c642",

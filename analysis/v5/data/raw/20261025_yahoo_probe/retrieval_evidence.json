@@ -1,0 +1,37 @@
+{
+  "purpose": "V5 price-source probe only; not admitted to V4 or to live/paper decisions",
+  "observed_date_utc": "2026-10-25",
+  "timestamp_precision": "Date only. The curl commands did not record exact response timestamps; file modification times are archive times, not asserted retrieval times.",
+  "method": "HTTPS GET with TLS verification and User-Agent: trading-research/1.0 (research data validation)",
+  "period1": 1780272000,
+  "period2": 1792972800,
+  "query": "interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+  "responses": {
+    "SPY": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=1780272000&period2=1792972800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "http_status": 200,
+      "file": "SPY.json",
+      "bytes": 12133,
+      "sha256": "cd674dd9aa076d0b1cde3f076e37ad1c199cc372fdf8600fd400e4590d108a13"
+    },
+    "QQQ": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?period1=1780272000&period2=1792972800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "http_status": 200,
+      "file": "QQQ.json",
+      "bytes": 12149,
+      "sha256": "e98c40b235e4d1bdaefbe01bef6c6312a712a3f8e1d7b75d6111132d0f74b2d1"
+    },
+    "GLD": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?period1=1780272000&period2=1792972800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "http_status": 200,
+      "file": "GLD.json",
+      "bytes": 12155,
+      "sha256": "76d3b792929ad203fdbfc339f57e24d846e3006fd82d520eee1036cd3dc992e8"
+    }
+  },
+  "other_endpoint_observations": [
+    {"source": "Yahoo range=5d SPY query", "http_status": 429},
+    {"source": "official CBOE VIX_History.csv", "proxy_result": "CONNECT 403"},
+    {"source": "existing GitHub VIX mirror", "http_status": 200, "last_row_date": "2026-09-22"}
+  ]
+}
