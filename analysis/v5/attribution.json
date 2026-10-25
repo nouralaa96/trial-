@@ -1,0 +1,262 @@
+{
+  "scope": "Frozen final V4, risk05_base_whole, $5,000, 2024-01-02 to 2026-10-19",
+  "source": "V4 final trade/equity ledgers and final_metrics.json; no model refit or new market data",
+  "strategies": {
+    "C03": {
+      "trades": 47,
+      "net_pnl": 1493.552006,
+      "fees": 102.46,
+      "friction": 256.769893,
+      "gross_before_modeled_costs": 1852.7819,
+      "winning_trades": 22,
+      "losing_trades": 25,
+      "longest_loss_streak": 4,
+      "by_symbol": {
+        "GLD": {
+          "trades": 11,
+          "net_pnl": 1272.596387
+        },
+        "QQQ": {
+          "trades": 11,
+          "net_pnl": -453.085834
+        },
+        "SPY": {
+          "trades": 25,
+          "net_pnl": 674.041453
+        }
+      },
+      "by_exit_reason": {
+        "opening_gap_stop": {
+          "trades": 3,
+          "net_pnl": -808.776366
+        },
+        "opening_gap_target": {
+          "trades": 1,
+          "net_pnl": 422.695959
+        },
+        "stop": {
+          "trades": 19,
+          "net_pnl": -2197.059445
+        },
+        "target": {
+          "trades": 3,
+          "net_pnl": 917.294845
+        },
+        "time_exit": {
+          "trades": 21,
+          "net_pnl": 3159.397013
+        }
+      },
+      "by_exit_year": {
+        "2024": {
+          "trades": 17,
+          "net_pnl": 946.645499
+        },
+        "2025": {
+          "trades": 18,
+          "net_pnl": 1209.448649
+        },
+        "2026": {
+          "trades": 12,
+          "net_pnl": -662.542141
+        }
+      },
+      "start": "2024-01-02",
+      "end": "2026-10-19",
+      "ending_equity": 6493.552006,
+      "cagr_pct": 9.801334,
+      "max_drawdown_pct": 13.399864,
+      "mean_marked_exposure_pct": 70.873462,
+      "underwater_sessions_max": 182
+    },
+    "T05": {
+      "trades": 58,
+      "net_pnl": 3667.936782,
+      "fees": 126.44,
+      "friction": 261.482091,
+      "gross_before_modeled_costs": 4055.858873,
+      "winning_trades": 27,
+      "losing_trades": 31,
+      "longest_loss_streak": 5,
+      "by_symbol": {
+        "GLD": {
+          "trades": 30,
+          "net_pnl": 3088.570392
+        },
+        "QQQ": {
+          "trades": 12,
+          "net_pnl": 72.19497
+        },
+        "SPY": {
+          "trades": 16,
+          "net_pnl": 507.17142
+        }
+      },
+      "by_exit_reason": {
+        "actual_fill_revalidation_exit": {
+          "trades": 2,
+          "net_pnl": -12.55705
+        },
+        "opening_gap_stop": {
+          "trades": 9,
+          "net_pnl": -1100.837192
+        },
+        "opening_gap_target": {
+          "trades": 5,
+          "net_pnl": 2745.16422
+        },
+        "stop": {
+          "trades": 17,
+          "net_pnl": -2000.449022
+        },
+        "target": {
+          "trades": 5,
+          "net_pnl": 1604.867579
+        },
+        "time_exit": {
+          "trades": 20,
+          "net_pnl": 2431.748247
+        }
+      },
+      "by_exit_year": {
+        "2024": {
+          "trades": 21,
+          "net_pnl": 1388.658766
+        },
+        "2025": {
+          "trades": 21,
+          "net_pnl": 1925.35278
+        },
+        "2026": {
+          "trades": 16,
+          "net_pnl": 353.925236
+        }
+      },
+      "start": "2024-01-02",
+      "end": "2026-10-19",
+      "ending_equity": 8667.936782,
+      "cagr_pct": 21.753051,
+      "max_drawdown_pct": 13.26482,
+      "mean_marked_exposure_pct": 72.628318,
+      "underwater_sessions_max": 96
+    },
+    "SPY_cash_dividend": {
+      "trades": 1,
+      "net_pnl": 3134.196568,
+      "fees": 2.18,
+      "friction": 6.1932,
+      "gross_before_modeled_costs": 3142.569768,
+      "winning_trades": 1,
+      "losing_trades": 0,
+      "longest_loss_streak": 0,
+      "by_symbol": {
+        "SPY": {
+          "trades": 1,
+          "net_pnl": 3134.196568
+        }
+      },
+      "by_exit_reason": {
+        "passive_terminal_liquidation": {
+          "trades": 1,
+          "net_pnl": 3134.196568
+        }
+      },
+      "by_exit_year": {
+        "2026": {
+          "trades": 1,
+          "net_pnl": 3134.196568
+        }
+      },
+      "start": "2024-01-02",
+      "end": "2026-10-19",
+      "ending_equity": 8134.196568,
+      "cagr_pct": 19.016154,
+      "max_drawdown_pct": 17.722871,
+      "mean_marked_exposure_pct": 94.295917,
+      "underwater_sessions_max": 87
+    }
+  },
+  "t05_minus_c03": {
+    "net_pnl_gap": 2174.384776,
+    "gross_before_cost_gap": 2203.076973,
+    "extra_t05_modeled_costs": 28.692198,
+    "entry_classification": {
+      "shared_entry_count": 7,
+      "shared_entry_same_exit_count": 7,
+      "shared_entry_different_exit_count": 0,
+      "shared_entry_net_gap_t05_minus_c03": -191.690387,
+      "t05_only_entry_count": 51,
+      "t05_only_net_contribution": 3367.297622,
+      "c03_only_entry_count": 40,
+      "negative_c03_only_net_contribution": -1001.222459,
+      "t05_only_by_symbol": {
+        "GLD": {
+          "trades": 26,
+          "net_pnl": 2851.48513
+        },
+        "QQQ": {
+          "trades": 12,
+          "net_pnl": 72.19497
+        },
+        "SPY": {
+          "trades": 13,
+          "net_pnl": 443.617522
+        }
+      },
+      "c03_only_by_symbol": {
+        "GLD": {
+          "trades": 7,
+          "net_pnl": 1046.40293
+        },
+        "QQQ": {
+          "trades": 11,
+          "net_pnl": -453.085834
+        },
+        "SPY": {
+          "trades": 22,
+          "net_pnl": 407.905363
+        }
+      },
+      "largest_t05_only_wins": [
+        {
+          "symbol": "GLD",
+          "entry_date": "2025-12-31",
+          "exit_date": "2026-01-21",
+          "net_pnl": 906.917826
+        },
+        {
+          "symbol": "SPY",
+          "entry_date": "2026-04-10",
+          "exit_date": "2026-05-07",
+          "net_pnl": 642.016277
+        },
+        {
+          "symbol": "GLD",
+          "entry_date": "2025-10-10",
+          "exit_date": "2025-10-16",
+          "net_pnl": 613.595805
+        },
+        {
+          "symbol": "GLD",
+          "entry_date": "2025-09-25",
+          "exit_date": "2025-10-08",
+          "net_pnl": 535.859185
+        },
+        {
+          "symbol": "QQQ",
+          "entry_date": "2024-06-10",
+          "exit_date": "2024-07-09",
+          "net_pnl": 445.799714
+        }
+      ],
+      "total_gap_reconciled": 2174.384776,
+      "meaning": "Accounting partition by same-symbol same-entry-date. Different equity paths, sizing and exits prevent a causal entry/exit attribution."
+    }
+  },
+  "spy_minus_c03_net_pnl": 1640.644562,
+  "limitations": [
+    "Gross is reconstructed by adding recorded fees and fill friction to net P/L; it is not a zero-cost rerun.",
+    "Shared-entry partition is descriptive. Different sizing, exits and prior equity paths confound causal attribution.",
+    "Historical periods have been repeatedly inspected; this diagnostic cannot validate a new selected strategy."
+  ]
+}

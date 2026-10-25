@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-10-24T17:57:54.457374+00:00",
+  "created_utc": "2026-10-25T06:54:57.994943+00:00",
   "hash": "SHA256",
   "excluded": [
     ".git",
@@ -16,7 +16,7 @@
     "expected_files": 1233,
     "failures": []
   },
-  "file_count": 1567,
+  "file_count": 1570,
   "files": {
     "CHARTER.md": {
       "sha256": "2e492917c0d8e9d91593b352f9d21260f899bdb5ad87f046a2656c6c9aa377dd",
@@ -3629,6 +3629,18 @@
     "analysis/model/validation_yearly.csv": {
       "sha256": "58717fabf45da9f2eb25774d0760e6da64927e34c1d9f8ac7bdfa4d8716c42e0",
       "bytes": 7544
+    },
+    "analysis/v5/ATTRIBUTION_REPORT.md": {
+      "sha256": "f44c57d26f75e423ef905ece1afb55b3dcb9c7c102cfa412274d2ee88c2acfbd",
+      "bytes": 5642
+    },
+    "analysis/v5/attribute_v4.py": {
+      "sha256": "d7e3920464d2f5df4509bcd38eec68372aa2c3f610295f7611edc6f391ff959c",
+      "bytes": 7503
+    },
+    "analysis/v5/attribution.json": {
+      "sha256": "53dca66dcaae639403ef37d140074203a460aff2349802eeccb67738da46ff46",
+      "bytes": 6843
     },
     "artifacts/models/finalist.joblib": {
       "sha256": "6ec246e71e55dcdbb51b74f9527c1947f31dd977cbda015b5e4e847824f7c642",
